@@ -9,23 +9,16 @@ from aiogram.filters import CommandStart
 from aiogram.types import Message
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
+from handlers.start import router as start_router
+from handlers.pick import router as pick_router
 
 load_dotenv()
 
 TOKEN = os.getenv("BOT_TOKEN")
 dp = Dispatcher()
 
-@dp.message(CommandStart())
-async def command_start(message: Message) -> None:
-    full_name = message.from_user.full_name if message.from_user else "there"
-    await message.answer(f"Hello <b>{full_name}</b>")
-
-@dp.message()
-async def echo_handler(message: Message) -> None:
-    try:
-        await message.copy_to(chat_id=message.chat.id)
-    except Exception:
-        await message.answer("Could not copy message")
+dp.include_router(start_router)
+dp.include_router(pick_router)
 
 
 async def main():
