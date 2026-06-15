@@ -3,9 +3,13 @@ from aiogram.types import Message
 
 from keyboards import modes_menu
 
+from keyboards import knockout_maps
+
+from aiogram.types import FSInputFile
+
 router = Router()
 
-@router.message(lambda msg: msg.text == "Peak selection")
+@router.message(lambda msg: msg.text == "Mode info")
 async def choose_mode(message: Message):
     await message.answer(
         "Choose a mode: ",
@@ -13,22 +17,27 @@ async def choose_mode(message: Message):
     )
 
 
-@router.message(lambda msg: msg.text == "Нокаут")
-async def show_nokaut(message: Message):
+@router.message(lambda msg: msg.text == "Knockout")
+async def show_knockout(message: Message):
     # Приклад карт і інформації про режим "Нокаут"
     info = (
-        "Режим: Нокаут\n"
-        "Опис: Інтенсивний режим з одиночними поєдинками до вибуття.\n\n"
-        "Карти:\n"
-        "1) Арена Штормів — відкритий простір з численними укриттями.\n"
-        "2) Фортеця Нокута — вузькі коридори, підходить для тактичних штурмів.\n"
-        "3) Панорама — високі точки для снайперів і відкриті ділянки.\n\n"
-        "Правила:\n"
-        "- Гравець вибуває після поразки.\n"
-        "- Переможець отримує бонуси та рейтинг.\n\n"
-        "Поради:\n"
-        "- Використовуйте укриття і контролюйте високі точки.\n"
-        "- Працюйте в парі для утримання позицій."
+        "<b>Mode: Knockout ⚔️</b>\n\n"
+        "<i>Description</i>: A 3v3 team mode where you have to eliminate your opponents in order to win a round. 🏆\n\n"
+        "<b>Rules</b>:\n\n"
+        "- Once you die, you cannot respawn till <i>next round</i>. ⏩️\n\n"
+        "- Mode has <i>2 to 3 rounds</i>(first team to win 2 rounds wins). 🥇\n\n"
+        "- Each round has a <i>time limit</i>, and maps gradually shrinks because of poison gas. ☠️\n\n"
+        "- Tie is possible if <i>both team members die at the same time. 👾</i>\n\n"
+        "<b>Choose a map to see the layout and strategies: </b>"
     )
 
-    await message.answer(info)
+    video = FSInputFile("/Users/nicoleadamenko/Downloads/output.mp4")
+    await message.answer_video(
+        caption = info,
+        video = video,
+        parse_mode = "HTML",
+        reply_markup = knockout_maps)
+
+
+
+
