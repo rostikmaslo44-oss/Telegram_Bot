@@ -1,10 +1,12 @@
+import os
+
 from aiogram import Router
 from aiogram.types import Message
 
 from keyboards import modes_menu
 
 from keyboards import knockout_maps
-
+from pathlib import Path
 from aiogram.types import FSInputFile
 
 router = Router()
@@ -30,14 +32,14 @@ async def show_knockout(message: Message):
         "- Tie is possible if <i>both team members die at the same time. 👾</i>\n\n"
         "<b>Choose a map to see the layout and strategies: </b>"
     )
-
-    video = FSInputFile("/Users/nicoleadamenko/Downloads/output.mp4")
+    
+    video_path = Path("media") / "Knockout_map.mp4"
+    video = FSInputFile(video_path)
     await message.answer_video(
         caption = info,
         video = video,
         parse_mode = "HTML",
         reply_markup = knockout_maps)
-
 
 
 
