@@ -5,7 +5,7 @@ from aiogram.types import Message
 
 from keyboards import modes_menu
 
-from keyboards import knockout_maps
+from keyboards import knockout_maps 
 from pathlib import Path
 from aiogram.types import FSInputFile
 
@@ -42,4 +42,25 @@ async def show_knockout(message: Message):
         reply_markup = knockout_maps)
 
 
+@router.message(lambda msg: msg.text == "Brawl Ball")
+async def show_brawl_ball(message: Message):
+    info = (
+    "<b>Mode: Brawl Ball ⚽</b>\n\n"
+    "<i>Description</i>: A 3v3 team mode where teams compete to score goals and defeat their opponents. The first team to score 2 goals wins the match. 🏆\n\n"
+    "<b>Rules</b>:\n\n"
+    "- Players can <i>carry, pass, and shoot</i> the ball to score goals. ⚽\n\n"
+    "- Defeating an enemy causes them to <i>drop the ball</i> immediately. 💥\n\n"
+    "- The match ends when a team scores <i>2 goals</i> or when the timer runs out. ⏱️\n\n"
+    "- If the score is tied at the end of regulation time, <i>Overtime</i> begins. During Overtime, obstacles are destroyed to make scoring easier. 🔥\n\n"
+    "- The team with the most goals at the end of the match wins. 🥇\n\n"
+    "<b>Choose a map to see the layout and strategies: </b>")
 
+    video_path = Path("media") / "BrawlBall_map.mp4"
+    video = FSInputFile(video_path)
+    await message.answer_video(
+        caption = info,
+        video = video,
+        parse_mode = "HTML",)
+        
+
+    
