@@ -113,5 +113,37 @@
       "alternative_picks": ["Lou", "Spike", "Piper"],
       "counter_picks": ["Nani", "Mandy", "Gray"]
     }
+  },
+  "bounty": {
+    "Layer Cake": {
+      "best_picks": ["Piper", "Belle", "Nani"],
+      "alternative_picks": ["Mandy", "Gene", "Belle"],
+      "counter_picks": ["Gray", "Mortis", "Edgar"]
+    },
+
+    "Dry Season": {
+      "best_picks": ["Piper", "Belle", "Brock"],
+      "alternative_picks": ["Nani", "Mandy", "Gene"],
+      "counter_picks": ["Mortis", "Edgar", "Leon"]
+    },
+
+    "Hideout": {
+      "best_picks": ["Belle", "Gene", "Piper"],
+      "alternative_picks": ["Nani", "Brock", "Mandy"],
+      "counter_picks": ["Mortis", "Edgar", "Crow"]
+    },
+
+    "Canal Grande": {
+      "best_picks": ["Gene", "Belle", "Nani"],
+      "alternative_picks": ["Piper", "Mandy", "Brock"],
+      "counter_picks": ["Mortis", "Edgar", "Leon"]
+    },
+
+    "Shooting Star": {
+      "best_picks": ["Piper", "Belle", "Brock"],
+      "alternative_picks": ["Nani", "Mandy", "Gene"],
+      "counter_picks": ["Mortis", "Edgar", "Crow"]
+    }
   }
 }
+
