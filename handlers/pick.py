@@ -1,27 +1,55 @@
-import os
-
-from aiogram import Router , F
-from aiogram.types import Message , CallbackQuery
-
-from keyboards import modes_menu , main_menu
-
-from keyboards import knockout_maps 
+import json
 from pathlib import Path
-from aiogram.types import FSInputFile
+
+from aiogram import Router, F
+from aiogram.types import Message, CallbackQuery, FSInputFile
+
+from keyboards import (
+    main_menu,
+    modes_menu,
+    knockout_maps,
+    brawl_ball_maps,
+    heist_maps,
+    gem_grab_maps,
+    hot_zone_maps,
+    bounty_maps
+)
 
 router = Router()
 
-@router.message(lambda msg: msg.text == "Mode info")
-async def choose_mode(message: Message):
+BASE_DIR = Path(__file__).resolve().parent.parent
+MAPS_FILE = BASE_DIR / "data" / "maps.json"
+
+with open(MAPS_FILE, "r", encoding="utf-8") as f:
+    maps_data = json.load(f)
+
+
+@router.message(F.text == "Mode info")
+async def mode_info(message: Message):
     await message.answer(
-        "Choose a mode: ",
-        reply_markup=modes_menu 
+        "Choose a mode:",
+        reply_markup=modes_menu
+    )
+
+@router.message(F.text == "Back")
+async def back_main(message: Message):
+    await message.answer(
+        "Main menu:",
+        reply_markup=main_menu
     )
 
 
-@router.message(lambda msg: msg.text == "Knockout")
-async def show_knockout(message: Message):
-    # Приклад карт і інформації про режим "Нокаут"
+@router.callback_query(F.data == "back_to_modes")
+async def back_modes(callback: CallbackQuery):
+    await callback.message.answer(
+        "Choose a mode:",
+        reply_markup=modes_menu
+    )
+    await callback.answer()
+
+@router.message(F.text == "Knockout")
+async def knockout(message: Message):
+
     info = (
         "<b>Mode: Knockout ⚔️</b>\n\n"
         "<i>Description</i>: A 3v3 team mode where you have to eliminate your opponents in order to win a round. 🏆\n\n"
@@ -32,136 +60,150 @@ async def show_knockout(message: Message):
         "- Tie is possible if <i>both team members die at the same time. 👾</i>\n\n"
         "<b>Choose a map to see the layout and strategies: </b>"
     )
-    
-    video_path = Path("media") / "Knockout_map.mp4"
-    video = FSInputFile(video_path)
+
+    video = FSInputFile(Path("media") / "Knockout_map.mp4")
+
     await message.answer_video(
-        caption = info,
-        video = video,
-        parse_mode = "HTML",
-        reply_markup = knockout_maps)
+        video=video,
+        caption=info,
+        parse_mode="HTML",
+        reply_markup=knockout_maps
+    )
 
 
-@router.message(lambda msg: msg.text == "Brawl Ball")
-async def show_brawl_ball(message: Message):
+@router.message(F.text == "Brawl Ball")
+async def brawl_ball(message: Message):
+
     info = (
-    "<b>Mode: Brawl Ball ⚽</b>\n\n"
-    "<i>Description</i>: A 3v3 team mode where teams compete to score goals and defeat their opponents. The first team to score 2 goals wins the match. 🏆\n\n"
-    "<b>Rules</b>:\n\n"
-    "- Players can <i>carry, pass, and shoot</i> the ball to score goals. ⚽\n\n"
-    "- Defeating an enemy causes them to <i>drop the ball</i> immediately. 💥\n\n"
-    "- The match ends when a team scores <i>2 goals</i> or when the timer runs out. ⏱️\n\n"
-    "- If the score is tied at the end of regulation time, <i>Overtime</i> begins. During Overtime, obstacles are destroyed to make scoring easier. 🔥\n\n"
-    "- The team with the most goals at the end of the match wins. 🥇\n\n"
-    "<b>Choose a map to see the layout and strategies: </b>")
+        "<b>Mode: Brawl Ball ⚽</b>\n\n"
+        "<i>Description</i>: A 3v3 team mode where teams compete to score goals and defeat their opponents. The first team to score 2 goals wins the match. 🏆\n\n"
+        "<b>Rules</b>:\n\n"
+        "- Players can <i>carry, pass, and shoot</i> the ball to score goals. ⚽\n\n"
+        "- Defeating an enemy causes them to <i>drop the ball</i> immediately. 💥\n\n"
+        "- The match ends when a team scores <i>2 goals</i> or when the timer runs out. ⏱️\n\n"
+        "- If the score is tied at the end of regulation time, <i>Overtime</i> begins. 🔥\n\n"
+        "<b>Choose a map to see the layout and strategies: </b>"
+    )
 
-    video_path = Path("media") / "BrawlBall_map.mp4"
-    video = FSInputFile(video_path)
+    video = FSInputFile(Path("media") / "BrawlBall_map.mp4")
+
     await message.answer_video(
-        caption = info,
-        video = video,
-        parse_mode = "HTML",)
-        
+        video=video,
+        caption=info,
+        parse_mode="HTML",
+        reply_markup=brawl_ball_maps
+    )
 
-@router.message(lambda msg: msg.text == "Heist")
-async def show_heist(message: Message):
+
+@router.message(F.text == "Heist")
+async def heist(message: Message):
+
     info = (
-    "<b>Mode: Heist 💰</b>\n\n"
-    "<i>Description</i>: A 3v3 team mode where teams must protect their own Safe while trying to destroy the enemy Safe. The first team to destroy the opposing Safe wins, or the team with the most Safe health remaining when time runs out. 🏆\n\n"
-    "<b>Rules</b>:\n\n"
-    "- Each team has a <i>Safe</i> that must be defended from enemy attacks. 🔒\n\n"
-    "- Players can attack both enemy Brawlers and the enemy <i>Safe</i>. 💥\n\n"
-    "- The match ends immediately if a team's Safe is completely destroyed. 💣\n\n"
-    "- If neither Safe is destroyed before the timer ends, the team with the higher Safe health percentage wins. ⏱️\n\n"
-    "- Controlling the map and creating opportunities to deal damage to the enemy Safe is the key to victory. 🎯\n\n"
-    "- Strong offense and reliable defense are both important for success. 🥇\n\n"
-    "<b>Choose a map to see the layout and strategies: </b>")
+        "<b>Mode: Heist 💰</b>\n\n"
+        "<i>Description</i>: A 3v3 team mode where teams must protect their own Safe while trying to destroy the enemy Safe. 🏆\n\n"
+        "<b>Rules</b>:\n\n"
+        "- Each team has a Safe that must be defended 🔒\n\n"
+        "- First Safe destroyed loses 💥\n\n"
+        "<b>Choose a map to see the layout and strategies: </b>"
+    )
 
+    video = FSInputFile(Path("media") / "Heist_map.mp4")
 
-    video_path = Path('media') / 'Heist_map.mp4'
-    video = FSInputFile(video_path)
     await message.answer_video(
-        caption = info,
-        video = video,
-        parse_mode = "HTML",)
-    
-
-@router.message(lambda msg: msg.text == "Gem Grab")
-async def show_gem_grab(message: Message):
-    info = ("<b>Mode: Gem Grab 💎</b>\n\n"
-"<i>Description</i>: A 3v3 team mode where teams battle to collect Gems that spawn from the center Gem Mine. Hold 10 Gems and survive the countdown to win the match. 🏆\n\n"
-"<b>Rules</b>:\n\n"
-"- Gems continuously spawn from the <i>Gem Mine</i> located in the center of the map. 💎\n\n"
-"- Players can collect and carry Gems for their team. 🎒\n\n"
-"- When a player is defeated, they <i>drop all carried Gems</i> on the ground. 💥\n\n"
-"- A team that collects <i>10 or more Gems</i> starts a 15-second countdown. ⏳\n\n"
-"- If the countdown reaches zero, that team wins the match. 🥇\n\n"
-"- Defeating Gem carriers can stop the countdown and give your team a chance to recover. ⚔️\n\n"
-"<b>Choose a map to see the layout and strategies: </b>"
+        video=video,
+        caption=info,
+        parse_mode="HTML",
+        reply_markup=heist_maps
     )
 
-    video_path = Path('media') / 'GemGrab_map.mp4'
-    video = FSInputFile(video_path)
+
+@router.message(F.text == "Gem Grab")
+async def gem_grab(message: Message):
+
+    info = (
+        "<b>Mode: Gem Grab 💎</b>\n\n"
+        "<i>Description</i>: A 3v3 team mode where teams battle to collect Gems from the center Gem Mine. 🏆\n\n"
+        "<b>Rules</b>:\n\n"
+        "- Collect Gems from center 💎\n\n"
+        "- Hold 10 Gems to start countdown ⏳\n\n"
+        "<b>Choose a map to see the layout and strategies: </b>"
+    )
+
+    video = FSInputFile(Path("media") / "GemGrab_map.mp4")
+
     await message.answer_video(
-        caption = info,
-        video = video,
-        parse_mode = "HTML",)
-    
-
-@router.message(lambda msg: msg.text == "Hot Zone")
-async def show_hot_zone(message: Message):
-    info = ("<b>Mode: Hot Zone 🔥</b>\n\n"
-    "<i>Description</i>: A 3v3 team mode where teams fight to control designated Hot Zones on the map. Capture and hold the zones to fill your team's progress bar and win the match. 🏆\n\n"
-    "<b>Rules</b>:\n\n"
-    "- Stand inside a <i>Hot Zone</i> to capture it and earn progress for your team. 🔥\n\n"
-    "- Multiple teammates inside the same zone capture it faster. ⚡\n\n"
-    "- If both teams are in a zone at the same time, it becomes <i>contested</i> and no progress is earned. ⚔️\n\n"
-    "- Some maps contain multiple Hot Zones that must be controlled throughout the match. 🗺️\n\n"
-    "- The first team to reach <i>100% capture progress</i> wins instantly. 🥇\n\n"
-    "- If time runs out, the team with the highest capture percentage wins the match. ⏱️\n\n"
-    "<b>Choose a map to see the layout and strategies: </b>"
+        video=video,
+        caption=info,
+        parse_mode="HTML",
+        reply_markup=gem_grab_maps
     )
-    video_path = Path('media') / 'HotZone_map.mp4'
-    video = FSInputFile(video_path)
+
+
+@router.message(F.text == "Hot Zone")
+async def hot_zone(message: Message):
+
+    info = (
+        "<b>Mode: Hot Zone 🔥</b>\n\n"
+        "<i>Description</i>: Control zones to earn percentage and win. 🏆\n\n"
+        "<b>Rules</b>:\n\n"
+        "- Stand in zone to capture 🔥\n\n"
+        "- First to 100% wins 🥇\n\n"
+        "<b>Choose a map to see the layout and strategies: </b>"
+    )
+
+    video = FSInputFile(Path("media") / "HotZone_map.mp4")
+
     await message.answer_video(
-        caption = info,
-        video = video,
-        parse_mode = "HTML",)
-    
-
-@router.message(lambda msg: msg.text == "Bounty")
-async def show_bounty(message: Message):
-    info = ("<b>Mode: Bounty ⭐</b>\n\n"
-    "<i>Description</i>: A 3v3 team mode where teams earn Stars by defeating opponents. The team with the most Stars when the timer runs out wins the match. 🏆\n\n"
-    "<b>Rules</b>:\n\n"
-    "- Defeating an enemy grants your team <i>Stars</i>. ⭐\n\n"
-    "- Each player starts with a bounty worth <i>2 Stars</i>, which increases as they score eliminations. 📈\n\n"
-    "- The more Stars a player carries, the more valuable they become to the enemy team. 🎯\n\n"
-    "- When a player is defeated, the opposing team earns Stars equal to that player's bounty. 💥\n\n"
-    "- A special <i>Blue Star</i> appears in the center at the start of the match and acts as a tiebreaker. 🔵\n\n"
-    "- When time runs out, the team with the most Stars wins the match. 🥇\n\n"
-    "<b>Choose a map to see the layout and strategies: </b>"
+        video=video,
+        caption=info,
+        parse_mode="HTML",
+        reply_markup=hot_zone_maps
     )
-    video_path = Path('media') / 'Bounty_map.mp4'
-    video = FSInputFile(video_path)
+
+
+@router.message(F.text == "Bounty")
+async def bounty(message: Message):
+
+    info = (
+        "<b>Mode: Bounty ⭐</b>\n\n"
+        "<i>Description</i>: Earn stars by eliminating enemies. 🏆\n\n"
+        "<b>Rules</b>:\n\n"
+        "- More kills = more stars ⭐\n\n"
+        "<b>Choose a map to see the layout and strategies: </b>"
+    )
+
+    video = FSInputFile(Path("media") / "Bounty_map.mp4")
+
     await message.answer_video(
-        caption = info,
-        video = video,
-        parse_mode = "HTML",)
-
-
-
-@router.message(F.text == "Back")
-async def back_to_main_menu(message: Message):
-    await message.answer(
-        "Main menu:",
-        reply_markup=main_menu
+        video=video,
+        caption=info,
+        parse_mode="HTML",
+        reply_markup=bounty_maps
     )
 
-@router.callback_query(F.data == "back_to_modes")
-async def back_to_modes(callback: CallbackQuery):
-    await callback.message.answer(
-        "Choose a mode:",
-        reply_markup=modes_menu
-    )
-    await callback.answer()
+
+@router.callback_query(F.data)
+async def show_map(callback: CallbackQuery):
+
+    map_name = callback.data
+
+    for mode in maps_data.values():
+        if map_name in mode:
+            data = mode[map_name]
+
+            text = (
+                f"📍 <b>{map_name}</b>\n\n"
+                f"🔥 Best Picks: {', '.join(data['best_picks'])}\n"
+                f"⭐ Alternative Picks: {', '.join(data['alternative_picks'])}\n"
+                f"🛡 Counter Picks: {', '.join(data['counter_picks'])}"
+            )
+
+            await callback.message.edit_caption(
+                caption=text,
+                parse_mode="HTML"
+            )
+
+            await callback.answer()
+            return
+
+    await callback.answer("Map not found", show_alert=True)

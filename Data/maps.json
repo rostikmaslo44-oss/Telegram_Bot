@@ -1,100 +1,117 @@
 {
-  "Knockout": {
+  "knockout": {
     "Out in the Open": {
-      "best_picks": ["Belle", "Piper", "Nani", "Angelo", "Mandy"],
-      "bans": ["Kenji", "Juju", "Moe"]
-    },
-    "Flaring Phoenix": {
-      "best_picks": ["Belle", "Gene", "Piper", "Angelo", "Nani"],
-      "bans": ["Kenji", "Juju", "Moe"]
-    },
-    "Goldarm Gulch": {
-      "best_picks": ["Belle", "Brock", "Piper", "Nani", "Angelo"],
-      "bans": ["Kenji", "Juju", "Moe"]
+      "best_picks": ["Angelo", "Mandy", "Gene"],
+      "alternative_picks": ["Piper", "Belle", "Nani"],
+      "counter_picks": ["Nani", "Piper", "Gene"]
     },
     "Belle's Rock": {
-      "best_picks": ["Belle", "Gene", "Piper", "Angelo", "Nani"],
-      "bans": ["Kenji", "Juju", "Moe"]
+      "best_picks": ["Belle", "Gene", "Gray"],
+      "alternative_picks": ["Angelo", "Sprout", "Mandy"],
+      "counter_picks": ["Gray", "Gene", "Belle"]
+    },
+    "Goldarm Gulch": {
+      "best_picks": ["Gray", "Gene", "Belle"],
+      "alternative_picks": ["Piper", "Nani", "Sprout"],
+      "counter_picks": ["Gene", "Belle", "Piper"]
+    },
+    "Flowing Springs": {
+      "best_picks": ["Sprout", "Gene", "Buster"],
+      "alternative_picks": ["Belle", "Gus", "Gray"],
+      "counter_picks": ["Belle", "Gene", "Mandy"]
     },
     "New Horizons": {
-      "best_picks": ["Piper", "Belle", "Mandy", "Angelo", "Nani"],
-      "bans": ["Kenji", "Juju", "Moe"]
+      "best_picks": ["Ollie", "Juju", "Angelo"],
+      "alternative_picks": ["Gray", "Mr. P", "Sprout"],
+      "counter_picks": ["Gray", "Angelo", "Gene"]
     }
   },
 
-  "Brawl Ball": {
+
+  "brawl_ball": {
     "Center Stage": {
-      "best_picks": ["Buster", "Surge", "Max", "Cordelius", "R-T"],
-      "bans": ["Clancy", "Kenji", "Frank"]
+      "best_picks": ["Buster", "Ash", "Gene"],
+      "alternative_picks": ["Sandy", "Surge", "Chester"],
+      "counter_picks": ["Colette", "Spike", "Gale"]
     },
     "Pinball Dreams": {
-      "best_picks": ["Buster", "Jacky", "Sandy", "Surge", "Max"],
-      "bans": ["Clancy", "Kenji", "Frank"]
+      "best_picks": ["Buster", "Gene", "Sandy"],
+      "alternative_picks": ["Surge", "Chester", "Ash"],
+      "counter_picks": ["Colette", "Gale", "Spike"]
     },
     "Sneaky Fields": {
-      "best_picks": ["Bull", "Buster", "Cordelius", "Frank", "Sandy"],
-      "bans": ["Clancy", "Kenji", "Moe"]
+      "best_picks": ["Bull", "Buster", "Sandy"],
+      "alternative_picks": ["Rosa", "Chester", "Gene"],
+      "counter_picks": ["Colette", "Gale", "Spike"]
     },
     "Triple Dribble": {
-      "best_picks": ["Buster", "Max", "Surge", "Cordelius", "Sandy"],
-      "bans": ["Clancy", "Kenji", "Frank"]
+      "best_picks": ["Buster", "Gene", "Surge"],
+      "alternative_picks": ["Sandy", "Ash", "Chester"],
+      "counter_picks": ["Colette", "Spike", "Gale"]
     }
   },
 
-  "Gem Grab": {
-    "Double Swoosh": {
-      "best_picks": ["Gene", "Sandy", "Belle", "Tara", "Poco"],
-      "bans": ["Kenji", "Juju", "Moe"]
-    },
+  "gem_grab": {
     "Gem Fort": {
-      "best_picks": ["Gene", "Belle", "Sandy", "Poco", "Ruffs"],
-      "bans": ["Kenji", "Juju", "Moe"]
+      "best_picks": ["Crow", "Spike", "Otis"],
+      "alternative_picks": ["Gene", "Belle", "Byron"],
+      "counter_picks": ["Piper", "Nani", "Gene"]
     },
     "Hard Rock Mine": {
-      "best_picks": ["Gene", "Belle", "Sandy", "Tara", "Poco"],
-      "bans": ["Kenji", "Juju", "Moe"]
+      "best_picks": ["Crow", "Gene", "Spike"],
+      "alternative_picks": ["Otis", "Belle", "Byron"],
+      "counter_picks": ["Piper", "Belle", "Gene"]
     },
     "Undermine": {
-      "best_picks": ["Gene", "Belle", "Max", "Sandy", "Poco"],
-      "bans": ["Kenji", "Juju", "Moe"]
+      "best_picks": ["Crow", "Spike", "Gene"],
+      "alternative_picks": ["Otis", "Belle", "Byron"],
+      "counter_picks": ["Piper", "Nani", "Belle"]
     }
   },
 
-  "Hot Zone": {
-    "Ring of Fire": {
-      "best_picks": ["Amber", "Lou", "Belle", "Gene", "Penny"],
-      "bans": ["Juju", "Clancy", "Kenji"]
-    },
-    "Dueling Beetles": {
-      "best_picks": ["Lou", "Amber", "Sandy", "Penny", "Gene"],
-      "bans": ["Juju", "Kenji", "Clancy"]
-    },
-    "Open Business": {
-      "best_picks": ["Belle", "Amber", "Lou", "Gene", "Penny"],
-      "bans": ["Juju", "Clancy", "Kenji"]
-    },
-    "Parallel Plays": {
-      "best_picks": ["Lou", "Amber", "Penny", "Sandy", "Gene"],
-      "bans": ["Juju", "Clancy", "Kenji"]
-    }
-  },
-
-  "Heist": {
-    "Safe Zone": {
-      "best_picks": ["Chuck", "Colette", "Colt", "Jessie", "Nita"],
-      "bans": ["Chuck", "Clancy", "Kenji"]
-    },
+  "heist": {
     "Bridge Too Far": {
-      "best_picks": ["Colt", "Belle", "Colette", "Brock", "Chuck"],
-      "bans": ["Chuck", "Clancy", "Kenji"]
+      "best_picks": ["Colt", "Colette", "Rico"],
+      "alternative_picks": ["Chuck", "Brock", "Jessie"],
+      "counter_picks": ["Nani", "Piper", "Belle"]
     },
     "Hot Potato": {
-      "best_picks": ["Colette", "Colt", "Chuck", "Jessie", "Nita"],
-      "bans": ["Chuck", "Clancy", "Kenji"]
+      "best_picks": ["Colette", "Colt", "Chuck"],
+      "alternative_picks": ["Rico", "Jessie", "Brock"],
+      "counter_picks": ["Charlie", "Cordelius", "Gene"]
     },
     "Kaboom Canyon": {
-      "best_picks": ["Colt", "Colette", "Belle", "Jessie", "Chuck"],
-      "bans": ["Chuck", "Clancy", "Kenji"]
+      "best_picks": ["Colt", "Colette", "Rico"],
+      "alternative_picks": ["Chuck", "Brock", "Jessie"],
+      "counter_picks": ["Nani", "Belle", "Piper"]
+    },
+    "Safe Zone": {
+      "best_picks": ["Chuck", "Colt", "Colette"],
+      "alternative_picks": ["Rico", "Brock", "Jessie"],
+      "counter_picks": ["Charlie", "Cordelius", "Gene"]
+    }
+  },
+
+  "hot_zone": {
+    "Dueling Beetles": {
+      "best_picks": ["Colette", "Sandy", "Gale"],
+      "alternative_picks": ["Lou", "Amber", "Spike"],
+      "counter_picks": ["Gene", "Belle", "Piper"]
+    },
+    "Open Business": {
+      "best_picks": ["Belle", "Gene", "Amber"],
+      "alternative_picks": ["Spike", "Lou", "Piper"],
+      "counter_picks": ["Nani", "Mandy", "Gray"]
+    },
+    "Parallel Plays": {
+      "best_picks": ["Sandy", "Colette", "Amber"],
+      "alternative_picks": ["Lou", "Spike", "Gene"],
+      "counter_picks": ["Belle", "Nani", "Piper"]
+    },
+    "Ring of Fire": {
+      "best_picks": ["Belle", "Amber", "Gene"],
+      "alternative_picks": ["Lou", "Spike", "Piper"],
+      "counter_picks": ["Nani", "Mandy", "Gray"]
     }
   }
 }
