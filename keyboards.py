@@ -98,13 +98,3 @@ bounty_maps = InlineKeyboardMarkup(
 
 #Character Info
 
-character_menu = InlineKeyboardMarkup(
-    inline_keyboard=[
-        [InlineKeyboardButton(text="Shelly", callback_data="Shelly")],
-        [InlineKeyboardButton(text="Colt", callback_data="Colt")],
-        [InlineKeyboardButton(text="Bull", callback_data="Bull")],
-        [InlineKeyboardButton(text="Jessie", callback_data="Jessie")],
-        [InlineKeyboardButton(text="More", callback_data="More")],
-        [InlineKeyboardButton(text="Back", callback_data="back_to_modes")]
-    ]
-)

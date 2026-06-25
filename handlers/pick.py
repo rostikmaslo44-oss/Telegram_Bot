@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 from aiogram import Router, F
-from aiogram.types import Message, CallbackQuery, FSInputFile
+from aiogram.types import Message, CallbackQuery, FSInputFile, ReplyKeyboardRemove
 
 from keyboards import (
     main_menu,
@@ -20,8 +20,13 @@ router = Router()
 BASE_DIR = Path(__file__).resolve().parent.parent
 MAPS_FILE = BASE_DIR / "data" / "maps.json"
 
+CHARACTERS_FILE = BASE_DIR / "data" / "characters.json"
+
 with open(MAPS_FILE, "r", encoding="utf-8") as f:
     maps_data = json.load(f)
+
+with open(CHARACTERS_FILE, "r", encoding="utf-8") as f:
+    characters_data = json.load(f)
 
 
 @router.message(F.text == "Mode info")
@@ -207,3 +212,55 @@ async def show_map(callback: CallbackQuery):
             return
 
     await callback.answer("Map not found", show_alert=True)
+
+
+@router.message(F.text == "Character info")
+async def character_info(message: Message):
+    await message.answer(
+        "Please enter the correct character name to get information about it(Ex. Shelly, Colt, etc):",
+        reply_markup=ReplyKeyboardRemove()
+    )
+
+
+@router.message(F.text)
+async def show_character_info(message: Message):
+    user_name = message.text.strip()
+
+    character_name = None
+
+    for name in characters_data:
+        if name.lower() == user_name.lower():
+            character_name = name
+            break
+
+    if character_name is None:
+         await message.answer(
+        "Character not found. Please check the name spelling and try again.",
+        parse_mode="HTML"
+         )
+         return
+    
+    data = characters_data[character_name]
+
+
+    text = (
+            f" <b>{character_name}</b>\n\n"
+            f" Class: {data['class']}\n"
+            f" Rarity: {data['rarity']}\n"
+            f" MAX Damage: {data['damage']}\n"
+            f" MAX Health: {data['health']}\n"
+            f" MAX reload speed: {data['reload']}\n"
+            f" MAX range: {data['range']}\n\n"
+            f" Super: {', '.join(data['super'])}\n"
+            f" Gadget: {', '.join(data['gadgets'])}\n"
+            f" Passives: {', '.join(data['passives'])}\n"
+
+        )
+        
+    await message.answer(
+            text=text,
+            parse_mode="HTML"
+        )
+    return
+    
+   

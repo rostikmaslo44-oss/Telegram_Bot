@@ -1044,18 +1044,18 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 
-,
 "Starr Nova": {
   "class": "Unknown",
   "rarity": "Unknown",
-  "health": 0,
-  "damage": 0,
+  "health": "jdkj",
+  "damage": "ksmwkx",
   "range": "Unknown",
   "reload": "Unknown",
   "super": "Placeholder",
   "gadgets": ["Gadget 1", "Gadget 2"],
   "passives": ["Passive 1", "Passive 2"]
 },
+
 "Pierce": {
   "class": "Unknown",
   "rarity": "Unknown",
@@ -1177,5 +1177,4 @@
   "gadgets": ["Gadget 1", "Gadget 2"],
   "passives": ["Passive 1", "Passive 2"]
 }
-
 }
