@@ -251,7 +251,7 @@ async def show_character_info(message: Message):
             f" MAX Health: {data['health']}\n"
             f" MAX reload speed: {data['reload']}\n"
             f" MAX range: {data['range']}\n\n"
-            f" Super: {', '.join(data['super'])}\n"
+            f" Super: {data['super']}\n"
             f" Gadget: {', '.join(data['gadgets'])}\n"
             f" Passives: {', '.join(data['passives'])}\n"
 
