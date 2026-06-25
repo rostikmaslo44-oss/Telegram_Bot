@@ -12,6 +12,7 @@ main_menu = ReplyKeyboardMarkup(
     resize_keyboard=True
 )
 
+#Mode Info
 
 modes_menu = ReplyKeyboardMarkup(
     keyboard=[
@@ -91,6 +92,19 @@ bounty_maps = InlineKeyboardMarkup(
         [InlineKeyboardButton(text="Dry Season", callback_data="Dry Season")],
         [InlineKeyboardButton(text="Hideout", callback_data="Hideout")],
         [InlineKeyboardButton(text="Canal Grande", callback_data="Canal Grande")],
+        [InlineKeyboardButton(text="Back", callback_data="back_to_modes")]
+    ]
+)
+
+#Character Info
+
+character_menu = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [InlineKeyboardButton(text="Shelly", callback_data="Shelly")],
+        [InlineKeyboardButton(text="Colt", callback_data="Colt")],
+        [InlineKeyboardButton(text="Bull", callback_data="Bull")],
+        [InlineKeyboardButton(text="Jessie", callback_data="Jessie")],
+        [InlineKeyboardButton(text="More", callback_data="More")],
         [InlineKeyboardButton(text="Back", callback_data="back_to_modes")]
     ]
 )

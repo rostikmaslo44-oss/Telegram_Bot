@@ -1,0 +1,1181 @@
+{
+  "Shelly": {
+    "class":"Damage Dealer",
+  "rarity":"Starting",
+  "health":7000,
+  "damage":700,
+  "range":"Long",
+  "reload":"Normal",
+  "super":"Placeholder",
+  "gadgets":["Gadget 1","Gadget 2"],
+  "passives":["Passive 1","Passive 2"]
+},
+
+  "Nita": {
+    "class":"Damage Dealer",
+    "rarity":"Rare",
+    "health":6500,
+    "damage":800,
+    "range":"Medium",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Colt": {
+    "class":"Marksman",
+    "rarity":"Rare",
+    "health":5200,"damage":600,
+    "range":"Very Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Bull": {
+    "class":"Tank",
+    "rarity":"Rare",
+    "health":9000,
+    "damage":900,
+    "range":"Short",
+    "reload":"Slow",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Brock": {
+    "class":"Marksman",
+    "rarity":"Rare",
+    "health":4800,
+    "damage":850,
+    "range":"Very Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "El Primo": {
+    "class":"Tank",
+    "rarity":"Rare",
+    "health":9000,
+    "damage":800,
+    "range":"Short",
+    "reload":"Fast",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Barley": {
+    "class":"Artillery",
+    "rarity":"Rare",
+    "health":5000,
+    "damage":700,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Poco": {
+    "class":"Support",
+    "rarity":"Rare",
+    "health":6200,
+    "damage":600,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Rosa": {
+    "class":"Tank",
+    "rarity":"Rare",
+    "health":8500,
+    "damage":700,"range":"Short",
+    "reload":"Fast",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]}
+    ,
+
+  "Jessie": {
+    "class":"Controller",
+    "rarity":"Super Rare",
+    "health":5800,
+    "damage":750,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Dynamike": {
+    "class":"Artillery",
+    "rarity":"Super Rare",
+    "health":5000,
+    "damage":900,
+    "range":"Long",
+    "reload":"Slow",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Tick": {
+    "class":"Artillery",
+    "rarity":"Super Rare",
+    "health":4200,
+    "damage":650,
+    "range":"Very Long",
+    "reload":"Slow",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "8-Bit": {
+    "class":"Damage Dealer",
+    "rarity":"Super Rare",
+    "health":7000,
+    "damage":800,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Rico": {
+    "class":"Marksman",
+    "rarity":"Super Rare",
+    "health":5000,
+    "damage":700,
+    "range":"Very Long",
+    "reload":"Fast",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Darryl": {
+    "class":"Tank",
+    "rarity":"Super Rare",
+    "health":8000,
+    "damage":850,
+    "range":"Short",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Penny": {
+    "class":"Controller",
+    "rarity":"Super Rare",
+    "health":5600,
+    "damage":700,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Carl": {
+    "class":"Damage Dealer",
+    "rarity":"Super Rare",
+    "health":6400,
+    "damage":750,
+    "range":"Medium",
+    "reload":"Fast",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Jacky": {
+    "class":"Tank",
+    "rarity":"Super Rare",
+    "health":8500,
+    "damage":850,
+    "range":"Very Short",
+    "reload":"Fast",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Gus": {
+    "class":"Support",
+    "rarity":"Super Rare",
+    "health":6000,
+    "damage":700,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Bo": {
+    "class":"Controller",
+    "rarity":"Epic",
+    "health":6500,
+    "damage":700,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Emz": {
+    "class":"Controller",
+    "rarity":"Epic",
+    "health":6000,
+    "damage":750,
+    "range":"Medium",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Stu": {
+    "class":"Assassin",
+    "rarity":"Epic",
+    "health":5600,
+    "damage":650,
+    "range":"Long",
+    "reload":"Fast",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+  "Piper": {
+    "class":"Marksman",
+    "rarity":"Epic",
+    "health":4500,
+    "damage":1000,
+    "range":"Very Long",
+    "reload":"Slow","super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Pam": {
+    "class":"Support",
+    "rarity":"Epic",
+    "health":7200,
+    "damage":650,
+    "range":"Medium",
+    "reload":"Normal","super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Frank": {
+    "class":"Tank",
+    "rarity":"Epic",
+    "health":10000,
+    "damage":1000,
+    "range":"Short",
+    "reload":"Slow",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Bibi": {
+    "class":"Tank",
+    "rarity":"Epic",
+    "health":7000,
+    "damage":850,
+    "range":"Short",
+    "reload":"Fast",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Bea": {
+    "class":"Marksman",
+    "rarity":"Epic",
+    "health":4800,
+    "damage":900,
+    "range":"Long",
+    "reload":"Fast",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Nani": {
+    "class":"Marksman",
+    "rarity":"Epic",
+    "health":5000,
+    "damage":950,
+    "range":"Long",
+    "reload":"Slow",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Edgar": {
+    "class":"Assassin",
+    "rarity":"Epic",
+    "health":6500,
+    "damage":700,
+    "range":"Short",
+    "reload":"Very Fast",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Griff": {
+    "class":"Damage Dealer",
+    "rarity":"Epic",
+    "health":7000,
+    "damage":700,
+    "range":"Medium",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Grom": {
+    "class":"Artillery",
+    "rarity":"Epic",
+    "health":5500,
+    "damage":850,
+    "range":"Long",
+    "reload":"Slow",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Bonnie": {
+    "class":"Marksman",
+    "rarity":"Epic",
+    "health":7000,
+    "damage":800,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Hank": {
+    "class":"Tank",
+    "rarity":"Epic",
+    "health":8500,
+    "damage":850,"range":"Medium",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Pearl": {
+    "class":"Damage Dealer",
+    "rarity":"Epic",
+    "health":7500,
+    "damage":800,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+  "Larry & Lawrie": {
+    "class":"Controller",
+    "rarity":"Epic",
+    "health":7000,
+    "damage":750,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+"Ash": {
+    "class":"Tank",
+    "rarity":"Epic",
+    "health":8500,
+    "damage":800,
+    "range":"Short",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Lola": {
+    "class":"Damage Dealer",
+    "rarity":"Epic",
+    "health":6500,
+    "damage":750,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Sam": {
+    "class":"Assassin",
+    "rarity":"Epic",
+    "health":8000,
+    "damage":850,
+    "range":"Short",
+    "reload":"Fast",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Mandy": {
+    "class":"Marksman",
+    "rarity":"Epic",
+    "health":5000,
+    "damage":900,
+    "range":"Very Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Maisie": {
+    "class":"Damage Dealer",
+    "rarity":"Epic",
+    "health":6000,
+    "damage":850,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+"Mortis": {
+    "class":"Assassin",
+    "rarity":"Mythic",
+    "health":6500,
+    "damage":900,
+    "range":"Short",
+    "reload":"Slow",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Tara": {
+    "class":"Damage Dealer",
+    "rarity":"Mythic",
+    "health":6200,
+    "damage":750,
+    "range":"Medium",
+    "reload":"Slow",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Gene": {
+    "class":"Controller",
+    "rarity":"Mythic",
+    "health":6000,
+    "damage":700,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Max": {
+    "class":"Support",
+    "rarity":"Mythic",
+    "health":5800,
+    "damage":650,
+    "range":"Long",
+    "reload":"Fast",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Mr. P": {
+    "class":"Controller",
+    "rarity":"Mythic",
+    "health":6000,
+    "damage":700,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Sprout": {
+    "class":"Artillery",
+    "rarity":"Mythic",
+    "health":5500,
+    "damage":800,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Byron": {
+    "class":"Support",
+    "rarity":"Mythic",
+    "health":4800,
+    "damage":700,
+    "range":"Very Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Squeak": {
+    "class":"Controller",
+    "rarity":"Mythic",
+    "health":5600,
+    "damage":750,
+    "range":"Long",
+    "reload":"Slow",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Gray": {
+    "class":"Support",
+    "rarity":"Mythic",
+    "health":6000,
+    "damage":800,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Willow": {
+    "class":"Controller",
+    "rarity":"Mythic",
+    "health":5500,
+    "damage":700,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Doug": {
+    "class":"Support",
+    "rarity":"Mythic",
+    "health":8000,
+    "damage":750,
+    "range":"Short",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Chuck": {
+    "class":"Damage Dealer",
+    "rarity":"Mythic",
+    "health":7000,
+    "damage":800,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Charlie": {
+    "class":"Controller",
+    "rarity":"Mythic",
+    "health":6000,
+    "damage":750,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Mico": {
+    "class":"Assassin",
+    "rarity":"Mythic",
+    "health":6000,
+    "damage":850,
+    "range":"Short",
+    "reload":"Slow",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Melodie": {
+    "class":"Assassin",
+    "rarity":"Mythic",
+    "health":6500,
+    "damage":700,
+    "range":"Medium",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Lily": {
+    "class":"Assassin",
+    "rarity":"Mythic",
+    "health":6200,
+    "damage":900,
+    "range":"Short",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Clancy": {
+    "class":"Damage Dealer",
+    "rarity":"Mythic",
+    "health":6500,
+    "damage":800,
+    "range":"Medium",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Moe": {
+    "class":"Damage Dealer",
+    "rarity":"Mythic",
+    "health":6200,
+    "damage":800,
+    "range":"Medium",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Shade": {
+    "class":"Assassin",
+    "rarity":"Mythic",
+    "health":6500,
+    "damage":850,
+    "range":"Short",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+"Spike": {
+    "class":"Damage Dealer",
+    "rarity":"Legendary",
+    "health":4800,
+    "damage":850,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Crow": {
+    "class":"Assassin",
+    "rarity":"Legendary",
+    "health":4800,
+    "damage":600,
+    "range":"Long",
+    "reload":"Fast",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Leon": {
+    "class":"Assassin",
+    "rarity":"Legendary",
+    "health":6000,
+    "damage":750,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Sandy": {
+    "class":"Controller",
+    "rarity":"Legendary",
+    "health":6500,
+    "damage":700,
+    "range":"Medium",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Amber": {
+    "class":"Controller",
+    "rarity":"Legendary",
+    "health":6000,
+    "damage":500,
+    "range":"Long",
+    "reload":"Very Fast",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Meg": {
+    "class":"Tank",
+    "rarity":"Legendary",
+    "health":7000,
+    "damage":650,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Chester": {
+    "class":"Damage Dealer",
+    "rarity":"Legendary",
+    "health":6500,
+    "damage":800,
+    "range":"Medium",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Cordelius": {
+    "class":"Assassin",
+    "rarity":"Legendary",
+    "health":6000,
+    "damage":850,
+    "range":"Medium",
+    "reload":"Fast",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Surge": {
+    "class":"Damage Dealer",
+    "rarity":"Legendary",
+    "health":6000,
+    "damage":800,
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Kit": {
+    "class":"Support",
+    "rarity":"Legendary",
+    "health":6000,
+    "damage":750,
+    "range":"Short",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Draco": {
+    "class":"Tank",
+    "rarity":"Legendary",
+    "health":8000,
+    "damage":850,
+    "range":"Short",
+    "reload":"Normal",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+"Kenji": {
+    "class":"Assassin",
+    "rarity":"Legendary",
+    "health":7000,
+    "damage":850,
+    "range":"Short",
+    "reload":"Fast",
+    "super":"Placeholder",
+    "gadgets":["Gadget 1","Gadget 2"],
+    "passives":["Passive 1","Passive 2"]
+},
+
+"Gale": {
+  "class": "Controller",
+  "rarity": "Mythic",
+  "health": 6400,
+  "damage": 560,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Colette": {
+  "class": "Damage Dealer",
+  "rarity": "Epic",
+  "health": 6800,
+  "damage": 500,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Lou": {
+  "class": "Controller",
+  "rarity": "Mythic",
+  "health": 6200,
+  "damage": 440,
+  "range": "Long",
+  "reload": "Fast",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Colonel Ruffs": {
+  "class": "Support",
+  "rarity": "Mythic",
+  "health": 5600,
+  "damage": 700,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Belle": {
+  "class": "Marksman",
+  "rarity": "Epic",
+  "health": 5600,
+  "damage": 1040,
+  "range": "Very Long",
+  "reload": "Normal",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Buzz": {
+  "class": "Assassin",
+  "rarity": "Mythic",
+  "health": 7600,
+  "damage": 840,
+  "range": "Short",
+  "reload": "Fast",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Fang": {
+  "class": "Assassin",
+  "rarity": "Mythic",
+  "health": 8600,
+  "damage": 960,
+  "range": "Short",
+  "reload": "Fast",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Eve": {
+  "class": "Spawner",
+  "rarity": "Mythic",
+  "health": 6000,
+  "damage": 520,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Janet": {
+  "class": "Marksman",
+  "rarity": "Mythic",
+  "health": 6400,
+  "damage": 980,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Otis": {
+  "class": "Controller",
+  "rarity": "Mythic",
+  "health": 6400,
+  "damage": 480,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"R-T": {
+  "class": "Damage Dealer",
+  "rarity": "Mythic",
+  "health": 7000,
+  "damage": 700,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Buster": {
+  "class": "Tank",
+  "rarity": "Mythic",
+  "health": 10400,
+  "damage": 660,
+  "range": "Short",
+  "reload": "Normal",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Angelo": {
+  "class": "Marksman",
+  "rarity": "Epic",
+  "health": 5200,
+  "damage": 1000,
+  "range": "Very Long",
+  "reload": "Slow",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Berry": {
+  "class": "Support",
+  "rarity": "Epic",
+  "health": 6400,
+  "damage": 700,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Juju": {
+  "class": "Controller",
+  "rarity": "Mythic",
+  "health": 6200,
+  "damage": 760,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Finx": {
+  "class": "Controller",
+  "rarity": "Mythic",
+  "health": 6400,
+  "damage": 700,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Lumi": {
+  "class": "Damage Dealer",
+  "rarity": "Mythic",
+  "health": 7000,
+  "damage": 820,
+  "range": "Medium",
+  "reload": "Normal",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Ollie": {
+  "class": "Tank",
+  "rarity": "Mythic",
+  "health": 9000,
+  "damage": 900,
+  "range": "Short",
+  "reload": "Normal",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Meeple": {
+  "class": "Controller",
+  "rarity": "Mythic",
+  "health": 6200,
+  "damage": 740,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Alli": {
+  "class": "Assassin",
+  "rarity": "Mythic",
+  "health": 7600,
+  "damage": 920,
+  "range": "Short",
+  "reload": "Fast",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Kaze": {
+  "class": "Assassin",
+  "rarity": "Legendary",
+  "health": 7200,
+  "damage": 960,
+  "range": "Short",
+  "reload": "Fast",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+
+,
+"Starr Nova": {
+  "class": "Unknown",
+  "rarity": "Unknown",
+  "health": 0,
+  "damage": 0,
+  "range": "Unknown",
+  "reload": "Unknown",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Pierce": {
+  "class": "Unknown",
+  "rarity": "Unknown",
+  "health": 0,
+  "damage": 0,
+  "range": "Unknown",
+  "reload": "Unknown",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Glowbert": {
+  "class": "Unknown",
+  "rarity": "Unknown",
+  "health": 0,
+  "damage": 0,
+  "range": "Unknown",
+  "reload": "Unknown",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Damian": {
+  "class": "Unknown",
+  "rarity": "Unknown",
+  "health": 0,
+  "damage": 0,
+  "range": "Unknown",
+  "reload": "Unknown",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Bolt": {
+  "class": "Unknown",
+  "rarity": "Unknown",
+  "health": 0,
+  "damage": 0,
+  "range": "Unknown",
+  "reload": "Unknown",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Ziggy": {
+  "class": "Unknown",
+  "rarity": "Unknown",
+  "health": 0,
+  "damage": 0,
+  "range": "Unknown",
+  "reload": "Unknown",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Trunk": {
+  "class": "Unknown",
+  "rarity": "Unknown",
+  "health": 0,
+  "damage": 0,
+  "range": "Unknown",
+  "reload": "Unknown",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Gigi": {
+  "class": "Unknown",
+  "rarity": "Unknown",
+  "health": 0,
+  "damage": 0,
+  "range": "Unknown",
+  "reload": "Unknown",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Sirius": {
+  "class": "Unknown",
+  "rarity": "Unknown",
+  "health": 0,
+  "damage": 0,
+  "range": "Unknown",
+  "reload": "Unknown",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Najia": {
+  "class": "Unknown",
+  "rarity": "Unknown",
+  "health": 0,
+  "damage": 0,
+  "range": "Unknown",
+  "reload": "Unknown",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Jae Yong": {
+  "class": "Unknown",
+  "rarity": "Unknown",
+  "health": 0,
+  "damage": 0,
+  "range": "Unknown",
+  "reload": "Unknown",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+},
+"Mina": {
+  "class": "Unknown",
+  "rarity": "Unknown",
+  "health": 0,
+  "damage": 0,
+  "range": "Unknown",
+  "reload": "Unknown",
+  "super": "Placeholder",
+  "gadgets": ["Gadget 1", "Gadget 2"],
+  "passives": ["Passive 1", "Passive 2"]
+}
+
+}
