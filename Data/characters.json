@@ -38,12 +38,12 @@
   "Bull": {
     "class":"Tank",
     "rarity":"Rare",
-    "health":9000,
-    "damage":900,
+    "health":10000,
+    "damage":"5 x 800",
     "range":"Short",
-    "reload":"Slow",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
+    "reload":"Normal",
+    "super":"Bull puts his head down and bulldozes through obstacles, damaging opponets along the way and slowing nearby enemies at the end. He`s always been headstrong.",
+    "gadgets":["T-Bone Missile: Bull throws a projectile at the target Brawlrt, dealing 1600 damage and healing for 1600 if he hits. Also marks the target 5 sec, gaining 25% damage against the target as health.Coldown:18 seconds.","Stomper: Bull stomps the ground, slowing nearby enemies. If a target is arleady slowed, they are stunned! Stunning a enemy grants +30% movement speed for 3 sec. Cooldown: 20 sec."],
     "passives":["Passive 1","Passive 2"]
 },
 
