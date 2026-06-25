@@ -96,5 +96,5 @@ bounty_maps = InlineKeyboardMarkup(
     ]
 )
 
-#Character Info
+
 

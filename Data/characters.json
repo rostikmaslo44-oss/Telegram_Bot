@@ -1,37 +1,38 @@
 {
   "Shelly": {
     "class":"Damage Dealer",
-  "rarity":"Starting",
-  "health":7000,
-  "damage":700,
-  "range":"Long",
-  "reload":"Normal",
-  "super":"Placeholder",
-  "gadgets":["Gadget 1","Gadget 2"],
-  "passives":["Passive 1","Passive 2"]
+    "rarity":"Starting",
+    "health":7020,
+    "damage":"5 x 510",
+    "range":"Long",
+    "reload":"Normal",
+    "super":"Her super deals 640 damage per pellet and fires 5 pellets per shot.",
+    "gadgets":["Fast Forward: Shelly dashes to an aimed direction or forwards, fully reloading her ammo and taking no damage while dashing. Cooldown: 20 sec","Clay Pigeons: Shelly focuses her fire to a smaller area with increased range. Cooldown: 18 sec."],
+    "passives":["Shell Shock: Shelly's Super shells slow down enemies for 2 sec."," Band-aid: When Shellt falls below 40%, she instantly heals for 1989 health. BAnd-Aid recharge in 15 sec."]
 },
 
   "Nita": {
     "class":"Damage Dealer",
     "rarity":"Rare",
-    "health":6500,
-    "damage":800,
-    "range":"Medium",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+    "health":7980,
+    "damage":1824,
+    "range":"Normal",
+    "reload":"Very Fast",
+    "super":"Summons her mighty bear, Bruce, to fight alongside her and maul nearby enemies.",
+    "gadgets":["Bear Paws: Nita commands her bear to slam the ground, stunning all enemies with its reach. Cooldown: 13 sec.","Faux Fur: For the next 3 seconds, Nita's bear gets a 35% shiled against damage. Cooldown: 14 seconds."],
+    "passives":["Bear With Me: Nita recovers 1092 health whenever her bear hits an enemy Brawler. When Nita deals damage to an enemy Brawler, her bear regains 1094 health.","Hyper Bear: Nita's bear attacks faster. Time Between swipes is reduced by 60%."]
 },
 
   "Colt": {
-    "class":"Marksman",
+    "class":"Damage Dealer",
     "rarity":"Rare",
-    "health":5200,"damage":600,
-    "range":"Very Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+    "health":5580,
+    "damage":"6 x 612",
+    "range":"Long",
+    "reload":"Very Fast",
+    "super":" Colt rattles off a massive burst of bullets that shoot extra far and destroy cover.",
+    "gadgets":["Speedloader: Colt fires two quick shots that slow targets. Deals 544 damage. Cooldown: 15 sec.","Silver Bullet: Colt fires a bullet that destroys the environment and pierces Brawlers. Deals 1020 damage. Cooldown: 17 sec."],
+    "passives":["Slick Boots: Colt's movement speed is increased by 13%.","Magnum Special: Colt's attack range and bullet speed are increased by 11%."]
 },
 
   "Bull": {
@@ -141,7 +142,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 
-  "8-Bit": {
+  "8 Bit": {
     "class":"Damage Dealer",
     "rarity":"Super Rare",
     "health":7000,
