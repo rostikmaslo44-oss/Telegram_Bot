@@ -44,19 +44,19 @@
     "reload":"Normal",
     "super":"Bull puts his head down and bulldozes through obstacles, damaging opponets along the way and slowing nearby enemies at the end. He`s always been headstrong.",
     "gadgets":["T-Bone Missile: Bull throws a projectile at the target Brawlrt, dealing 1600 damage and healing for 1600 if he hits. Also marks the target 5 sec, gaining 25% damage against the target as health.Coldown:18 seconds.","Stomper: Bull stomps the ground, slowing nearby enemies. If a target is arleady slowed, they are stunned! Stunning a enemy grants +30% movement speed for 3 sec. Cooldown: 20 sec."],
-    "passives":["Passive 1","Passive 2"]
+    "passives":["Berserker: When Bull Falls below 60% health, his reload speed doubles!","Tough Guy: When Bull falls below 30% heath, he gains a shield that reduce all damage he takes by 30%."]
 },
 
   "Brock": {
     "class":"Marksman",
     "rarity":"Rare",
     "health":4800,
-    "damage":850,
-    "range":"Very Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+    "damage":1856,
+    "range":"Long",
+    "reload":"Slow",
+    "super":"Block fires a rocket barrage that takes out enemies and obstacles.",
+    "gadgets":["Rocket Laces: Brock blasts the ground below him and propels himself into the air. Cooldown: 15 sec.","Rocket Fuel: Brock's next attack is a mega rocket that is bigger, badder, faster and destroys walls. Cooldown: 15 sec."],
+    "passives":["More Rockets: Rocket Rain now rains down 44% more rockets.","Rocket N0.4: Brock loads a fourth rocket into his launcher, increasing his ammo capacity."]
 },
 
   "El Primo": {

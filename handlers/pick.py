@@ -252,8 +252,11 @@ async def show_character_info(message: Message):
             f" MAX reload speed: {data['reload']}\n"
             f" MAX range: {data['range']}\n\n"
             f" Super: {data['super']}\n"
-            f" Gadget: {', '.join(data['gadgets'])}\n"
-            f" Passives: {', '.join(data['passives'])}\n"
+            "<b>Rules</b>:\n\n"
+            f" Gadget 1: (data['gadgets'][0])\n"
+            f" Gadget 2: data['gadgets'[1]])\n"
+            f" Passive 1: (data['passives'[0]])\n"
+            f" Passive 2: (data['passives'[1]])\n"
 
         )
         
