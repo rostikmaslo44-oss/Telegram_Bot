@@ -1,5 +1,6 @@
 {
   "Shelly": {
+    "image" : "media/photo/shelly.jpg",
     "class":"Damage Dealer",
     "rarity":"Starting",
     "health":7020,
@@ -12,6 +13,7 @@
 },
 
   "Nita": {
+    "image" : "media/photo/nita.jpg",
     "class":"Damage Dealer",
     "rarity":"Rare",
     "health":7980,
@@ -24,6 +26,7 @@
 },
 
   "Colt": {
+    "image" : "media/photo/colt.jpg",
     "class":"Damage Dealer",
     "rarity":"Rare",
     "health":5580,
@@ -36,6 +39,7 @@
 },
 
   "Bull": {
+    "image" : "media/photo/bull.jpg",
     "class":"Tank",
     "rarity":"Rare",
     "health":10000,
@@ -48,6 +52,7 @@
 },
 
   "Brock": {
+    "image" : "media/photo/brock.jpg",
     "class":"Marksman",
     "rarity":"Rare",
     "health":4800,
