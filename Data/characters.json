@@ -65,6 +65,7 @@
 },
 
   "El Primo": {
+  "image" : "media/photo/elprimo.jpg",
   "class": "Tank",
   "rarity": "Rare",
   "health": 11050,
@@ -83,6 +84,7 @@
 },
 
   "Barley": {
+  "image" : "media/photo/barley.jpg",
   "class": "Artillery",
   "rarity": "Rare",
   "health": 4860,
@@ -101,6 +103,7 @@
 },
 
   "Poco": {
+  "image" : "media/photo/poco.jpg",
   "class": "Support",
   "rarity": "Rare",
   "health": 7600,
@@ -119,6 +122,7 @@
 },
 
   "Rosa": {
+  "image" : "media/photo/rosa.jpg",
   "class": "Tank",
   "rarity": "Rare",
   "health": 9720,
@@ -137,6 +141,7 @@
 },
 
   "Jessie": {
+  "image" : "media/photo/jessie.jpg",
   "class": "Controller",
   "rarity": "Super Rare",
   "health": 5940,
@@ -155,6 +160,7 @@
 },
 
   "Dynamike": {
+  "image" : "media/photo/dinomike.jpg",
   "class": "Artillery",
   "rarity": "Super Rare",
   "health": 4800,
@@ -173,6 +179,7 @@
 },
 
   "Tick": {
+  "image" : "media/photo/tic.jpg",
   "class": "Artillery",
   "rarity": "Super Rare",
   "health": 4320,
@@ -191,6 +198,7 @@
 },
 
   "8 Bit": {
+  "image" : "media/photo/8-bit.jpg",
   "class": "Damage Dealer",
   "rarity": "Super Rare",
   "health": 8840,
@@ -209,6 +217,7 @@
 },
 
   "Rico": {
+  "image" : "media/photo/rico.jpg",
   "class": "Damage Dealer",
   "rarity": "Super Rare",
   "health": 5400,
@@ -227,6 +236,7 @@
 },
 
   "Darryl": {
+  "image" : "media/photo/darryl.jpg",
   "class": "Tank",
   "rarity": "Super Rare",
   "health": 9350,
@@ -245,6 +255,7 @@
 },
 
   "Penny": {
+  "image" : "media/photo/penny.jpg",
   "class": "Controller",
   "rarity": "Super Rare",
   "health": 6300,
@@ -263,6 +274,7 @@
 },
 
   "Carl": {
+  "image" : "media/photo/carl.jpg",
   "class": "Damage Dealer",
   "rarity": "Super Rare",
   "health": 7980,
@@ -281,6 +293,7 @@
 },
 
   "Jacky": {
+  "image" : "media/photo/jacky.jpg",
   "class": "Tank",
   "rarity": "Super Rare",
   "health": 10000,
@@ -299,6 +312,7 @@
 },
 
   "Gus": {
+  "image" : "media/photo/gus.jpg",
   "class": "Support",
   "rarity": "Super Rare",
   "health": 5280,
@@ -317,6 +331,7 @@
 },
 
   "Bo": {
+  "image" : "media/photo/bo.jpg",
   "class": "Controller",
   "rarity": "Epic",
   "health": 6840,
@@ -335,6 +350,7 @@
 },
 
   "Emz": {
+  "image" : "media/photo/emz.jpg",
   "class": "Controller",
   "rarity": "Epic",
   "health": 7800,
@@ -353,6 +369,7 @@
 },
 
   "Stu": {
+  "image" : "media/photo/stu.jpg",
   "class": "Assassin",
   "rarity": "Epic",
   "health": 4550,
@@ -370,6 +387,7 @@
   ]
 },
   "Piper": {
+  "image" : "media/photo/piper.jpg",
   "class": "Marksman",
   "rarity": "Epic",
   "health": 5000,
@@ -388,6 +406,7 @@
 },
 
   "Pam": {
+  "image" : "media/photo/pam.jpg",
   "class": "Support",
   "rarity": "Epic",
   "health": 8500,
@@ -406,6 +425,7 @@
 },
 
   "Frank": {
+  "image" : "media/photo/frank.jpg",
   "class": "Tank",
   "rarity": "Epic",
   "health": 11560,
@@ -424,6 +444,7 @@
 },
 
   "Bibi": {
+  "image" : "media/photo/bibi.jpg",
   "class": "Tank",
   "rarity": "Epic",
   "health": 10000,
@@ -442,6 +463,7 @@
 },
 
   "Bea": {
+  "image" : "media/photo/bea.jpg",
   "class": "Marksman",
   "rarity": "Epic",
   "health": 5320,
@@ -478,6 +500,7 @@
 },
 
   "Edgar": {
+  "image" : "media/photo/edgar.jpg",
   "class": "Assassin",
   "rarity": "Epic",
   "health": 7400,
@@ -515,6 +538,7 @@
 },
 
  "Grom": {
+  "image" : "media/photo/grom.jpg",
   "class": "Artillery",
   "rarity": "Epic",
   "health": "3000 + 300",
@@ -534,6 +558,7 @@
 },
 
   "Bonnie": {
+  "image" : "media/photo/bonnie.jpg",
   "class": "Marksman",
   "rarity": "Epic",
   "health": "Primary: 8000 + 500, Secondary: 4960 + 310",
@@ -570,14 +595,14 @@
 },
 
   "Pearl": {
+  "image": "media/photo/pearl.jpg",
   "class": "Damage Dealer",
   "rarity": "Epic",
   "health": "7310 + 430",
   "attack": "Hot Cookies",
-  "attack_description": "Rapid fire hot cookies directly out from the oven, slightly cooling the oven while damaging enemies on hit. The higher the Heat, the higher the damage.",
   "damage": "6 x 476 + 5",
   "range": "Long",
-  "reload_speed": "Normal",
+  "reload": "Normal",
   "super": "Let Out Some Steam",
   "super_description": "Consume and release all the built up Heat in an explosion, damaging all nearby enemies. The higher the Heat, the higher the damage.",
   "super_damage": "2635",
