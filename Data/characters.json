@@ -335,167 +335,260 @@
 },
 
   "Emz": {
-    "class":"Controller",
-    "rarity":"Epic",
-    "health":6000,
-    "damage":750,
-    "range":"Medium",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Controller",
+  "rarity": "Epic",
+  "health": 7800,
+  "damage": 1120,
+  "range": "Normal",
+  "reload": "Slow",
+  "super": "Caustic Charisma: Emz creates a cloud of toxicity around herself, slowing down the movement of enemies and damaging them.",
+  "gadgets": [
+    "Friendzoner: Emz fires off some hairspray that pushes enemies back. Deals 500 damage. Cooldown: 19 seconds.",
+    "Acid Spray: Emz squirts out hairspray that goes through walls! Deals 1120 damage. Cooldown: 16 seconds."
+  ],
+  "passives": [
+    "Bad Karma: Enemies that stay within the cloud of Emz's toxic hair spray suffer increasing damage, 25% per hit.",
+    "Hype: Emz recovers 624 health per second for each enemy Brawler inside her Super's area of effect."
+  ]
 },
 
   "Stu": {
-    "class":"Assassin",
-    "rarity":"Epic",
-    "health":5600,
-    "damage":650,
-    "range":"Long",
-    "reload":"Fast",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Assassin",
+  "rarity": "Epic",
+  "health": 4550,
+  "damage": 702,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Nitro Boost: Hitting an opponent with Razzle Dazzle charges up Stu's Nitro Boost, a short dash that leaves a trail of burning rubber on the ground. The trail will set fire to any opponents that touch it.",
+  "gadgets": [
+    "Speed Zone: Stu drops a booster that makes himself, his teammates and other allies move faster while inside its area of effect. Cooldown: 20 seconds.",
+    "Breakthrough: Stu's next Super can bash through obstacles, making debris fly forward. Each piece of debris deals 140 damage to any opponent it hits. Cooldown: 16 seconds."
+  ],
+  "passives": [
+    "Zero Drag: Stu's Nitro Boost Super dash distance increases by 71%.",
+    "Gaso-Heal: Using his Nitro Boost Super restores 364 of Stu's health."
+  ]
 },
   "Piper": {
-    "class":"Marksman",
-    "rarity":"Epic",
-    "health":4500,
-    "damage":1000,
-    "range":"Very Long",
-    "reload":"Slow","super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Marksman",
+  "rarity": "Epic",
+  "health": 5000,
+  "damage": 3400,
+  "range": "Very Long",
+  "reload": "Very Slow",
+  "super": "Poppin': Piper hops away to avoid pushy suitors. She leaves them a lady's favor though: live grenades from her garter!",
+  "gadgets": [
+    "Auto Aimer: Piper pops a defensive shot at the closest enemy, dealing 170 damage while also pushing them back. Cooldown: 18 seconds.",
+    "Homemade Recipe: On activation, Piper's next main attack will home in on enemies. Cooldown: 18 seconds."
+  ],
+  "passives": [
+    "Ambush: Piper's attack deals +1190 extra damage (at max range) when she's hidden in a bush.",
+    "Snappy Sniping: When Piper hits an opponent with her attack, she reloads 0.4 ammo instantly."
+  ]
 },
 
   "Pam": {
-    "class":"Support",
-    "rarity":"Epic",
-    "health":7200,
-    "damage":650,
-    "range":"Medium",
-    "reload":"Normal","super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Support",
+  "rarity": "Epic",
+  "health": 8500,
+  "damage": 510,
+  "range": "Long",
+  "reload": "Very Fast",
+  "super": "Mama's Kiss: Pam deploys a healing turret that restores the health of herself and teammates within its area of effect.",
+  "gadgets": [
+    "Pulse Modulator: Pam triggers her turret to emit a pulse that heals allies inside the turret's range, including herself, for 1700 health. Cooldown: 12 seconds.",
+    "Scrapsucker: Each hit from Pam's next attack removes 25% of opposing Brawlers' maximum ammo. Pam reclaims 50% of the ammo for herself. Cooldown: 17 seconds."
+  ],
+  "passives": [
+    "Mama's Hug: Whenever Pam hits enemy Brawlers with Scrapstorm, she heals herself and nearby friendly Brawlers for 85 health.",
+    "Mama's Squeeze: Pam's healing turret also damages enemies within its area for 850 damage per second."
+  ]
 },
 
   "Frank": {
-    "class":"Tank",
-    "rarity":"Epic",
-    "health":10000,
-    "damage":1000,
-    "range":"Short",
-    "reload":"Slow",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Tank",
+  "rarity": "Epic",
+  "health": 11560,
+  "damage": 1972,
+  "range": "Normal",
+  "reload": "Very Fast",
+  "super": "Stunning Blow: Frank slams his hammer to unleash a shockwave that destroys obstacles and stuns enemies.",
+  "gadgets": [
+    "Active Noise Canceling: Fires a soundwave in a target direction, dealing 1020 damage. Frank becomes immune to Crowd Control for 3.5 seconds and the soundwave destroys enemy projectiles. Cooldown: 16 seconds.",
+    "Irresistible Attraction: Frank fires a long-range attack that pulls enemies toward him, deals 2108 damage, slows them for 2 seconds, and consumes one ammo. Cooldown: 20 seconds."
+  ],
+  "passives": [
+    "Power Grab: After defeating an enemy Brawler, Frank gains 15% increased damage for 12 seconds and heals 3808 health over 3 seconds.",
+    "Sponge: Frank gains 1156 maximum health and takes 10% less damage while above 50% health."
+  ]
 },
 
   "Bibi": {
-    "class":"Tank",
-    "rarity":"Epic",
-    "health":7000,
-    "damage":850,
-    "range":"Short",
-    "reload":"Fast",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Tank",
+  "rarity": "Epic",
+  "health": 10000,
+  "damage": 2800,
+  "range": "Short",
+  "reload": "Very Fast",
+  "super": "Spitball: Bibi bats a bouncing ball of bubble gum that travels through enemies, bounces off walls, and can hit the same target multiple times.",
+  "gadgets": [
+    "Vitamin Booster: Bibi heals 1000 health per second for 4 seconds. Cooldown: 20 seconds.",
+    "Extra Sticky: Bibi throws bubble gum that slows all enemies caught in it by 20%. Cooldown: 21 seconds."
+  ],
+  "passives": [
+    "Home Run: Bibi's movement speed increases by 12% while her Home Run bar is fully charged, and her Home Run attack deals 15% more damage.",
+    "Batting Stance: When Bibi's Home Run bar is fully charged, she takes 20% less damage. She also gains a shield for 5 seconds when her Super hits an enemy Brawler."
+  ]
 },
 
   "Bea": {
-    "class":"Marksman",
-    "rarity":"Epic",
-    "health":4800,
-    "damage":900,
-    "range":"Long",
-    "reload":"Fast",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Marksman",
+  "rarity": "Epic",
+  "health": 5320,
+  "damage": 1520,
+  "range": "Very Long",
+  "reload": "Very Fast",
+  "super": "Iron Hive: Bea deploys a swarm of drones that move and turn like jets, slowing down any opponents caught in their path.",
+  "gadgets": [
+    "Honey Molasses: Bea drops a beehive with a splash of sticky honey around it. The honey slows down enemies that step in it. Cooldown: 20 seconds.",
+    "Rattled Hive: Bea unleashes 4 angry bees that circle away from her, dealing more damage the farther they travel (up to 1140 damage). Cooldown: 24 seconds."
+  ],
+  "passives": [
+    "Insta Beaload: Instantly Supercharges Bea's Big Sting one time if she misses a Supercharged shot.",
+    "Honeycomb: Bea receives a 30% shield while Big Sting is Supercharged."
+  ]
 },
 
   "Nani": {
-    "class":"Marksman",
-    "rarity":"Epic",
-    "health":5000,
-    "damage":950,
-    "range":"Long",
-    "reload":"Slow",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Marksman",
+  "rarity": "Epic",
+  "health": 4250,
+  "damage": 1360,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Manual Override: Nani takes control of Peep and can steer him remotely into enemies, exploding on contact!",
+  "gadgets": [
+    "Warpin' Time: Nani teleports to Peep's last known location and ends her Super. Cooldown: 13 seconds.",
+    "Return to Sender: For the next 2 seconds, the first time Nani takes damage from an enemy, 80% of the damage is returned to the enemy. Cooldown: 17 seconds."
+  ],
+  "passives": [
+    "Autofocus: Peep deals up to 1700 extra damage based on his travel distance.",
+    "Tempered Steel: Nani takes 80% less damage while her Super is active."
+  ]
 },
 
   "Edgar": {
-    "class":"Assassin",
-    "rarity":"Epic",
-    "health":6500,
-    "damage":700,
-    "range":"Short",
-    "reload":"Very Fast",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Assassin",
+  "rarity": "Epic",
+  "health": 7400,
+  "damage": "2 x 1080",
+  "range": "Short",
+  "reload": "Very Fast",
+  "super": "Vault: Edgar jumps over any obstacle and gets a temporary speed boost. His Super will slowly charge over time.",
+  "gadgets": [
+    "Let's Fly: Edgar's scarf grabs the closest Brawler and he jumps behind them. His scarf can also pull him towards walls. He also gets +25% speed for 2.5 sec when grabbing a Brawler or wall. Cooldown: 14 seconds.",
+    "Hardcore: Edgar gets a shield that protects him from the next 3700 damage. The shield gets weaker over time. He also gets immunity to Crowd Control for 1 sec. Cooldown: 17 seconds."
+  ],
+  "passives": [
+    "Hard Landing: Edgar's Super and Let's Fly Gadget will also deal 1490 damage to nearby enemies upon landing, or 2980 damage on a direct hit.",
+    "Fisticuffs: Edgar receives 30% more healing from damage he deals."
+  ]
+
 },
 
   "Griff": {
-    "class":"Damage Dealer",
-    "rarity":"Epic",
-    "health":7000,
-    "damage":700,
-    "range":"Medium",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Controller",
+  "rarity": "Epic",
+  "health": "5920 + 370",
+  "damage": "9 x 448 + 7",
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Cashback: Griff throws a bunch of sharp-edged banknotes in a wide cone. Too valuable to just give away, they return to him, and may cause paper cuts twice to the same target. Opponents further away take more damage.",
+  "gadgets": [
+    "Piggy Bank: Griff throws a firecracker-filled piggy bank that explodes after a short delay, destroying obstacles and dealing 1280 damage to opponents within range. Cooldown: 20 seconds.",
+    "Coin Shower: Griff throws a shower of coins at target area, dealing 320 damage per sec to opponents inside. Cooldown: 20 seconds."
+  ],
+  "passives": [
+    "Keep The Change: Griff gains a slightly wider attack and adds another row of coins to the coin toss.",
+    "Business Resilience: Every 2 seconds, Griff regains up to 15% of his missing health."
+  ]
 },
 
-  "Grom": {
-    "class":"Artillery",
-    "rarity":"Epic",
-    "health":5500,
-    "damage":850,
-    "range":"Long",
-    "reload":"Slow",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+ "Grom": {
+  "class": "Artillery",
+  "rarity": "Epic",
+  "health": "3000 + 300",
+  "damage": "1040 + 104",
+  "range": "Long",
+  "reload": "Slow",
+  "super": "Grom Bomb: Grom launches a devastating bomb with Bud's help! The Grom Bomb inflicts huge damage, breaks walls and the force from its blast pushes all enemies backwards.",
+  "gadgets": [
+    "Watchtower: Grom ejects a Watchtower from his Grom Bomb that gives all allies sight into bushes over a large area. The watchtower slowly loses health over time. Cooldown: 20 seconds.",
+    "Radio Check: Grom's next attack throws 3 Buds in rapid succession. Cooldown: 15 seconds."
+  ],
+  "passives": [
+    "Foot Patrol: When Grom's Super is fully charged, he gains +15% faster movement speed!",
+    "X-Factor: The split from Grom's main attack deals up to +35% extra damage at max distance."
+  ]
+
 },
 
   "Bonnie": {
-    "class":"Marksman",
-    "rarity":"Epic",
-    "health":7000,
-    "damage":800,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Marksman",
+  "rarity": "Epic",
+  "health": "Primary: 8000 + 500, Secondary: 4960 + 310",
+  "damage": "Primary: 1792 + 112, Secondary: 3 x 928 + 58",
+  "range": "Primary: Long, Secondary: Normal",
+  "reload": "Primary: Very Fast, Secondary: Slow",
+  "super": "Star Launcher: Clyde launches Bonnie into the air. She can fly over obstacles and deals damage to nearby enemies on landing. Secondary: Clyde - Bonnie calls Clyde and jumps into it, taking control of the cannon.",
+  "gadgets": [
+    "Sugar Rush: Clyde's movement and reload speed are increased by 30% for 5 seconds. Cooldown: 16 seconds.",
+    "Crash Test: Bonnie dashes forward, knocking back enemies and dealing 1856 damage on hit. Cooldown: 10 seconds."
+  ],
+  "passives": [
+    "Black Powder: The range of Bonnie's Star Launcher is increased by 36%.",
+    "Wisdom Tooth: Loose Tooth shatters on hit, dealing 25% extra damage to nearby enemies."
+  ]
 },
 
   "Hank": {
-    "class":"Tank",
-    "rarity":"Epic",
-    "health":8500,
-    "damage":850,"range":"Medium",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Tank",
+  "rarity": "Epic",
+  "health": "9880 + 520",
+  "damage": "3990 + 210",
+  "range": "Short",
+  "reload": "Very Fast",
+  "super": "Fish Torpedoes: Hank launches Fish Torpedoes in all directions, and he heals for 50% of his missing health.",
+  "gadgets": [
+    "Water Balloons: The next Balloon Blast also slows down enemies for 3 seconds. Cooldown: 11 seconds.",
+    "Barricade: Hank takes 40% reduced damage for 3 seconds. Cooldown: 18 seconds."
+  ],
+  "passives": [
+    "It's Gonna Blow: When Balloon Blast is charged over 80%, Hank gains 10% extra movement speed.",
+    "Take Cover!: Hank takes 20% less damage when near a wall."
+  ]
 },
 
   "Pearl": {
-    "class":"Damage Dealer",
-    "rarity":"Epic",
-    "health":7500,
-    "damage":800,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Damage Dealer",
+  "rarity": "Epic",
+  "health": "7310 + 430",
+  "attack": "Hot Cookies",
+  "attack_description": "Rapid fire hot cookies directly out from the oven, slightly cooling the oven while damaging enemies on hit. The higher the Heat, the higher the damage.",
+  "damage": "6 x 476 + 5",
+  "range": "Long",
+  "reload_speed": "Normal",
+  "super": "Let Out Some Steam",
+  "super_description": "Consume and release all the built up Heat in an explosion, damaging all nearby enemies. The higher the Heat, the higher the damage.",
+  "super_damage": "2635",
+  "gadgets": [
+    "Overcooked: Next basic attack shoots burning cookies, dealing 884 extra damage over time. Cooldown: 15 seconds.",
+    "Made With Love: Next basic attack shoots perfectly baked cookies ignoring enemies and healing allies for 2380 over time instead. Cooldown: 11 seconds."
+  ],
+  "passives": [
+    "Heat Retention: Super will consume 50% less Heat when used.",
+    "Heat Shield: While the Heat is over 80%, reduce damage taken by 20%."
+  ]
 },
 
   "Larry & Lawrie": {
