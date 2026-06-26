@@ -65,182 +65,273 @@
 },
 
   "El Primo": {
-    "class":"Tank",
-    "rarity":"Rare",
-    "health":9000,
-    "damage":800,
-    "range":"Short",
-    "reload":"Fast",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Tank",
+  "rarity": "Rare",
+  "health": 11050,
+  "damage": "4 x 646",
+  "range": "Short",
+  "reload": "Very Fast",
+  "super": "Flying Elbow Drop: Leaping high, El Primo drops an intergalactic elbow that knocks around enemies and destroys cover.",
+  "gadgets": [
+    "Suplex Supplement: El Primo grabs the closest enemy within his reach and flips them like a pancake over his broad shoulders. Cooldown: 14 seconds.",
+    "Asteroid Belt: El Primo summons a small meteor to strike the nearest enemy. It deals 2584 damage and destroys walls. Cooldown: 13 seconds."
+  ],
+  "passives": [
+    "El Fuego: Enemies caught in El Primo's Super will burn for 1530 damage over 4 seconds.",
+    "Meteor Rush: El Primo gains a 25% speed boost for 4 seconds after using his Super."
+  ]
 },
 
   "Barley": {
-    "class":"Artillery",
-    "rarity":"Rare",
-    "health":5000,
-    "damage":700,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Artillery",
+  "rarity": "Rare",
+  "health": 4860,
+  "damage": 1440,
+  "range": "Long",
+  "reload": "Slow",
+  "super": "Last Call: Barley hurls a flurry of fiery bottles, covering a huge area in flames.",
+  "gadgets": [
+    "Sticky Syrup Mixer: Barley drops a sticky concoction that leaves a puddle, slowing down all enemies that make contact with it. Cooldown: 18 seconds.",
+    "Herbal Tonic: Barley throws a healing potion at nearby allies that creates an area that heals for 729 health per second. Cooldown: 17 seconds."
+  ],
+  "passives": [
+    "Medical Use: Barley regains 486 health from each attack.",
+    "Extra Noxious: Adds 200 damage per second to Barley's attack."
+  ]
 },
 
   "Poco": {
-    "class":"Support",
-    "rarity":"Rare",
-    "health":6200,
-    "damage":600,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Support",
+  "rarity": "Rare",
+  "health": 7600,
+  "damage": 1444,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Encore: Poco heals himself and all friends he can reach with his uplifting melody. Does not affect enemies.",
+  "gadgets": [
+    "Tuning Fork: Poco and all nearby allies heal 760 health per second for 5 seconds. Cooldown: 20 seconds.",
+    "Protective Tunes: Removes active adverse effects from friendly Brawlers in a large area and gives a 4 second immunity. Cooldown: 18 seconds."
+  ],
+  "passives": [
+    "Da Capo!: When Poco's attack hits friendly Brawlers they now heal for 988 health.",
+    "Screeching Solo: Poco's Super now also hits enemies, dealing 1444 damage."
+  ]
 },
 
   "Rosa": {
-    "class":"Tank",
-    "rarity":"Rare",
-    "health":8500,
-    "damage":700,"range":"Short",
-    "reload":"Fast",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]}
-    ,
+  "class": "Tank",
+  "rarity": "Rare",
+  "health": 9720,
+  "damage": "3 x 900",
+  "range": "Short",
+  "reload": "Very Fast",
+  "super": "Strong Stuff: Rosa gets a second skin of tough vine for 4 seconds, decreasing all damage received by 70% for the duration.",
+  "gadgets": [
+    "Grow Light: Rosa fertilizes the ground around her and bushes instantly grow to provide great cover. Cooldown: 13 seconds.",
+    "Unfriendly Bushes: All opponents hiding in bushes take 270 damage and get slowed down for 3 seconds. Cooldown: 14 seconds."
+  ],
+  "passives": [
+    "Plant Life: Rosa recovers 388 health per second when inside a bush.",
+    "Thorny Gloves: Rosa's punches gain 270 damage during her Super."
+  ]
+},
 
   "Jessie": {
-    "class":"Controller",
-    "rarity":"Super Rare",
-    "health":5800,
-    "damage":750,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Controller",
+  "rarity": "Super Rare",
+  "health": 5940,
+  "damage": 1908,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Scrappy!: Jessie deploys a gun turret that automatically shoots at enemies. It's made of 100% recycled materials!",
+  "gadgets": [
+    "Spark Plug: Jessie triggers a shockwave from her turret, slowing down all enemies within its area of effect. Cooldown: 15 seconds.",
+    "Recoil Spring: Scrappy's attack speed is doubled for 5 seconds. Cooldown: 11 seconds."
+  ],
+  "passives": [
+    "Energize: Jessie can repair her gun turret for 954 of its missing health by zapping it with her attack.",
+    "Shocky: Scrappy the Turret now shoots energy orbs that bounce between enemies. The orbs' range after a bounce is 51% of normal range."
+  ]
 },
 
   "Dynamike": {
-    "class":"Artillery",
-    "rarity":"Super Rare",
-    "health":5000,
-    "damage":900,
-    "range":"Long",
-    "reload":"Slow",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Artillery",
+  "rarity": "Super Rare",
+  "health": 4800,
+  "damage": 2560,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Big Barrel O' Boom: A big-bada-barrel of dynamite blows up cover. Any surviving enemies get knocked back on impact!",
+  "gadgets": [
+    "Fidget Spinner: Dynamike spins furiously with increased movement speed and throws multiple sticks of dynamite around himself. Each dynamite deals 1920 damage to enemies. Cooldown: 12 seconds.",
+    "Satchel Charge: Once activated, the next main attack also stuns enemies for 1.5 seconds. Cooldown: 23 seconds."
+  ],
+  "passives": [
+    "Dyna-Jump: Dynamike can ride the blast wave of his explosives to jump over obstacles!",
+    "Demolition: Adds +1280 damage to Mike's Super."
+  ]
 },
 
   "Tick": {
-    "class":"Artillery",
-    "rarity":"Super Rare",
-    "health":4200,
-    "damage":650,
-    "range":"Very Long",
-    "reload":"Slow",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Artillery",
+  "rarity": "Super Rare",
+  "health": 4320,
+  "damage": 3672,
+  "range": "Long",
+  "reload": "Very Slow",
+  "super": "Headfirst: Tick detaches and launches his head. After landing, the head hops toward the nearest target and explodes on contact!",
+  "gadgets": [
+    "Last Hurrah: Tick gains a 50% shield for 1 second. After that, it bursts out for 1224 damage. Cooldown: 15 seconds.",
+    "Mine Mania: Tick's next attack fires 6 mines. Cooldown: 15 seconds."
+  ],
+  "passives": [
+    "Well Oiled: When Tick takes no damage and doesn't attack, he starts recovering health 2 seconds sooner than normal.",
+    "Automa-Tick Reload: Tick's reload time is 9% shorter."
+  ]
 },
 
   "8 Bit": {
-    "class":"Damage Dealer",
-    "rarity":"Super Rare",
-    "health":7000,
-    "damage":800,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Damage Dealer",
+  "rarity": "Super Rare",
+  "health": 8840,
+  "damage": 3468,
+  "range": "Very Long",
+  "reload": "Normal",
+  "super": "Damage Booster: Deploys a turret that increases the damage output of all friendly Brawlers in its area of effect.",
+  "gadgets": [
+    "Cheat Cartridge: 8-Bit instantly teleports to his Damage Booster. Cooldown: 18 seconds.",
+    "Extra Credits: 8-Bit's next attack has the number of projectiles increased to 18. Cooldown: 11 seconds."
+  ],
+  "passives": [
+    "Boosted Booster: Increases the Damage Booster's range by 50% and boosts damage by an additional 15%.",
+    "Plugged In: When 8-Bit is near his Damage Booster, he will plug in and have increased movement speed."
+  ]
 },
 
   "Rico": {
-    "class":"Marksman",
-    "rarity":"Super Rare",
-    "health":5000,
-    "damage":700,
-    "range":"Very Long",
-    "reload":"Fast",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Damage Dealer",
+  "rarity": "Super Rare",
+  "health": 5400,
+  "damage": 2700,
+  "range": "Very Long",
+  "reload": "Very Fast",
+  "super": "Trick Shot: Rico fires a long burst of bullets that pierce through enemies and bounce off walls, gaining range.",
+  "gadgets": [
+    "Multiball Launcher: Rico blasts waves of bouncy bullets in all directions. Cooldown: 22 seconds.",
+    "Bouncy Castle: Rico's next basic attack will heal him for 216 health from each projectile bounce. Cooldown: 17 seconds."
+  ],
+  "passives": [
+    "Super Bouncy: Rico's bullets, from attack and Super alike, get Supercharged by their first bounce and deal +216 damage.",
+    "Robo Retreat: When Rico falls below 40% health, he runs 34% faster."
+  ]
 },
 
   "Darryl": {
-    "class":"Tank",
-    "rarity":"Super Rare",
-    "health":8000,
-    "damage":850,
-    "range":"Short",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Tank",
+  "rarity": "Super Rare",
+  "health": 9350,
+  "damage": 4080,
+  "range": "Normal",
+  "reload": "Normal",
+  "super": "Barrel Roll: Darryl rolls forward inside his barrel, knocking back enemies, reducing incoming damage and bouncing off walls. His Super recharges over time.",
+  "gadgets": [
+    "Recoiling Rotator: Darryl spins around and sprays a barrage of shots in all directions. Each shot deals 510 damage and recharges his Super by 25% if it hits an enemy. Cooldown: 12 seconds.",
+    "Tar Barrel: Darryl creates a slowing area around himself for 5 seconds. Cooldown: 15 seconds."
+  ],
+  "passives": [
+    "Steel Hoops: After Barrel Roll, all damage Darryl takes is reduced by 25% for 2 seconds.",
+    "Rolling Reload: When Darryl uses his Super, he doubles his reload speed for 5 seconds."
+  ]
 },
 
   "Penny": {
-    "class":"Controller",
-    "rarity":"Super Rare",
-    "health":5600,
-    "damage":700,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Controller",
+  "rarity": "Super Rare",
+  "health": 6300,
+  "damage": 1764,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Old Lobber: Deploys a cannon that lobs explosive cannonballs over walls at enemies.",
+  "gadgets": [
+    "Salty Barrel: Penny drops a barrel of salt that blocks enemy projectiles. She can also use it to burst her own gold pouches. Cooldown: 18 seconds.",
+    "Trusty Spyglass: Penny's cannon blasts at every visible enemy position within range. Cooldown: 15 seconds."
+  ],
+  "passives": [
+    "Heavy Coffers: Penny's gold pouches burst with a 100% wider cone after each hit.",
+    "Master Blaster: Penny's cannon deals 1234 damage and knocks back nearby enemies on landing."
+  ]
 },
 
   "Carl": {
-    "class":"Damage Dealer",
-    "rarity":"Super Rare",
-    "health":6400,
-    "damage":750,
-    "range":"Medium",
-    "reload":"Fast",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Damage Dealer",
+  "rarity": "Super Rare",
+  "health": 7980,
+  "damage": 1406,
+  "range": "Long",
+  "reload": "Slow",
+  "super": "Tailspin: Carl goes into a crazy spin for a few seconds, flailing around and damaging nearby opponents.",
+  "gadgets": [
+    "Heat Ejector: Carl's next pickaxe throws leaves a trail of hot rocks behind it. Opponents that touch them are set on fire and receive 570 damage per second. Cooldown: 17 seconds.",
+    "Flying Hook: Carl's next attack makes his pickaxe pull him to the farthest point of the attack. Cooldown: 19 seconds."
+  ],
+  "passives": [
+    "Power Throw: Carl throws his Pickaxe with 10% more speed, allowing it to travel and return faster.",
+    "Protective Pirouette: During Carl's Super, all damage he receives is reduced by 35%."
+  ]
 },
 
   "Jacky": {
-    "class":"Tank",
-    "rarity":"Super Rare",
-    "health":8500,
-    "damage":850,
-    "range":"Very Short",
-    "reload":"Fast",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Tank",
+  "rarity": "Super Rare",
+  "health": 10000,
+  "damage": 2480,
+  "range": "Short",
+  "reload": "Normal",
+  "super": "Holey Moley!: Jacky drills a hole in the ground, pulling in foes to introduce them to her Jackhammer!",
+  "gadgets": [
+    "Pneumatic Booster: Jacky gets a burst of energy and moves 25% faster for 4 seconds. Cooldown: 15 seconds.",
+    "Rebuild: Jacky rebuilds the environment in a small radius around her. Cooldown: 11 seconds."
+  ],
+  "passives": [
+    "Counter Crush: When receiving damage, Jacky returns the favor by converting 30% of the damage into a Groundbreaker counterattack.",
+    "Hardy Hard Hat: Jacky's Hard Hat protects her by reducing any damage she takes by 20%."
+  ]
 },
 
   "Gus": {
-    "class":"Support",
-    "rarity":"Super Rare",
-    "health":6000,
-    "damage":700,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Support",
+  "rarity": "Super Rare",
+  "health": 5280,
+  "damage": 1728,
+  "range": "Very Long",
+  "reload": "Normal",
+  "super": "Spooky Boy: Gus uses Spooky (a balloon creation and also his best friend) to create a shield around himself or one of his teammates and pushes nearby enemies back.",
+  "gadgets": [
+    "Kooky Popper: Explode all uncollected spirits, dealing 1728 damage to nearby enemies. Cooldown: 16 seconds.",
+    "Soul Switcher: Gus loses 5% health but gains 100% spirit instantly. Cooldown: 10 seconds."
+  ],
+  "passives": [
+    "Health Bonanza: Healing gained from spirits is increased by 100%.",
+    "Spirit Animal: Spooky increases the damage of a teammate by 25% for 5 seconds."
+  ]
 },
 
   "Bo": {
-    "class":"Controller",
-    "rarity":"Epic",
-    "health":6500,
-    "damage":700,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "class": "Controller",
+  "rarity": "Epic",
+  "health": 6840,
+  "damage": 1152,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Catch a Fox: Bo hides explosive traps in the ground. When triggered by an enemy, the traps explode after a short delay, knocking back and damaging enemies.",
+  "gadgets": [
+    "Super Totem: Bo places a totem that increases allies' Super charging rate by 50%. The totem slowly loses its health over time. Cooldown: 19 seconds.",
+    "Tripwire: Bo triggers all of his mines after 1.5 seconds. During the delay the mines are completely undetectable to opponents. Cooldown: 8 seconds."
+  ],
+  "passives": [
+    "Circling Eagle: Bo spots enemies hidden in bushes from 150% longer distance than normally.",
+    "Snare a Bear: Instead of a knockback, Bo's traps now stun the enemy for 2 seconds."
+  ]
 },
 
   "Emz": {
