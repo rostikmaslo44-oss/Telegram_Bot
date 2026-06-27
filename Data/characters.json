@@ -615,849 +615,1271 @@
 },
 
   "Larry & Lawrie": {
-    "image": "media/photo/larry.jpg",
-    "class":"Controller",
-    "rarity":"Epic",
-    "health":7000,
-    "damage":750,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/larry.jpg",
+  "class": "Artillery",
+  "rarity": "Epic",
+  "health": 4500,
+  "damage": 1050,
+  "range": "Long",
+  "reload": "Very Slow",
+  "super": "Call for Backup: Throw a signal to summon your twin Lawrie for help. He will seek out any trouble makers and serve justice with his taser gun.",
+  "gadgets": [
+    "Order: Swap: Swap weapons with Lawrie. Cooldown: 12 seconds.",
+    "Order: Fall Back: Dash towards Lawrie while Lawrie dashes towards you, healing both for 25% of max health. Cooldown: 17 seconds."
+  ],
+  "passives": [
+    "Protocol: Protect: While Lawrie is in range, transfer 30% of incoming damage to himself instead.",
+    "Protocol: Assist: While Lawrie is in range, reload 30% of your ammo whenever he damages an enemy."
+  ]
 },
 
 "Ash": {
-    "image": "media/photo/ash.jpg",
-    "class":"Tank",
-    "rarity":"Epic",
-    "health":8500,
-    "damage":800,
-    "range":"Short",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/ash.jpg",
+  "class": "Tank",
+  "rarity": "Epic",
+  "health": 9440,
+  "damage": 1280,
+  "range": "Normal",
+  "reload": "Fast",
+  "super": "Little Helpers: Robotic rats for cleaning up? That's right, they explode on contact, dealing damage to opponents and greatly increasing Ash's Rage level.",
+  "gadgets": [
+    "Rotten Banana: Ash loses 5% health and instantly gains 40% Rage. Cooldown: 8 seconds.",
+    "Chill Pill: Though furious, Ash has to collect himself. A full Rage meter will recover 2832 health when this Gadget is popped—less Rage, less recovery. Cooldown: 13 seconds."
+  ],
+  "passives": [
+    "First Bash: When hitting an opponent with his attack charges full, Ash gets even more angry. His Rage goes up by 200%.",
+    "Mad as Heck: Ash progressively gains up to 40% faster reload speed, equal to how enraged he's become."
+  ]
 },
 "Lola": {
-    "image": "media/photo/lola.jpg",
-    "class":"Damage Dealer",
-    "rarity":"Epic",
-    "health":6500,
-    "damage":750,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/lola.jpg",
+  "class": "Damage Dealer",
+  "rarity": "Epic",
+  "health": 7200,
+  "damage": 504,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Megalomaniac: Lola releases her Ego that mimics her every move. If it's too close to Lola though, it will deal less damage.",
+  "gadgets": [
+    "Freeze Frame: Lola's Ego stops moving to strike a pose! Gaining a 50% shield for 4 seconds. Cooldown: 11 seconds.",
+    "Stunt Double: Lola and her Ego switch locations, both recovering 1440 health. Cooldown: 17 seconds."
+  ],
+  "passives": [
+    "Improvise: When down to her last round, Lola deals an extra 30% damage.",
+    "Sealed with a Kiss: Projectiles from Lola's Ego will heal allies that are caught in its path by 201 health."
+  ]
 },
 "Sam": {
-    "image": "media/photo/sam.jpg",
-    "class":"Assassin",
-    "rarity":"Epic",
-    "health":8000,
-    "damage":850,
-    "range":"Short",
-    "reload":"Fast",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/sam.png",
+  "class": "Assassin",
+  "rarity": "Epic",
+  "health": 9120,
+  "damage": 1280,
+  "range": "Short",
+  "reload": "Normal",
+  "super": "Knuckle Busters: Sam throws his Knuckle Busters, dealing damage to all enemies hit, before landing on the ground. His next Super will return them back to his hands and also deals damage.",
+  "gadgets": [
+    "Magnetic Field: While the Knuckle Busters are on the ground, Sam can activate them to pull in nearby enemies. Cooldown: 17 seconds.",
+    "Pulse Repellent: Upon landing on the ground, Sam's next deployed Knuckle Busters releases an electric pulse that knocks back enemies. Cooldown: 11 seconds."
+  ],
+  "passives": [
+    "Hearty Recovery: Upon recalling his Knuckle Busters, Sam instantly recovers 20% of his missing health.",
+    "Remote Recharge: While the Knuckle Busters are on the ground and near enemies, they will charge up Sam's Super."
+  ]
 },
 "Mandy": {
-    "image": "media/photo/mandy.jpg",
-    "class":"Marksman",
-    "rarity":"Epic",
-    "health":5000,
-    "damage":900,
-    "range":"Very Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/mandy.jpg",
+  "class": "Marksman",
+  "rarity": "Epic",
+  "health": 5400,
+  "damage": 2340,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Sugar Ray: Mandy shoots a long ray of sugar passing through enemies and environment, dealing massive damage.",
+  "gadgets": [
+    "Caramelize: Mandy's next candy from her Candy Dispenser slows down enemies on hit for 2.5 seconds. Cooldown: 13 seconds.",
+    "Cookie Crumbs: Mandy's next candy from her Candy Dispenser pierces enemies and environment. Cooldown: 16 seconds."
+  ],
+  "passives": [
+    "In My Sights: Mandy shoots her candies with 15% more speed while Focused.",
+    "Hard Candy: Mandy receives a 40% shield while Focused."
+  ]
 },
 "Maisie": {
-    "image": "media/photo/maisie.jpg",
-    "class":"Damage Dealer",
-    "rarity":"Epic",
-    "health":6000,
-    "damage":850,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/maisie.png",
+  "class": "Marksman",
+  "rarity": "Epic",
+  "health": 4000,
+  "damage": 1500,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Shockwave: Maisie unleashes a powerful shockwave around herself, damaging and knocking back nearby enemies.",
+  "gadgets": [
+    "Disengage!: Maisie blasts the ground, stunning enemies for 0.5 seconds while dashing forward. Cooldown: 16 seconds.",
+    "Finish Them!: Maisie instantly reloads 1 ammo and increases the next Pressure Rocket damage by 30% of the target's missing HP. Cooldown: 10 seconds."
+  ],
+  "passives": [
+    "Pinpoint Precision: Pressure Rocket deals 25% more damage at max distance.",
+    "Tremors: Enemies hit by Shockwave are also slowed down for 2 seconds."
+  ]
 },
 
 "Mortis": {
-    "image": "media/photo/mortis.jpg",
-    "class":"Assassin",
-    "rarity":"Mythic",
-    "health":6500,
-    "damage":900,
-    "range":"Short",
-    "reload":"Slow",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/mortis.jpg",
+  "class": "Assassin",
+  "rarity": "Mythic",
+  "health": 7600,
+  "damage": 1900,
+  "range": "Short",
+  "reload": "Very Slow",
+  "super": "Life Blood: Mortis calls forth a swarm of vampire bats that drain the health of enemy Brawlers while restoring his.",
+  "gadgets": [
+    "Combo Spinner: Mortis spins his shovel, dealing 1900 damage. Can also be aimed for a short-distance bat attack. Cooldown: 15 seconds.",
+    "Creature of the Night: Mortis turns into a flock of bats and travels to a target location. Cooldown: 24 seconds."
+  ],
+  "passives": [
+    "Creepy Harvest: Mortis restores 20% of his max health and gains 475 additional max health after defeating an enemy (stacks until defeated).",
+    "Coiled Snake: Mortis gains his longer dash 2 seconds faster and gets 35% damage reduction during the long dash."
+  ]
 },
 "Tara": {
-    "image": "media/photo/tara.jpg",
-    "class":"Damage Dealer",
-    "rarity":"Mythic",
-    "health":6200,
-    "damage":750,
-    "range":"Medium",
-    "reload":"Slow",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/tara.png",
+  "class": "Damage Dealer",
+  "rarity": "Mythic",
+  "health": 6270,
+  "damage": 912,
+  "range": "Long",
+  "reload": "Slow",
+  "super": "Gravity: Tara conjures up a mind-boggling gravity well. Enemies in the area of effect get pulled in, crashing together painfully hard.",
+  "gadgets": [
+    "Psychic Enhancer: Tara and her allies are able to see all enemies, even inside bushes, for 4 seconds. Cooldown: 20 seconds.",
+    "Support From Beyond: Tara surrounds herself with three weak Shadows that attack opponents and disappear after 6 seconds. Cooldown: 17 seconds."
+  ],
+  "passives": [
+    "Black Portal: Tara's Super cracks open a dimensional portal. A shadowy version of Tara appears and attacks her enemies.",
+    "Healing Shade: Tara's Super cracks open a dimensional portal. A shadowy version of Tara appears to heal Tara and her teammates."
+  ]
 },
 "Gene": {
-    "image": "media/photo/gene.jpg",
-    "class":"Controller",
-    "rarity":"Mythic",
-    "health":6000,
-    "damage":700,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/gene.png",
+  "class": "Controller",
+  "rarity": "Mythic",
+  "health": 6080,
+  "damage": 1600,
+  "range": "Very Long",
+  "reload": "Slow",
+  "super": "Magic Hand: Gene launches a magical hand from his lamp. If the hand hits an enemy, they get pulled back to Gene's location!",
+  "gadgets": [
+    "Lamp Blowout: All enemies close to Gene are instantly pushed back. If at least one enemy Brawler is within range, Gene will also restore 10% of his max health. Cooldown: 20 seconds.",
+    "Vengeful Spirits: Gene shoots a homing missile at all visible opponents within a large area, dealing up to 1280 damage based on distance. Cooldown: 20 seconds."
+  ],
+  "passives": [
+    "Magic Puffs: Gene heals all friendly Brawlers around him for 486 health per second.",
+    "Spirit Slap: Gene's Magic Hand also damages enemies, dealing 1600 damage on hit."
+  ]
 },
 "Max": {
-    "image": "media/photo/max.jpg",
-    "class":"Support",
-    "rarity":"Mythic",
-    "health":5800,
-    "damage":650,
-    "range":"Long",
-    "reload":"Fast",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/max.jpg",
+  "class": "Support",
+  "rarity": "Mythic",
+  "health": 3500,
+  "damage": 320,
+  "range": "Long",
+  "reload": "Very Fast",
+  "super": "Let's Go!: Max momentarily boosts up her movement speed and that of nearby allies. Duration: 4s.",
+  "gadgets": [
+    "Phase Shifter: Max dashes forward, and becomes immune to all damage from enemies while dashing. Cooldown: 15 seconds.",
+    "Sneaky Sneakers: Max blinks back to a place of her choosing after 3 seconds' delay, recovering any damage she received in the meantime. Cooldown: 8 seconds."
+  ],
+  "passives": [
+    "Super Charged: Max now charges her Super while moving.",
+    "Run N Gun: Max reloads faster while moving."
+  ]
 },
 "Mr. P": {
-    "image": "media/photo/mr_p.jpg",
-    "class":"Controller",
-    "rarity":"Mythic",
-    "health":6000,
-    "damage":700,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/mr_p.png",
+  "class": "Controller",
+  "rarity": "Mythic",
+  "health": 6290,
+  "damage": 1292,
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Porters! Attack!: Mr. P deploys the home base for his robo-porters. Home Base Health: 4250. Porter Health: 2380. Porter Damage: 442.",
+  "gadgets": [
+    "Service Bell: Mr. P buffs his current porter by increasing its damage by 193 and health by 1258. Cooldown: 17 seconds.",
+    "Porter Reinforcements: The next attack will spawn a weak porter where the attack lands. Cooldown: 17 seconds."
+  ],
+  "passives": [
+    "Handle With Care: Every 4 seconds, the explosion damage of Mr. P's next overstuffed suitcase is increased by 40%.",
+    "Revolving Door: All robo-porters from the home base now have 20% more health and 30% higher damage."
+  ]
 },
 "Sprout": {
-    "image": "media/photo/sprout.jpg",
-    "class":"Artillery",
-    "rarity":"Mythic",
-    "health":5500,
-    "damage":800,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/sprout.jpg",
+  "class": "Artillery",
+  "rarity": "Mythic",
+  "health": 5760,
+  "damage": 1872,
+  "range": "Normal",
+  "reload": "Normal",
+  "super": "Hedge: Sprout uses its Super Seed to grow a thick vine hedge, creating an impassable though temporary obstacle.",
+  "gadgets": [
+    "Garden Mulcher: Sprout consumes a bush to restore 1728 health. Cooldown: 9 seconds.",
+    "Transplant: Sprout destroys its current Hedge, but will instantly have its Super fully charged again. Cooldown: 15 seconds."
+  ],
+  "passives": [
+    "Overgrowth: Every 5 seconds, the next Seed Bomb will explode with a larger explosion radius.",
+    "Photosynthesis: Sprout activates a shield, partially protecting itself from all attacks while inside a bush."
+  ]
 },
 "Byron": {
-    "image": "media/photo/byron.jpg",
-    "class":"Support",
-    "rarity":"Mythic",
-    "health":4800,
-    "damage":700,
-    "range":"Very Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/byron.jpg",
+  "class": "Support",
+  "rarity": "Mythic",
+  "health": 5200,
+  "damage": 2280,
+  "range": "Very Long",
+  "reload": "Fast",
+  "super": "Full Treatment: Throws a vial that heals friendlies and damages opponents.",
+  "gadgets": [
+    "Shot in the Arm: Byron uses one of his shots to heal himself for 1300 per second for 3 seconds. Cooldown: 17 seconds.",
+    "Booster Shots: Byron's next attack shoots 3 darts instead of one, each dealing 20% less damage and 40% less healing. Cooldown: 18 seconds."
+  ],
+  "passives": [
+    "Malaise: Byron's Super will also cause opponents to receive 75% less healing from any source for 9 seconds.",
+    "Injection: Every 3.5 seconds the next basic attack will pierce through targets."
+  ]
 },
 "Squeak": {
-    "image": "media/photo/squeak.jpg",
-    "class":"Controller",
-    "rarity":"Mythic",
-    "health":5600,
-    "damage":750,
-    "range":"Long",
-    "reload":"Slow",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/squeak.jpg",  
+"class": "Controller",
+"rarity": "Mythic",
+"health": 6460,
+"damage": 1972,
+"range": "Long",
+"reload": "Slow",
+"super": "Big Blob: Squeak lobs a blob that blows up with aplomb! The explosion of goo sends six smaller Sticky Blombs in all directions.",
+"gadgets": [
+"Residue: Squeak's next Sticky Blomb leaves a residue area behind after exploding, slowing down enemies and giving allies sight into bushes for 6 seconds. Cooldown: 20 seconds.",
+"Windup: Squeak's next Sticky Blomb deals 50% more damage and has 100% longer range. Cooldown: 14 seconds."
+],
+"passives": [
+"Chain Reaction: Each opponent within the area of a Sticky Blomb's explosion increases the Blomb's damage by 15%.",
+"Super Sticky: Secondary Sticky Blomb explosions from Squeak's Super also slow down opponents for 4 seconds."
+]
 },
 "Gray": {
-    "image": "media/photo/gray.jpg",
-    "class":"Support",
-    "rarity":"Mythic",
-    "health":6000,
-    "damage":800,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/gray.jpg",
+"class": "Support",
+"rarity": "Mythic",
+"health": 6460,
+"damage": 2204,
+"range": "Long",
+"reload": "Fast",
+"super": "Dimensional Doors: Gray creates a set of doors for him and his teammates, useful for quick escapes and sneaky attacks!",
+"gadgets": [
+"Grand Piano: Gray's next hit from the Finger Pistol will also leave a target on the ground where a piano will land and hurt enemies. It would be too bad if someone would get hurt, right? Cooldown: 14 seconds.",
+"Walking Cane: Gray's next hit from the Finger Pistol shoots a walking cane which pulls enemies back by a bit. Cooldown: 23 seconds."
+],
+"passives": [
+"Fake Injury: When Gray has full health, the next damage taken is reduced by 50%.",
+"New Perspective: When Gray or his Allies use Doors, they recover 20% of their max hit points."
+]
 },
 "Willow": {
-    "image": "media/photo/willow.jpg",
-    "class":"Controller",
-    "rarity":"Mythic",
-    "health":5500,
-    "damage":700,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/willow.png",
+"class": "Controller",
+"rarity": "Mythic",
+"health": 5280,
+"damage": 1920,
+"range": "Long",
+"reload": "Slow",
+"super": "Hex: Willow fires a single tadpole towards an enemy Brawler, fully healing them and taking control over their mind, if it hits. Willow can use the basic attack of the enemy Brawler and move them as she pleases. Mind control breaks after 4 seconds or when the Brawler reaches 30% HP.",
+"gadgets": [
+"Spellbound: Willow's next Lantern's Curse deals 480 more damage and applies the entire damage instantly rather than over time. Cooldown: 13 seconds.",
+"Dive: Willow dives for 2 seconds, becoming untargetable but unable to take any action for the duration. Cooldown: 16 seconds."
+],
+"passives": [
+"Love Is Blind: Lantern's Curse also reduces reload speed of affected Brawlers by 30% for 3 seconds.",
+"Obsession: Hexed enemies gain 33% movement speed while mind controlled."
+]
 },
 "Doug": {
-    "image": "media/photo/doug.png",
-    "class":"Support",
-    "rarity":"Mythic",
-    "health":8000,
-    "damage":750,
-    "range":"Short",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/doug.png",
+"class": "Support",
+"rarity": "Mythic",
+"health": 10400,
+"damage": 2400,
+"range": "Short",
+"reload": "Normal",
+"super": "Second Serving: A special spiced up hot dog for a target ally or Doug himself. When a buffed Brawler is defeated they will come back with 100% health after a short delay.",
+"gadgets": [
+"Double Sausage: The next Snack Attack only heals allies but doubles the amount. Cooldown: 15 seconds.",
+"Extra Mustard: The next Snack Attack only damages enemies but doubles the amount. Cooldown: 15 seconds."
+],
+"passives": [
+"Fast Food: When Doug revives an ally successfully, he will heal for 100% of his max health.",
+"Self Service: Snack Attack also heals Doug by 480."
+]
 },
 "Chuck": {
-    "image": "media/photo/chuck.jpg",
-    "class":"Damage Dealer",
-    "rarity":"Mythic",
-    "health":7000,
-    "damage":800,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/chuck.jpg",
+"class": "Controller",
+"rarity": "Mythic",
+"health": 7050,
+"damage": "3 x 810",
+"range": "Normal",
+"reload": "Slow",
+"super": "Choo-Choo!: Dash to the nearest Post in line of sight, damaging enemies on the way. While no Posts are in line of sight, throw a new Post to the ground.",
+"gadgets": [
+"Rerouting: Chuck removes the nearest Post and recharges his Super. Cooldown: 10 seconds.",
+"Ghost Train: Chuck's next Super can go through walls! Cooldown: 17 seconds."
+],
+"passives": [
+"Tickets Please!: Dashing through enemies with his Super will also steal 33% of their ammo.",
+"Pit Stop: Increase the maximum amount of Posts by 1."
+]
 },
 "Charlie": {
-    "image": "media/photo/charlie.jpg",
-    "class":"Controller",
-    "rarity":"Mythic",
-    "health":6000,
-    "damage":750,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/charlie.jpg",
+"class": "Controller",
+"rarity": "Mythic",
+"health": 3700,
+"damage": 800,
+"range": "Long",
+"reload": "Slow",
+"super": "Cocoon: Charlie throws forward a bundle of hair wrapping around an enemy on hit, disabling them until the hairy cocoon is destroyed.",
+"gadgets": [
+"Spiders: Charlie releases 3 spiders that seek and attack the nearest enemies. Cooldown: 20 seconds.",
+"Personal Space: Charlie cocoons herself, healing 50% of her total health. Cooldown: 15 seconds."
+],
+"passives": [
+"Slimy: Cocoon leaves a slimy trail behind it for 5 seconds that slows down enemies walking over it.",
+"Digestive: Cocooned enemies lose 25% of their health while cocooned."
+]
 },
 "Mico": {
-    "image": "media/photo/mico.jpg",
-    "class":"Assassin",
-    "rarity":"Mythic",
-    "health":6000,
-    "damage":850,
-    "range":"Short",
-    "reload":"Slow",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/mico.jpg",
+"class": "Assassin",
+"rarity": "Mythic",
+"health": 3500,
+"damage": 1140,
+"range": "Normal",
+"reload": "Very Slow",
+"super": "Out of Frame: Mico jumps out of frame, becoming invulnerable while controlling his landing position and damaging nearby enemies when landing.",
+"gadgets": [
+"Clipping Scream: Mico lets out a deafening scream towards the nearest enemy, dealing 285 damage and slowing down enemies for 2 seconds on hit. Cooldown: 15 seconds.",
+"Presto: Mico's next jump has 34% longer range. Cooldown: 14 seconds."
+],
+"passives": [
+"Monkey Business: Every 5 seconds, Mico's basic attack steals ammo from his enemies after hitting them.",
+"Record Smash: Mico deals 100% extra damage against non Brawlers."
+]
 },
 "Melodie": {
   "image": "media/photo/melodie.jpg",
-    "class":"Assassin",
-    "rarity":"Mythic",
-    "health":6500,
-    "damage":700,
-    "range":"Medium",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+    "class": "Assassin",
+    "rarity": "Mythic",
+    "health": 7220,
+    "damage": 874,
+    "range": "Long",
+    "reload": "Normal",
+    "super": "Catchy Chorus: Melodie can dash forward multiple times to catch her enemies.",
+    "gadgets": [
+      "Interlude: Melodie gains 10% Shield from each note orbiting her. Cooldown: 19 seconds.",
+      "Perfect Pitch: Melodie's notes get 25% increased movement speed and 60% wider orbit for 5 seconds. Cooldown: 14 seconds."
+    ],
+    "passives": [
+      "Extended Mix: Melodie's notes last for 25% longer before vanishing.",
+      "Fast Beats: Melodie gains 6% increased movement speed from each note orbiting her."
+    ]
 },
 "Lily": {
-    "image": "media/photo/lily.jpg",
-    "class":"Assassin",
-    "rarity":"Mythic",
-    "health":6200,
-    "damage":900,
-    "range":"Short",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/lily.png",
+"class": "Assassin",
+"rarity": "Mythic",
+"health": 4200,
+"damage": 1060,
+"range": "Short",
+"reload": "Very Fast",
+"super": "Flourish: Throw a seed in a straight line. If it hits an enemy, Lily teleports behind them.",
+"gadgets": [
+"Vanish: Lily enters the Shadow Realm for 3 seconds. Cooldown: 22 seconds.",
+"Repot: The next Flourish becomes a thrown attack, and Lily teleports to the destination on impact. Cooldown: 10 seconds."
+],
+"passives": [
+"Spiky: After teleporting to an enemy, Lily's next attack deals 530 more damage.",
+"Vigilance: Gain 15% movement speed while an enemy is in her Super charge radius."
+]
 },
 "Clancy": {
-    "image": "media/photo/clancy.jpg",
-    "class":"Damage Dealer",
-    "rarity":"Mythic",
-    "health":6500,
-    "damage":800,
-    "range":"Medium",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/clancy.jpg",
+"class": "Damage Dealer",
+"rarity": "Mythic",
+"health": 7600,
+"damage": "1400",
+"range": "Long",
+"reload": "Slow",
+"super": "Torrent: Clancy's Super upgrades each stage. STAGE 1: Clancy fires a torrent of paintballs in a cone in front of him. STAGE 2: Paintballs travel further. STAGE 3: Paintballs deal 16% additional damage!",
+"gadgets": [
+"Tactical Retreat: Clancy dashes and reloads 1 ammo. Cooldown: 13 seconds.",
+"Snappy Shooting: Clancy gains double tokens for 5 seconds. Cooldown: 12 seconds."
+],
+"passives": [
+"Recon: Clancy starts the match with 2 tokens.",
+"Pumping Up: Clancy reloads all of his ammo on every enemy takedown."
+]
 },
 "Moe": {
-    "image": "media/photo/moe.jpg",
-    "class":"Damage Dealer",
-    "rarity":"Mythic",
-    "health":6200,
-    "damage":800,
-    "range":"Medium",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/moe.png",
+"class": "Damage Dealer",
+"rarity": "Mythic",
+"health": "5760 (Normal Form); 5600 + 350 (Giga Drill Break Form)",
+"damage": "800 (Normal Form); 4480 + 280 (Giga Drill Break Form)",
+"range": "Short (Giga Drill Break Form)",
+"reload": "Very Fast (Giga Drill Break Form)",
+"super": "Moe's Machine: Moe exits his Driller and returns to his normal form.",
+"gadgets": [
+"Rat Race: Moe dashes a short distance in his Driller, destroying walls and knocking back Brawlers in the process. Cooldown: 16 seconds.",
+"Dodgy Digging: Moe digs up some 'borrowed' goods, increasing his Super charge rate by 50% for 5 seconds. Cooldown: 13 seconds."
+],
+"passives": [
+"Skipping Stones: Moe's basic attacks bounce one more time. The range of the attack remains the same.",
+"Speeding Ticket: Moe's Driller has increased travel speed."
+]
 },
 "Shade": {
-    "image": "media/photo/shade.jpg",
-    "class":"Assassin",
-    "rarity":"Mythic",
-    "health":6500,
-    "damage":850,
-    "range":"Short",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/shade.jpg",
+"class": "Assassin",
+"rarity": "Epic",
+"health": 7030,
+"damage": "1520 (base); 3040 (center damage)",
+"range": "Short",
+"reload": "Very Fast",
+"super": "Incorporeal Form: Shade leaves the physical world and can move directly through the environment. It also gains a movement speed boost.",
+"gadgets": [
+"Longarms: The next main attack has 50% longer range. Cooldown: 15 seconds.",
+"Jump Scare: Shade spooks nearby enemies, slowing them for 4 seconds. Cooldown: 9 seconds."
+],
+"passives": [
+"Spooky Speedster: Hitting opponents with the center of Shade's main attack gives a short movement speed boost.",
+"Hardened Hoodie: Shade gets 30% damage reduction while in its Incorporeal Form."
+]
 },
 
 "Spike": {
-    "image": "media/photo/spike.jpg",
-    "class":"Damage Dealer",
-    "rarity":"Legendary",
-    "health":4800,
-    "damage":850,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/spike.jpg",
+"class": "Damage Dealer",
+"rarity": "Legendary",
+"health": 5400,
+"damage": 882,
+"range": "Long",
+"reload": "Slow",
+"super": "Stick Around!: Spike lobs a thorny grenade. Enemies caught in the blast area take damage and are slowed down.",
+"gadgets": [
+"Popping Pincushion: Spike aims and fires a wave of needles that deal 900 damage. Targets that are hit with 2 needles become rooted for 1 sec. Cooldown: 17 seconds.",
+"Life Plant: Spike throws a large cactus with 3150 health to give cover to teammates. If destroyed, the cactus bursts, and all nearby teammates recover 1620 health. When destroyed, the plant also deals 1080 area damage that pushes enemies back. Cooldown: 20 seconds."
+],
+"passives": [
+"Fertilize: Super heals for 50% of damage dealt.",
+"Curveball: Spikes from the cactus grenade fly in a curving motion, making it easier to hit targets."
+]
 },
 "Crow": {
-    "image": "media/photo/crow.jpg",
-    "class":"Assassin",
-    "rarity":"Legendary",
-    "health":4800,
-    "damage":600,
-    "range":"Long",
-    "reload":"Fast",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/crow.jpg",
+"class": "Assassin",
+"rarity": "Legendary",
+"health": 6000,
+"damage": "3 x 640",
+"range": "Long",
+"reload": "Fast",
+"super": "Swoop: Crow takes to the skies, throwing a ring of poisoned daggers around him both on take-off and landing.",
+"gadgets": [
+"Instapoison: Crow instantly deals remaining poison damage to all Crow-poisoned enemies and gains a shield for 150% of the value. Cooldown: 20 seconds.",
+"Slowing Toxin: Throw a kunai that damages, slows and poisons the first enemy hit for 2 sec. Cooldown: 17 seconds."
+],
+"passives": [
+"Carrion Crow: Crow deals +30% damage with his attack and Super to targets with 50% or less health.",
+"Extra Toxic: Crow's poison saps the strength of enemies, who deal 15% less damage while poisoned."
+]
 },
 "Leon": {
-    "image": "media/photo/leon.jpg",
-    "class":"Assassin",
-    "rarity":"Legendary",
-    "health":6000,
-    "damage":750,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/leon.jpg",
+"class": "Assassin",
+"rarity": "Legendary",
+"health": 6600,
+"damage": "4 x 960",
+"range": "Very Long",
+"reload": "Normal",
+"super": "Smoke Bomb: Leon becomes invisible for 6 seconds. If he attacks, he will be revealed. Enemies close to Leon will be able to spot him.",
+"gadgets": [
+"Lollipop Drop: Leon throws a stealthy area for his team to hide in. The lollipop slowly loses its health over time. Cooldown: 20 seconds.",
+"Clone Projector: Leon creates an illusion of himself to confuse his enemies. The clone attacks enemies dealing minor damage. Cooldown: 13 seconds."
+],
+"passives": [
+"Smoke Trails: When Leon is not visible, he gains 30% movement speed for the duration of his invisibility. The first attack after breaking invisibility deals +15% damage.",
+"Invisiheal: Leon recovers 1320 health per second while his Super is active and his Super duration is +1 sec longer."
+]
 },
 "Sandy": {
-    "image": "media/photo/sandy.jpg",
-    "class":"Controller",
-    "rarity":"Legendary",
-    "health":6500,
-    "damage":700,
-    "range":"Medium",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/sandy.jpg",
+"class": "Controller",
+"rarity": "Legendary",
+"health": 8200,
+"damage": 1800,
+"range": "Normal",
+"reload": "Normal",
+"super": "Sandstorm: Sandy summons a sandstorm that lasts for 9 seconds and hides friendly Brawlers inside it.",
+"gadgets": [
+"Sleep Stimulator: Sandy falls asleep for 1.5 seconds and his health is fully restored. Cooldown: 11 seconds.",
+"Sweet Dreams: Sandy's next attack lulls opponents to sleep for 1 seconds. They will, however, wake up from any damage. Cooldown: 18 seconds."
+],
+"passives": [
+"Rude Sands: Sandstorm now also damages enemies for 216 damage per second.",
+"Healing Winds: Sandstorm now also heals friendly Brawlers for 410 health per second."
+]
 },
 "Amber": {
-    "image": "media/photo/amber.jpg",
-    "class":"Controller",
-    "rarity":"Legendary",
-    "health":6000,
-    "damage":500,
-    "range":"Long",
-    "reload":"Very Fast",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/amber.jpg",
+"class": "Controller",
+"rarity": "Legendary",
+"health": 5780,
+"damage": 3570,
+"range": "Long",
+"reload": "Very Fast",
+"super": "Torch 'em!: Amber throws a flask of her fire fluid that she can then light up with her firebreathing. Bushes and opposing Brawlers will be toast! (One flask at a time!)",
+"gadgets": [
+"Dancing Flames: Amber creates 3 orbiting flames around her for 5 seconds, dealing 1606 damage on hit. Cooldown: 14 seconds.",
+"Fire Starters: Amber runs fast for 3 seconds while spilling her fire fluid, which she can then ignite. Cooldown: 15 seconds."
+],
+"passives": [
+"Wild Flames: Amber can have two fuel puddles on the ground simultaneously and she will recharge her Super automatically when standing near one.",
+"Scorchin' Siphon: While being near a puddle of fire fluid, Amber uses it to reload her firebreathing 50% faster."
+]
 },
 "Meg": {
-    "image": "media/photo/meg.jpg",
-    "class":"Tank",
-    "rarity":"Legendary",
-    "health":7000,
-    "damage":650,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/meg.png",
+"class": "Tank",
+"rarity": "Legendary",
+"health": 2400,
+"damage": "2 x 300",
+"range": "Long",
+"reload": "Very Fast",
+"super": "Mega Machina: Meg jumps into her Mecha suit for some colossal carnage!",
+"gadgets": [
+"Toolbox: Meg drops her toolbox, which increases the reload speed for nearby allies by 35% until it gets destroyed. Cooldown: 19 seconds.",
+"Jolting Volts: Heal the Mecha by 259 health per second for 5 seconds. Cooldown: 17 seconds."
+],
+"passives": [
+"Force Field: Meg is protected by a 30% shield for 10 seconds when her Mecha is destroyed.",
+"Heavy Metal: Upon expiring, the Mecha suit explodes, dealing 1200 damage to nearby opponents and pushing them away."
+]
 },
 "Chester": {
-    "image": "media/photo/chester.jpg",
-    "class":"Damage Dealer",
-    "rarity":"Legendary",
-    "health":6500,
-    "damage":800,
-    "range":"Medium",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/chester.jpg",
+"class": "Damage Dealer",
+"rarity": "Legendary",
+"health": 6460,
+"damage": "4 x 1139",
+"range": "Long",
+"reload": "Normal",
+"super": "Jack in the Box: Chester throws an exploding candy popper that destroys the environment, knocking back and damaging enemies.",
+"gadgets": [
+"Spicy Dice: Chester gets a new random Super that is different from his current one. Cooldown: 12 seconds.",
+"Candy Beans: Chester eats a mystery flavored candy bean from his cap, gaining a random buff for 5 seconds. Cooldown: 15 seconds."
+],
+"passives": [
+"Sneak Peek: Chester will always know what his next Super will be.",
+"Single Bell'o'mania: The first bell of Chester's attack sequence does 150% damage."
+]
 },
 "Cordelius": {
-    "image": "media/photo/cordelius.jpg",
-    "class":"Assassin",
-    "rarity":"Legendary",
-    "health":6000,
-    "damage":850,
-    "range":"Medium",
-    "reload":"Fast",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/cordelius.jpg",
+"class": "Assassin",
+"rarity": "Legendary",
+"health": 6650,
+"damage": "2 x 1520",
+"range": "Normal",
+"reload": "Very Fast",
+"super": "This is my domain: Cordelius shoots a Shadow Mushroom that passes through walls and on hit transfers the target and him to the Shadow Realm for 8 seconds. Cordelius has 10% higher movement speed and 20% faster reload speed in the Shadow Realm.",
+"gadgets": [
+"Replanting: Cordelius jumps over a piece of terrain quickly. Cooldown: 18 seconds.",
+"Poison Mushroom: Cordelius's next main attack shoots a poison mushroom that prevents the enemy from attacking for 1 second. Cooldown: 18 seconds."
+],
+"passives": [
+"Mushroom Kingdom: Cordelius spawns 3 mushrooms to the Shadow Realm after using his Super, healing allies and damaging enemies for 1368 health on pickup.",
+"Comboshrooms: Hitting the second mushroom to the same target as the first, deals 20% extra damage."
+]
 },
 "Surge": {
-    "image": "media/photo/surge.jpg",
-    "class":"Damage Dealer",
-    "rarity":"Legendary",
-    "health":6000,
-    "damage":800,
-    "range":"Long",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/surge.png",
+"class": "Damage Dealer",
+"rarity": "Legendary",
+"health": 5940,
+"damage": 2124,
+"range": "Normal",
+"reload": "Slow",
+"super": "Party Tricks: With each Super, Surge gets upgraded (MAX 3). Upgrades are lost when Surge is defeated. STAGE 1: Boosted movement speed, STAGE 2: Increased weapon range, STAGE 3: Main attack splits into 6 (instead of 2).",
+"gadgets": [
+"Power Surge: Surge overloads his circuits and increases his upgrade stage by 1 for 10 seconds. Cooldown: 13 seconds.",
+"Power Shield: Within the next 2 seconds, Surge consumes 50% of the damage of the next incoming hit and uses the energy to reload 2 ammo. Cooldown: 17 seconds."
+],
+"passives": [
+"To The Max!: Surge's main attack now splits when hitting walls.",
+"Serve Ice Cold: Surge keeps his STAGE 1 Super upgrade for the full match duration."
+]
 },
 "Kit": {
-    "image": "media/photo/kit.jpg",
-    "class":"Support",
-    "rarity":"Legendary",
-    "health":6000,
-    "damage":750,
-    "range":"Short",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/kit.jpg",
+"class": "Support",
+"rarity": "Legendary",
+"health": 6200,
+"damage": 2000,
+"range": "Short",
+"reload": "Very Fast",
+"super": "Carry Me: Jump and attach to the back of another Brawler. Heals allies and damages enemies over time.",
+"gadgets": [
+"Cheeseburger: Heals himself and the friendly Brawler he is attached to for 30%. Cooldown: 15 seconds.",
+"Cardboard Box: Hide in a cardboard box becoming invisible for 3 seconds. Charges the Super 100% faster while stationary. Cooldown: 23 seconds."
+],
+"passives": [
+"Power Hungry: Kit gains 150% power from each Power Cube.",
+"Overly Attached: Kit attaches to friendly Brawlers for 5 seconds longer."
+]
 },
 "Draco": {
-    "image": "media/photo/draco.jpg",
-    "class":"Tank",
-    "rarity":"Legendary",
-    "health":8000,
-    "damage":850,
-    "range":"Short",
-    "reload":"Normal",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/draco.jpg",
+"class": "Tank",
+"rarity": "Legendary",
+"health": 8960,
+"damage": 1120,
+"range": "Normal",
+"reload": "Normal",
+"super": "Dragon Solo: Riding his inflatable dragon and setting off fireworks, Draco promises a show-stopping finale every night.",
+"gadgets": [
+"Upper Cut: The next Lance Stab also throws enemies in the air for a short time. Cooldown: 11 seconds.",
+"Last Stand: Draco can not fall under one health for 2 seconds. Cooldown: 22 seconds."
+],
+"passives": [
+"Shredding: Dragon Solo now also heals for 2240 when activated.",
+"Expose: Every 5 seconds, the next Lance Stab exposes enemies on hit. Exposed enemies take 35% increased damage for 5 seconds."
+]
 },
 "Kenji": {
-    "image": "media/photo/kenji.jpg",
-    "class":"Assassin",
-    "rarity":"Legendary",
-    "health":7000,
-    "damage":850,
-    "range":"Short",
-    "reload":"Fast",
-    "super":"Placeholder",
-    "gadgets":["Gadget 1","Gadget 2"],
-    "passives":["Passive 1","Passive 2"]
+  "image": "media/photo/kenji.jpg",
+"class": "Assassin",
+"rarity": "Legendary",
+"health": 8000,
+"damage": "1500 (Dash) / 2000 (Slash)",
+"range": "Short",
+"reload": "Very Fast",
+"super": "Slashimi: Kenji targets an area with precise slices, dealing heavy damage and gaining invulnerability for the duration of the Super.",
+"gadgets": [
+"Dashi Dash: Kenji's basic attack only uses Dash for the next 3 seconds. Cooldown: 15 seconds.",
+"Hosomaki Healing: Kenji instantly heals 50% of damage taken over the last 3 seconds. Cooldown: 17 seconds."
+],
+"passives": [
+"Nigiri Nemesis: After avoiding damage for 5 seconds, gets 60% damage reduction from the next enemy attack.",
+"Studied the Blade: Slashimi's slices have 30% longer range."
+]
 },
 
 "Gale": {
   "image": "media/photo/gale.jpg",
-  "class": "Controller",
-  "rarity": "Mythic",
-  "health": 6400,
-  "damage": 560,
-  "range": "Long",
-  "reload": "Normal",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+"class": "Controller",
+"rarity": "Epic",
+"health": 7200,
+"damage": 3240,
+"range": "Long",
+"reload": "Very Fast",
+"super": "Gale Force!: Gale delivers an almighty gust of wind and snow, pushing back all enemies caught in its path.",
+"gadgets": [
+"Twister: Gale uses his leaf blower to create a local tornado, which will push away any opponents that try to pass through. Cooldown: 21 seconds.",
+"Spring Ejector: Gale drops a bounce pad underfoot, launching friend and foe alike into the air. Cooldown: 20 seconds."
+],
+"passives": [
+"Freezing Snow: Gale's snow balls now also slow down opponents for 0.5 seconds.",
+"Blustery Blow: Gale's Super now stuns enemies for 1.25 seconds if they are pushed against obstacles."
+]
 },
 "Colette": {
   "image": "media/photo/colette.jpg",
-  "class": "Damage Dealer",
-  "rarity": "Epic",
-  "health": 6800,
-  "damage": 500,
-  "range": "Long",
-  "reload": "Normal",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+"class": "Damage Dealer",
+"rarity": "Epic",
+"health": 6840,
+"damage": "39% (min 950)",
+"range": "Long",
+"reload": "Normal",
+"super": "Time to Collect: Colette makes a dash forth and back, dealing taxing damage to everyone in her path, based on their maximum health.",
+"gadgets": [
+"Gotcha!: Colette fires a projectile that heals for 80% of damage dealt. Uses ammo and can be fired 3 times before cooldown. Cooldown: 17 seconds.",
+"Na-Ah!: Colette fires a projectile that charms a Brawler for 1 sec. Uses ammo. Cooldown: 17 seconds."
+],
+"passives": [
+"Mass Tax: Colette takes 75% less damage during her Super and gains 30% shield for 3 sec if she hits a Brawler.",
+"Push It: All enemy Brawlers hit by Colette's charge are carried to the farthest point of the attack! At max distance, they are stunned for 0.2 sec."
+]
 },
 "Lou": {
   "image": "media/photo/lou.jpg",
-  "class": "Controller",
-  "rarity": "Mythic",
-  "health": 6200,
-  "damage": 440,
-  "range": "Long",
-  "reload": "Fast",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+"class": "Controller",
+"rarity": "Mythic",
+"health": 6650,
+"damage": "3 x 836",
+"range": "Very Long",
+"reload": "Very Fast",
+"super": "Can-Do: Lou lobs a can of freezing cold syrup that creates an icy, slippery area on the ground that also slowly freezes and damages enemies.",
+"gadgets": [
+"Ice Block: Lou shields himself with ice, becoming invulnerable for 1 seconds. Cooldown: 18 seconds.",
+"Cryo Syrup: Instantly adds 50% freeze meter to opponents inside Lou's Super. Cooldown: 18 seconds."
+],
+"passives": [
+"Supercool: Opponents standing on Lou's Super area get frozen 14% faster.",
+"Hypothermia: Opponents lose up to 50% of their damage based on how frozen they are from Lou's attacks."
+]
 },
-"Colonel Ruffs": {
+"Ruffs": {
   "image": "media/photo/colonel_rufs.jpg",
-  "class": "Support",
-  "rarity": "Mythic",
-  "health": 5600,
-  "damage": 700,
-  "range": "Long",
-  "reload": "Normal",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+"class": "Support",
+"rarity": "Mythic",
+"health": 6000,
+"damage": "2 x 1200",
+"range": "Long",
+"reload": "Fast",
+"super": "Supply Drop: Ruffs calls down a supply drop that damages any opponent it hits, and leaves a power-up for friendly Brawlers to pick up.",
+"gadgets": [
+"Take Cover: Ruffs throws down 3 sandbags as cover. Each one has 40% of Ruffs' max health. Cooldown: 16 seconds.",
+"Air Support: Ruffs calls a barrage around the nearest opponent, dealing 1200 damage with each hit. Cooldown: 15 seconds."
+],
+"passives": [
+"Air Superiority: Supply Drop now includes a bomb that adds 120% more damage to the drop and also allows it to destroy walls.",
+"Field Promotion: Friendly Brawlers have their maximum health increased by 40 every second that they are in range of this ability while it's active."
+]
 },
 "Belle": {
   "image": "media/photo/belle.jpg",
-  "class": "Marksman",
-  "rarity": "Epic",
-  "health": 5600,
-  "damage": 1040,
-  "range": "Very Long",
-  "reload": "Normal",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+"class": "Marksman",
+"rarity": "Epic",
+"health": 4640,
+"damage": 1664,
+"range": "Very Long",
+"reload": "Fast",
+"super": "Spotter: Belle fires a spotting shot that marks any opponent it hits. The marked opponent takes extra damage from any source. Only one target can be marked at a time.",
+"gadgets": [
+"Nest Egg: Belle places a trap on the ground that will explode when triggered by an opponent. The trap deals 499 damage, and slows down anyone within its blast radius for 3 seconds. Cooldown: 20 seconds.",
+"Reverse Polarity: Belle's next Electro-Bolt bounces from walls. Cooldown: 14 seconds."
+],
+"passives": [
+"Positive Feedback: Belle gains a 20% shield whenever her Electro-Bolts hit a target.",
+"Grounded: Getting marked by Belle's Super prevents the opponent from reloading their attack for 5 seconds."
+]
 },
 "Buzz": {
   "image": "media/photo/buzz.jpg",
-  "class": "Assassin",
-  "rarity": "Mythic",
-  "health": 7600,
-  "damage": 840,
-  "range": "Short",
-  "reload": "Fast",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+"class": "Assassin",
+"rarity": "Mythic",
+"health": 10000,
+"damage": "5 x 840",
+"range": "Short",
+"reload": "Very Fast",
+"super": "Torpedo Throw: Buzz throws out his torpedo buoy. If it hits an opponent or a wall, Buzz hauls himself over there, stunning nearby opponents where he lands. The stun time increases based on distance travelled.",
+"gadgets": [
+"Reserve Buoy: Instantly fills the Super meter, but the next Torpedo Throw doesn't stun opponents. Cooldown: 18 seconds.",
+"X-Ray Shades: Buzz can see into all bushes in his Super charging area for 12 seconds. Cooldown: 20 seconds."
+],
+"passives": [
+"Tougher Torpedo: The minimum duration of Buzz's Super stun is increased by 0.5 seconds.",
+"Eyes Sharp: Buzz's Super charging area is increased by 33%."
+]
 },
 "Fang": {
-  "image": "media/photo/fang.jpg",
-  "class": "Assassin",
-  "rarity": "Mythic",
-  "health": 8600,
-  "damage": 960,
-  "range": "Short",
-  "reload": "Fast",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+  "image": "media/photo/fang.png",
+"class": "Assassin",
+"rarity": "Mythic",
+"health": 9120,
+"damage": "2584 (Attack), 2850 (Super)",
+"range": "Very Long",
+"reload": "Very Fast",
+"super": "Sneak Ahead: Fang flies into a nasty kick that, upon contact, can chain a further 3 consecutive kicks to nearby enemies.",
+"gadgets": [
+"Corn-Fu: Fang tosses a handful of corn kernels into the air, making it rain popcorn! Each kernel pop deals 1033 damage. Cooldown: 15 seconds.",
+"Roundhouse Kick: Fang spins and hits all enemies around him, stunning them for 0.5 seconds. Cooldown: 16 seconds."
+],
+"passives": [
+"Divine Soles: Reduce 912 damage from incoming hits once every 3 seconds. Maximum reduction is 90% of the incoming damage.",
+"Fresh Kicks: When Fang defeats an enemy Brawler with his Super, it's recharged instantly, allowing him to use his Super again."
+]
 },
 "Eve": {
-  "image": "media/photo/eve.jpg",
-  "class": "Spawner",
-  "rarity": "Mythic",
-  "health": 6000,
-  "damage": 520,
-  "range": "Long",
-  "reload": "Normal",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+  "image": "media/photo/eve.png",
+"class": "Damage Dealer",
+"rarity": "Mythic",
+"health": 3100,
+"damage": "640 (Largest egg)",
+"range": "Very Long",
+"reload": "Normal",
+"super": "Baby Boom: Eve releases a big egg, which incubates a group of hatchlings. Hatchlings attach to enemies and deal damage over time.",
+"gadgets": [
+"Motherly Love: Hatchlings spawned from an active big egg will now heal allies over time instead of dealing damage. Cooldown: 11 seconds.",
+"Gotta Go!: Eve jumps away and leaves behind a hatchling. Cooldown: 17 seconds."
+],
+"passives": [
+"Unnatural Order: Reverses the order of the eggs shot by her Egg Shooter.",
+"Happy Surprise: Every 5 seconds, the next largest egg hitting an enemy of her Egg Shooter will spawn a hatchling."
+]
 },
 "Janet": {
-  "image": "media/photo/janet.jpg",
-  "class": "Marksman",
-  "rarity": "Mythic",
-  "health": 6400,
-  "damage": 980,
-  "range": "Long",
-  "reload": "Normal",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+  "image": "media/photo/janet.png",
+"class": "Marksman",
+"rarity": "Mythic",
+"health": 6120,
+"damage": "1800 (Attack), 7 x 1440 (Super)",
+"range": "Normal (Attack), Short (Super)",
+"reload": "Normal",
+"super": "Crescendo: Janet uses her jetpack to take to the skies for a moment, where she attacks opponents from above for the full duration.",
+"gadgets": [
+"Backstage Pass: Janet's next High Note pushes her back, even over walls. The more focused her attack is, the further she'll be pushed back. Cooldown: 16 seconds.",
+"Drop the Bass: Janet deploys a speaker that deals 180 damage per second to all enemies in the area until it gets destroyed. Cooldown: 18 seconds."
+],
+"passives": [
+"Vocal Warm Up: Janet's attack focuses 30% faster.",
+"Stage View: While in the air with her jetpack, Janet reveals a large area of bushes around herself."
+]
 },
 "Otis": {
   "image": "media/photo/otis.jpg",
-  "class": "Controller",
-  "rarity": "Mythic",
-  "health": 6400,
-  "damage": 480,
-  "range": "Long",
-  "reload": "Normal",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+"class": "Controller",
+"rarity": "Mythic",
+"health": 3600,
+"damage": "3 x 500",
+"range": "Long",
+"reload": "Normal",
+"super": "Silent Seabed: Otis flings Cil who grabs onto the first enemy hit and prevents them from attacking for a short while.",
+"gadgets": [
+"Dormant Star: The next starfish will stay on the ground if an enemy is not hit, laying dormant until an enemy gets close. Cooldown: 11 seconds.",
+"Phat Splatter: Otis's next attack shoots a giant ink ball that leaves a puddle, dealing 625 damage over time for 3.8 seconds. Cooldown: 17 seconds."
+],
+"passives": [
+"Stencil Glue: Cil mightily squeezes the enemy with all his might, preventing them from attacking for 33% longer.",
+"Ink Refills: Otis now shoots 33% more ink drops."
+]
 },
 "R-T": {
-  "image": "media/photo/r-t.jpg",
-  "class": "Damage Dealer",
-  "rarity": "Mythic",
-  "health": 7000,
-  "damage": 700,
-  "range": "Long",
-  "reload": "Normal",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+  "image": "media/photo/r-t.png",
+"class": "Damage Dealer",
+"rarity": "Mythic",
+"health": 6560,
+"damage": "1120",
+"range": "Very Long",
+"reload": "Normal",
+"super": "Hide and Seek: R-T splits into two. R-T's legs are left behind while both R-T and his legs gain a short ranged, powerful attack that marks enemies. R-T moves faster while split.",
+"gadgets": [
+"Out of Line: Instantly charges R-T's Super. Cooldown: 20 seconds.",
+"ascasascacsasdasd"
+],
+"passives": [
+"Quick Maths: Marks created last 3 seconds longer.",
+"Recording: R-T and his legs take 20% less damage when split."
+]
 },
 "Buster": {
   "image": "media/photo/buster.jpg",
-  "class": "Tank",
-  "rarity": "Mythic",
-  "health": 10400,
-  "damage": 660,
-  "range": "Short",
-  "reload": "Normal",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+"class": "Tank",
+"rarity": "Mythic",
+"health": 5000,
+"range": "Normal",
+"reload" : "Fast",
+"damage": "Lens Flare: Buster shoots a cone of light from his projector, damaging all enemies within range. Damage: 1380, Range: Normal, Reload: Normal",
+"super": "Montage: Buster projects a shield in front of him, blocking all enemy projectiles and reflecting the energy back towards enemies. Damage: 800, Range: Short",
+"gadgets": [
+"Utility Belt: Buster heals himself and all nearby allies for 450 health for each ally in his Super's charge area. Cooldown: 16 seconds.",
+"Slo-Mo Replay: Buster's next Lens Flare pulls enemies towards him. Cooldown: 17 seconds."
+],
+"passives": [
+"Blockbuster: Buster's Lens Flare deals 15% more damage for each ally in his Super's charge area.",
+"Kevlar Vest: While Montage is active Buster takes 10% less damage and is immune to knockbacks, slows and stuns."
+]
 },
 "Angelo": {
   "image": "media/photo/angelo.jpg",
-  "class": "Marksman",
-  "rarity": "Epic",
-  "health": 5200,
-  "damage": 1000,
-  "range": "Very Long",
-  "reload": "Slow",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+"class": "Marksman",
+"rarity": "Epic",
+"health": 5580,
+"range" : "Very Long",
+"reload" : "Very Slow",
+"damage": "Take Aim: Hold the aim to charge up your shots. Damage: 3600, Range: Very Long, Reload speed: Very Fast",
+"super": "Welcome to the Swamp: Angelo creates a poison cloud that lasts for 8 seconds and damages enemies. While in the cloud, Angelo's arrows become poisoned, dealing extra damage over time. Damage: 900",
+"gadgets": [
+"Stinging Flight: Fly into the air for 1 second. Drains 594 health from nearby enemies on takeoff. Cooldown: 18 seconds.",
+"Master Fletcher: The next Take Aim pierces enemies and the environment. Cooldown: 18 seconds."
+],
+"passives": [
+"Empower: Staying inside the Super will heal Angelo for 558 per second.",
+"Flow: Angelo gains 25% increased movement speed after entering water."
+]
 },
 "Berry": {
   "image": "media/photo/berry.jpg",
-  "class": "Support",
-  "rarity": "Epic",
-  "health": 6400,
-  "damage": 700,
-  "range": "Long",
-  "reload": "Normal",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+"class": "Support",
+"rarity": "Epic",
+"health": 5200,
+"damage": "1320 (per second)",
+"range": "Normal",
+"reload": "Very Slow",
+"super": "Sweet Swirl: Berry dashes forward, spinning and dropping melted ice cream around him, damaging enemies and healing allies on impact and over time.",
+"gadgets": [
+"Healthy Additives: Berry's next main attack area lasts for 100% longer. Cooldown: 12 seconds.",
+"Friendship is Great: Berry swipes his tail, knocking back enemies and healing nearby allies for 1040 health. Cooldown: 17 seconds."
+],
+"passives": [
+"Floor is Fine: Berry gains 50% increased reload speed when standing on his own melted ice cream.",
+"Making a Mess: Berry's basic attack gains 20% extra damage on impact in areas with no ice cream."
+]
 },
 "Juju": {
   "image": "media/photo/juju.jpg",
-  "class": "Controller",
-  "rarity": "Mythic",
-  "health": 6200,
-  "damage": 760,
-  "range": "Long",
-  "reload": "Normal",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+"class": "Artillery",
+"rarity": "Mythic",
+"health": 3100,
+"damage": "1000",
+"range": "Normal",
+"reload": "Normal",
+"super": "From the Other Side: Juju summons Gris-Gris. This spooky voodoo doll drags itself to the nearest enemy and throws damaging needles at them.",
+"gadgets": [
+"Elementalist: Juju gains a temporary buff based on the current environment she is standing on. Earth: Damage reduction, Grass: Invisibility, Water: Increased movement speed. Cooldown: 17 seconds.",
+"Voodoo Chile: Juju's next main attack has the power of all three elements. Cooldown: 14 seconds."
+],
+"passives": [
+"Numbing Needles: Gris-Gris' attack now also slows the enemy for 1 sec.",
+"Guarded Gris-Gris: Gris-Gris is summoned with a protective shield."
+]
 },
 "Finx": {
   "image": "media/photo/finx.jpg",
-  "class": "Controller",
-  "rarity": "Mythic",
-  "health": 6400,
-  "damage": 700,
-  "range": "Long",
-  "reload": "Normal",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+"class": "Controller",
+"rarity": "Mythic",
+"health": 6660,
+"damage": "1620",
+"range": "Long",
+"reload": "Very Fast",
+"super": "Time Warp: Finx warps time in an area, decreasing the projectile speed of enemy Brawlers caught in the Super, while increasing the projectile speed of any teammates and himself. Finx's projectiles will also get a damage buff.",
+"gadgets": [
+"No Escape: Finx's next projectiles from his main attack freeze the enemies in time for 2 seconds, making them unable to take actions for the duration, but also making them immune to any damage. Cooldown: 17 seconds.",
+"Back to the Finxture: Finx steps back in time, returning to the position and ammo he had 3 seconds ago. Cooldown: 18 seconds."
+],
+"passives": [
+"Primer: Damage dealt only from Finx's projectiles that are sped up by Time Warp, will increase the Super duration by 0.25 seconds each.",
+"Hieroglyph Halt: Finx reduces the reload speed of any enemy Brawlers hit by his main attack by 25% for 3 seconds."
+]
 },
 "Lumi": {
-  "image": "media/photo/lumi.jpg",
-  "class": "Damage Dealer",
-  "rarity": "Mythic",
-  "health": 7000,
-  "damage": 820,
-  "range": "Medium",
-  "reload": "Normal",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+"image" : "media/photo/lumi.jpg" ,
+"class": "Damage Dealer",
+"rarity": "Mythic",
+"health": 3500,
+"damage": "600 (Recall damage: 900)",
+"range": "Long",
+"reload": "Very Fast",
+"super": "Blast Beat: Lumi pounds the ground three times, causing explosions that deal area damage. The third explosion briefly snares enemies, making them unable to move but still able to attack.",
+"gadgets": [
+"Grim and Frostbitten: Lumi creates freezing winds around her morning stars on the ground, creating a slippery surface for 3.9 secs. Cooldown: 23 seconds.",
+"Hit the Lights: Lumi ignites her morning stars on the ground, producing flames which damage nearby enemies for 3.9 seconds. Damage per second: 180. Cooldown: 14 seconds."
+],
+"passives": [
+"Half-Time: Lumi slows enemies hit by her recalled morning stars for 1 seconds.",
+"42% Burnt: The explosions from Lumi's Blast Beat also set the area alight for 4 seconds. Fire damage also scales with explosion damage. Damage per second for the biggest explosion: 280."
+]
 },
 "Ollie": {
-  "image": "media/photo/ollie.jpg",
-  "class": "Tank",
-  "rarity": "Mythic",
-  "health": 9000,
-  "damage": 900,
-  "range": "Short",
-  "reload": "Normal",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+  "image": "media/photo/ollie.png",
+"class": "Tank",
+"rarity": "Mythic",
+"health": 6480,
+"damage": "1080",
+"range": "Normal",
+"reload": "Normal",
+"super": "Hypnotize: Ollie dashes forward with a gnarly hoverboard trick and starts charging a music blast, dealing 960 damage and hypnotizing all enemies around him for 2.5 seconds. While charging his music blast, Ollie will use up to 50% of his max ammo. Enemies will move towards Ollie and cannot be controlled while being hypnotized.",
+"gadgets": [
+"All Eyez on Me: Ollie's next attack will hypnotize any enemies hit for 1 seconds. Cooldown: 15 seconds.",
+"Regulate: Ollie jumps and does a rad kickflip, hypnotizing all enemies where he lands for 1 seconds. Cooldown: 20 seconds."
+],
+"passives": [
+"Renegade: After dashing forward with his Super, Ollie gains a 3000 decaying shield over 4 seconds.",
+"Kick, Push: While near walls Ollie kicks off his hoverboard and gains 20% extra movement speed."
+]
 },
 "Meeple": {
   "image": "media/photo/meeple.jpg",
-  "class": "Controller",
-  "rarity": "Mythic",
-  "health": 6200,
-  "damage": 740,
-  "range": "Long",
-  "reload": "Normal",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+"class": "Controller",
+"rarity": "Epic",
+"health": 4620,
+"damage": "1764",
+"range": "Long",
+"reload": "Normal",
+"super": "Critical Success: Meeple cheats, somehow rolling a NAT21 on a d20, allowing all team projectiles in the Super area to pierce through environment for 10 seconds.",
+"gadgets": [
+"Mansions of Meeple: Meeple's next attack creates dice towers around the impact area and deals 700 damage. Cooldown: 22 seconds.",
+"Ragequit: Meeple lashes out in rage at nearby enemies, stunning and knocking them back. The less hitpoints Meeple has, the stun and knockback effects increase. Cooldown: 18 seconds."
+],
+"passives": [
+"Rule Bending: Critical success also increases allies reload speed within the area by 20%.",
+"Do Not Pass Go: When you shoot through environment deal 420 more damage."
+]
 },
 "Alli": {
-  "image": "media/photo/alli.jpg",
-  "class": "Assassin",
-  "rarity": "Mythic",
-  "health": 7600,
-  "damage": 920,
-  "range": "Short",
-  "reload": "Fast",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+  "image": "media/photo/alli.png",
+"class": "Assassin",
+"rarity": "Mythic",
+"health": 3900,
+"damage": "1300",
+"range": "Short",
+"reload": "Slow",
+"super": "Stalker: Alli gains stealth (pulsing invisibility). Attacking does not break stealth. The next main attack she does will deal increased damage based on the enemy's current health percent. The higher their current health, the more damage Alli will deal! Duration: 7s. Current health % damage: +25%.",
+"gadgets": [
+"Feed the Gators: The next main attack heals Alli for 100% of damage dealt. Cooldown: 10 seconds.",
+"Cold-Blooded: Alli becomes enraged for the next 4 secs. Can only be activated when an enemy is visible. Cooldown: 17 seconds."
+],
+"passives": [
+"Lizard Limbs: While enraged Alli regenerates health faster out of combat after only 1.5 seconds.",
+"You Better Run, You Better Take Cover: Alli reloads 25% faster while enraged."
+]
 },
 "Kaze": {
   "image": "media/photo/kaze.jpg",
-  "class": "Assassin",
-  "rarity": "Legendary",
-  "health": 7200,
-  "damage": 960,
-  "range": "Short",
-  "reload": "Fast",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+"class": "Assassin",
+"rarity": "Ultra legendary",
+"health": 7380,
+"damage": "Ninja: 2 x 1350 / Geisha: 1350",
+"range": "Ninja: Normal / Geisha: Short",
+"reload": "Ninja: Normal / Geisha: Very Fast",
+"super": "Ninja: Fist of the Brawl Star (2448 damage, Long range) / Geisha: Fan Storm (1170 damage, Long range)",
+"gadgets": [
+"Gracious Host: Switch to Ninja Aspect and gain 30% Movement Speed for 2.5 sec. Switch to Geisha Aspect and heal for 30% of max health. Cooldown: 6 seconds.",
+"Hensojutsu: Switch to Ninja Aspect and gain short invisibility. Switch to Geisha Aspect and dash forward. Cooldown: 6 seconds."
+],
+"passives": [
+"Gratuity Included: Removes 34% ammo from Brawlers initially caught in the Fan Storm. Increases duration of Gadget effects by 50%.",
+"Advanced Techniques: Hitting an enemy in a Strike Spot also slows them by 30% for 2.5 sec. When a marked enemy is defeated, they will deal area damage to other enemies."
+]
 },
 
 "Starr Nova": {
-  "image": "media/photo/star_nova.jpg",
-  "class": "Unknown",
-  "rarity": "Unknown",
-  "health": "jdkj",
-  "damage": "ksmwkx",
-  "range": "Unknown",
-  "reload": "Unknown",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+  "image": "media/photo/starr_nova.png",
+"class": "Assassin",
+"rarity": "Mythic",
+"health": 7030,
+"damage": "1026 (Normal) / 1900 (Super)",
+"range": "Normal (Normal) / Short (Super)",
+"reload": "Fast",
+"super": "Nova Crystal, Transform!: Dashes and transforms, gaining +25% movement speed, 30% healing from damage, and changing attack shape for 7 seconds. (1900 damage, Short range)",
+"gadgets": [
+"Floaty Time: Deploys an anti-gravity device, allowing teammates to float inside of the area! Cooldown: 20 seconds.",
+"Shining Starr of Friendship and Justice: Fires an energy ball that damages enemies and heals teammates for 1520. Can be teleported to before hitting a target. Cooldown: 20 seconds."
+],
+"passives": [
+"Mystical Starr Technique: Main attack also heals teammates for 307.",
+"Power Level: Maximum: Hitting an enemy Brawler while transformed increases damage by 5% to a maximum of 30%."
+]
 },
 
 "Pierce": {
-  "image": "media/photo/pierce.jpg",
-  "class": "Unknown",
-  "rarity": "Unknown",
-  "health": 0,
-  "damage": 0,
-  "range": "Unknown",
-  "reload": "Unknown",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+  "image": "media/photo/pierce.png",
+"class": "Marksman",
+"rarity": "Legendary",
+"health": 6000,
+"damage": "1900 (Normal) / 2800 (Super)",
+"range": "Very Long (Normal) / Long (Super)",
+"reload": "Very Slow",
+"super": "Fish in a Barrel: Marks an area and fires at Brawlers hit with a piercing shot; each hit drops a shell next to Pierce. (2800 damage, Long range)",
+"gadgets": [
+"Bottomless Mags: Reload 1 ammo and drop a shell next to Pierce. Cooldown: 18 seconds.",
+"You Only Brawl Twice: Pierce absorbs all shells and gains 1200 shield for each one, while also pushing back nearby enemies. Cooldown: 13 seconds."
+],
+"passives": [
+"Mission: Swimpossible: Pierce's last ammo also slows enemies by 25%.",
+"Slip 'n Snipe: When collecting a shell, Pierce gains a short burst (15%) of movement speed."
+]
 },
 "Glowy": {
   "image": "media/photo/globert.jpg",
-  "class": "Unknown",
-  "rarity": "Unknown",
-  "health": 0,
-  "damage": 0,
-  "range": "Unknown",
-  "reload": "Unknown",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+"class": "Support",
+"rarity": "Mythic",
+"health": 3900,
+"damage": "550 (Attack) / 750 (Super)",
+"range": "Long (Attack) / Normal (Super)",
+"reload": "Normal",
+"super": "Creep from the Deep: Glowy reveals his face, causing any enemies facing him to become feared and run away. He also fires damaging and slowing projectiles. (750 damage, Normal range, 2s Fear duration)",
+"gadgets": [
+"More Lumens!: Glowy supercharges his glowbeam tethers, doubling the damage/healing rate for 2.5 secs. Cooldown: 13 seconds.",
+"Slippery Savior: Glowy dashes in a target direction, healing himself and teammates for 1250 on arrival. Cooldown: 17 seconds."
+],
+"passives": [
+"Parasitism: Tethering to an enemy also heals Glowy for 50% of the damage dealt.",
+"Biotic Ecosystem: If Glowy is tethered to an enemy and a teammate at the same time, it will reduce the enemy damage by 20% and increase the teammate's damage by 20%."
+]
 },
 "Damian": {
-  "image": "media/photo/damian.jpg",
-  "class": "Unknown",
-  "rarity": "Unknown",
-  "health": 0,
-  "damage": 0,
-  "range": "Unknown",
-  "reload": "Unknown",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+  "image": "media/photo/damian.png",
+"class": "Tank",
+"rarity": "Mythic",
+"health": 10640,
+"damage": "1330 (Main Attack) / 950 (Explosion)",
+"range": "Short",
+"reload": "Very Fast",
+"super": "Mosh Pit: Damian leaps and creates a personal Mosh Pit lasting 5 seconds. Inside the pit, enemies are knocked back when hitting speakers, dealing 1140 Damage.",
+"gadgets": [
+"Wall of Sound: Damian summons a temporary wall of indestructible amps! Cooldown: 20 seconds.",
+"Spiritual Healing: Damian throws his microphone to a target location. The first teammate to pick it up is healed for 3040 health. Cooldown: 15 seconds."
+],
+"passives": [
+"Vulgar Display of Punch: Damian has a flaming fist during his Super, which burns enemies.",
+"Crowdkill: Knocking a target into a wall stuns them for 0.5 sec."
+]
 },
 "Bolt": {
   "image": "media/photo/bolt.jpg",
-  "class": "Unknown",
-  "rarity": "Unknown",
-  "health": 0,
-  "damage": 0,
-  "range": "Unknown",
-  "reload": "Unknown",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+  "class": "Tank",
+  "rarity": "Epic",
+  "health": 10800,
+  "damage": "3600",
+  "range": "Short",
+  "reload": "Very Slow",
+  "super": "Overdrive: Bolt goes into overdrive, gaining speed and damage reduction, leaving a damaging trail behind him. Duration: 4s, Damage Reduction: 40%.",
+  "gadgets": [
+    "Bouncy Ball: Bolt jumps to a target location and deals area damage. Breaks environments but loses all speed when landing. Cooldown: 20 seconds.",
+    "Oil Change: Bolt gains a 2000 - 4000 health shield based on his current speed. Cooldown: 15 seconds."
+  ],
+  "passives": [
+    "Toss Up: Bolt will knock enemies upwards when he's at full speed.",
+    "Unstoppaball: Bolt is immune to crowd control and gains 15% top speed during his Super."
+  ]
 },
 "Ziggy": {
   "image": "media/photo/ziggy.jpg",
-  "class": "Unknown",
-  "rarity": "Unknown",
-  "health": 0,
-  "damage": 0,
-  "range": "Unknown",
-  "reload": "Unknown",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+  "class": "Controller",
+  "rarity": "Mythic",
+  "health": 6400,
+  "damage": "1900",
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Ziggy's Fantastical Storm: Ziggy unveils his greatest trick, a giant electrical storm that travels rapidly across the environment! It deals massive damage to enemies caught within and moves slower whenever an enemy Brawler is inside.",
+  "gadgets": [
+    "Electric Shuffle: Ziggy hits the nearest enemy with lightning strikes every second for 5 sec. These attacks cost no ammo. Cooldown: 17 seconds.",
+    "Now You See Me...: The next lightning strike also teleports Ziggy to the same location. Cooldown: 13 seconds."
+  ],
+  "passives": [
+    "Thunderstruck: Brawlers damaged by Ziggy's Super are slowed by 20% for 1 sec.",
+    "The Great Ziggini: Hitting with a lightning strike increases the damage of the next main attack by 18%."
+  ]
 },
 "Trunk": {
   "image": "media/photo/trunk.png",
-  "class": "Unknown",
-  "rarity": "Unknown",
-  "health": 0,
-  "damage": 0,
-  "range": "Unknown",
-  "reload": "Unknown",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+  "class": "Tank",
+  "rarity": "Epic",
+  "health": 8320,
+  "damage": "2240 (Edge) / 1680 (Center)",
+  "range": "Short",
+  "reload": "Normal",
+  "super": "Driven by Revenge (and Ants): Trunk propels themselves at enemies, dropping ants along the way. They can bounce off walls too!",
+  "gadgets": [
+    "For The Queen!: Trunk instantly spreads ants in a large area. Cooldown: 7 seconds.",
+    "Worker Ants: Trunk heals from the first source of damage taken for the next 2 secs. Cooldown: 16 seconds."
+  ],
+  "passives": [
+    "New Insect Overlords: Ants also reduce the damage of enemies by 15%.",
+    "Colony Scouts: Ants reveal hidden enemies."
+  ]
 },
+
 "Gigi": {
   "image": "media/photo/gigi.png",
-  "class": "Unknown",
-  "rarity": "Unknown",
-  "health": 0,
-  "damage": 0,
-  "range": "Unknown",
-  "reload": "Unknown",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+  "class": "Assassin",
+  "rarity": "Mythic",
+  "health": 4100,
+  "damage": "600",
+  "range": "Short",
+  "reload": "Very Fast",
+  "super": "Shadow Puppet: Gigi charges up for 0.8 sec, then appears at the targeted area. Gigi can charge up again for 3 sec to return to her starting position, dealing damage when she leaves.",
+  "gadgets": [
+    "Disappearing Act: Gigi creates an area that makes herself and allies invisible while inside. Lasts 3 secs. Cooldown: 15 seconds.",
+    "Longer Strings: Super charging area is bigger. Cooldown: 18 seconds."
+  ],
+  "passives": [
+    "Plié Protection: Increases Super charge rate by 30% if no damage has been received for 2 secs.",
+    "A Helping Hand: Shadow Puppet now heals for 1200 after charging up."
+  ]
 },
 "Sirius": {
   "image": "media/photo/sirius.jpg",
-  "class": "Unknown",
-  "rarity": "Unknown",
-  "health": 0,
-  "damage": 0,
-  "range": "Unknown",
-  "reload": "Unknown",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+  "class": "Controller",
+  "rarity": "Ultra Legendary",
+  "health": 3400,
+  "damage": "2 x 600",
+  "range": "Long",
+  "reload": "Normal",
+  "super": "Shadow Summon: Sirius unleashes all collected Brawler Shadows into the world. Shadows will take on the characteristics of their Brawler counterpart, like attacks and health. Sirius can instruct Shadows to do his bidding! Tap for them to return and follow Sirius, or aim to give them an area to guard.",
+  "gadgets": [
+    "A Starr Is Born: Sirius fires a projectile that summons a Shadow on hit, also slowing the hit target by 20% for 2 sec. Cooldown: 20 seconds.",
+    "Master of Shadows: Summoned Shadows return to Sirius, who heals them for 25% of their health. Cooldown: 13 seconds."
+  ],
+  "passives": [
+    "Dusk Runners: Shadows have +15% movement speed.",
+    "The Darkest Starr: Each hit with a Shadow Strike counts as 2 to collect Brawler Shadows, instead of 1."
+  ]
 },
 "Najia": {
   "image": "media/photo/najia.jpg",
-  "class": "Unknown",
-  "rarity": "Unknown",
-  "health": 0,
-  "damage": 0,
-  "range": "Unknown",
-  "reload": "Unknown",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
+  "class": "Damage Dealer",
+  "rarity": "Mythic",
+  "health": 3400,
+  "damage": "Jar: 300 / Snake: 600",
+  "range": "Very Long",
+  "reload": "Very Fast",
+  "super": "Danger Noodles: Najia unleashes 3 of her paper snakes, which slither a set distance and will poison any enemies in an area when they explode. The snakes can also be thrown from a jar to a target location!",
+  "gadgets": [
+    "Najia Jar: Najia hides inside a vase. Once the vase is broken, she will knock back any nearby enemies! Cooldown: 20 seconds.",
+    "Poison Puddles: All enemies currently poisoned by Najia will create poisonous puddles for the next 2 sec. Cooldown: 17 seconds."
+  ],
+  "passives": [
+    "Poisonous Protector: Brawlers defeated while poisoned by Najia will spawn a snake in their place.",
+    "Venomous: Poison damage scales with the target Brawler's current percent health, dealing up to an extra 100 damage when a target is at 100% health."
+  ]
 },
-"Jae Yong": {
-  "image": "media/photo/jae_yong.png",
-  "class": "Unknown",
-  "rarity": "Unknown",
-  "health": 0,
-  "damage": 0,
-  "range": "Unknown",
-  "reload": "Unknown",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
-},
-"Mina": {
-  "image": "media/photo/mina.png",
-  "class": "Unknown",
-  "rarity": "Unknown",
-  "health": 0,
-  "damage": 0,
-  "range": "Unknown",
-  "reload": "Unknown",
-  "super": "Placeholder",
-  "gadgets": ["Gadget 1", "Gadget 2"],
-  "passives": ["Passive 1", "Passive 2"]
-}
+
+  "Jae-yong": {
+    "image": "media/photo/jae_yong.png",
+    "class": "Support",
+    "rarity": "Mythic",
+    "health": 4810,
+    "damage": 1105,
+    "range": "Long",
+    "reload": "Normal",
+    "super": "Mix It Up!: Switch between Jae-yong's Work & Party modes! Switching modes changes Jae-yong's main attack and activates the matching ability. WORK: Gives all nearby teammates a temporary movement speed boost (30%). PARTY: Heals all nearby teammates (975).",
+    "gadgets": [
+      "Weekend Warrior: Deals area damage and increases main attack damage for 5 sec. Cooldown: 15 seconds.",
+      "Time for a Slow Song: Jae-yong slows enemies around him and his attacks will leave trails of slowing paperwork for 5 sec. Cooldown: 12 seconds."
+    ],
+    "passives": [
+      "The Crowd Goes Mild: Being near teammates gives Jae-yong a 10% speed boost per teammate in range.",
+      "Extra High Note: Main Attacks now deal an additional 20% Damage per target pierced."
+    ]
+  },
+ "Mina": {
+    "image": "media/photo/mina.png",
+    "class": "Damage Dealer",
+    "rarity": "Mythic",
+    "health": 3600,
+    "damage": "Attack: 800 / Super: 1000",
+    "range": "Long",
+    "reload": "Fast",
+    "super": "Furacão 3000: Mina hits the air, creating a powerful hurricane which deals heavy damage and launches enemies in front of her.",
+    "gadgets": [
+      "Windmill: Creates a wall of wind that blocks projectiles for 1.5 sec. Cooldown: 22 seconds.",
+      "Capo-What?: Mina's next Super recharges instantly if it hits. Cooldown: 22 seconds."
+    ],
+    "passives": [
+      "Zum Zum Zum: Mina's combo Attack 3 also heals for 50% of damage done.",
+      "Blown Away: Mina's Super also roots enemies on the spot."
+    ]
+  }
 }
