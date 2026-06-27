@@ -577,6 +577,7 @@
 },
 
   "Hank": {
+  "image" : "media/photo/hank.jpg",
   "class": "Tank",
   "rarity": "Epic",
   "health": "9880 + 520",
@@ -614,6 +615,7 @@
 },
 
   "Larry & Lawrie": {
+    "image": "media/photo/larry.jpg",
     "class":"Controller",
     "rarity":"Epic",
     "health":7000,
@@ -626,6 +628,7 @@
 },
 
 "Ash": {
+    "image": "media/photo/ash.jpg",
     "class":"Tank",
     "rarity":"Epic",
     "health":8500,
@@ -637,6 +640,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Lola": {
+    "image": "media/photo/lola.jpg",
     "class":"Damage Dealer",
     "rarity":"Epic",
     "health":6500,
@@ -648,6 +652,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Sam": {
+    "image": "media/photo/sam.jpg",
     "class":"Assassin",
     "rarity":"Epic",
     "health":8000,
@@ -659,6 +664,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Mandy": {
+    "image": "media/photo/mandy.jpg",
     "class":"Marksman",
     "rarity":"Epic",
     "health":5000,
@@ -670,6 +676,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Maisie": {
+    "image": "media/photo/maisie.jpg",
     "class":"Damage Dealer",
     "rarity":"Epic",
     "health":6000,
@@ -682,6 +689,7 @@
 },
 
 "Mortis": {
+    "image": "media/photo/mortis.jpg",
     "class":"Assassin",
     "rarity":"Mythic",
     "health":6500,
@@ -693,6 +701,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Tara": {
+    "image": "media/photo/tara.jpg",
     "class":"Damage Dealer",
     "rarity":"Mythic",
     "health":6200,
@@ -704,6 +713,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Gene": {
+    "image": "media/photo/gene.jpg",
     "class":"Controller",
     "rarity":"Mythic",
     "health":6000,
@@ -715,6 +725,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Max": {
+    "image": "media/photo/max.jpg",
     "class":"Support",
     "rarity":"Mythic",
     "health":5800,
@@ -726,6 +737,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Mr. P": {
+    "image": "media/photo/mr_p.jpg",
     "class":"Controller",
     "rarity":"Mythic",
     "health":6000,
@@ -737,6 +749,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Sprout": {
+    "image": "media/photo/sprout.jpg",
     "class":"Artillery",
     "rarity":"Mythic",
     "health":5500,
@@ -748,6 +761,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Byron": {
+    "image": "media/photo/byron.jpg",
     "class":"Support",
     "rarity":"Mythic",
     "health":4800,
@@ -759,6 +773,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Squeak": {
+    "image": "media/photo/squeak.jpg",
     "class":"Controller",
     "rarity":"Mythic",
     "health":5600,
@@ -770,6 +785,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Gray": {
+    "image": "media/photo/gray.jpg",
     "class":"Support",
     "rarity":"Mythic",
     "health":6000,
@@ -781,6 +797,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Willow": {
+    "image": "media/photo/willow.jpg",
     "class":"Controller",
     "rarity":"Mythic",
     "health":5500,
@@ -792,6 +809,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Doug": {
+    "image": "media/photo/doug.png",
     "class":"Support",
     "rarity":"Mythic",
     "health":8000,
@@ -803,6 +821,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Chuck": {
+    "image": "media/photo/chuck.jpg",
     "class":"Damage Dealer",
     "rarity":"Mythic",
     "health":7000,
@@ -814,6 +833,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Charlie": {
+    "image": "media/photo/charlie.jpg",
     "class":"Controller",
     "rarity":"Mythic",
     "health":6000,
@@ -825,6 +845,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Mico": {
+    "image": "media/photo/mico.jpg",
     "class":"Assassin",
     "rarity":"Mythic",
     "health":6000,
@@ -836,6 +857,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Melodie": {
+  "image": "media/photo/melodie.jpg",
     "class":"Assassin",
     "rarity":"Mythic",
     "health":6500,
@@ -847,6 +869,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Lily": {
+    "image": "media/photo/lily.jpg",
     "class":"Assassin",
     "rarity":"Mythic",
     "health":6200,
@@ -858,6 +881,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Clancy": {
+    "image": "media/photo/clancy.jpg",
     "class":"Damage Dealer",
     "rarity":"Mythic",
     "health":6500,
@@ -869,6 +893,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Moe": {
+    "image": "media/photo/moe.jpg",
     "class":"Damage Dealer",
     "rarity":"Mythic",
     "health":6200,
@@ -880,6 +905,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Shade": {
+    "image": "media/photo/shade.jpg",
     "class":"Assassin",
     "rarity":"Mythic",
     "health":6500,
@@ -892,6 +918,7 @@
 },
 
 "Spike": {
+    "image": "media/photo/spike.jpg",
     "class":"Damage Dealer",
     "rarity":"Legendary",
     "health":4800,
@@ -903,6 +930,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Crow": {
+    "image": "media/photo/crow.jpg",
     "class":"Assassin",
     "rarity":"Legendary",
     "health":4800,
@@ -914,6 +942,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Leon": {
+    "image": "media/photo/leon.jpg",
     "class":"Assassin",
     "rarity":"Legendary",
     "health":6000,
@@ -925,6 +954,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Sandy": {
+    "image": "media/photo/sandy.jpg",
     "class":"Controller",
     "rarity":"Legendary",
     "health":6500,
@@ -936,6 +966,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Amber": {
+    "image": "media/photo/amber.jpg",
     "class":"Controller",
     "rarity":"Legendary",
     "health":6000,
@@ -947,6 +978,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Meg": {
+    "image": "media/photo/meg.jpg",
     "class":"Tank",
     "rarity":"Legendary",
     "health":7000,
@@ -958,6 +990,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Chester": {
+    "image": "media/photo/chester.jpg",
     "class":"Damage Dealer",
     "rarity":"Legendary",
     "health":6500,
@@ -969,6 +1002,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Cordelius": {
+    "image": "media/photo/cordelius.jpg",
     "class":"Assassin",
     "rarity":"Legendary",
     "health":6000,
@@ -980,6 +1014,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Surge": {
+    "image": "media/photo/surge.jpg",
     "class":"Damage Dealer",
     "rarity":"Legendary",
     "health":6000,
@@ -991,6 +1026,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Kit": {
+    "image": "media/photo/kit.jpg",
     "class":"Support",
     "rarity":"Legendary",
     "health":6000,
@@ -1002,6 +1038,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Draco": {
+    "image": "media/photo/draco.jpg",
     "class":"Tank",
     "rarity":"Legendary",
     "health":8000,
@@ -1013,6 +1050,7 @@
     "passives":["Passive 1","Passive 2"]
 },
 "Kenji": {
+    "image": "media/photo/kenji.jpg",
     "class":"Assassin",
     "rarity":"Legendary",
     "health":7000,
@@ -1025,6 +1063,7 @@
 },
 
 "Gale": {
+  "image": "media/photo/gale.jpg",
   "class": "Controller",
   "rarity": "Mythic",
   "health": 6400,
@@ -1036,6 +1075,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Colette": {
+  "image": "media/photo/colette.jpg",
   "class": "Damage Dealer",
   "rarity": "Epic",
   "health": 6800,
@@ -1047,6 +1087,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Lou": {
+  "image": "media/photo/lou.jpg",
   "class": "Controller",
   "rarity": "Mythic",
   "health": 6200,
@@ -1058,6 +1099,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Colonel Ruffs": {
+  "image": "media/photo/colonel_rufs.jpg",
   "class": "Support",
   "rarity": "Mythic",
   "health": 5600,
@@ -1069,6 +1111,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Belle": {
+  "image": "media/photo/belle.jpg",
   "class": "Marksman",
   "rarity": "Epic",
   "health": 5600,
@@ -1080,6 +1123,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Buzz": {
+  "image": "media/photo/buzz.jpg",
   "class": "Assassin",
   "rarity": "Mythic",
   "health": 7600,
@@ -1091,6 +1135,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Fang": {
+  "image": "media/photo/fang.jpg",
   "class": "Assassin",
   "rarity": "Mythic",
   "health": 8600,
@@ -1102,6 +1147,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Eve": {
+  "image": "media/photo/eve.jpg",
   "class": "Spawner",
   "rarity": "Mythic",
   "health": 6000,
@@ -1113,6 +1159,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Janet": {
+  "image": "media/photo/janet.jpg",
   "class": "Marksman",
   "rarity": "Mythic",
   "health": 6400,
@@ -1124,6 +1171,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Otis": {
+  "image": "media/photo/otis.jpg",
   "class": "Controller",
   "rarity": "Mythic",
   "health": 6400,
@@ -1135,6 +1183,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "R-T": {
+  "image": "media/photo/r-t.jpg",
   "class": "Damage Dealer",
   "rarity": "Mythic",
   "health": 7000,
@@ -1146,6 +1195,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Buster": {
+  "image": "media/photo/buster.jpg",
   "class": "Tank",
   "rarity": "Mythic",
   "health": 10400,
@@ -1157,6 +1207,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Angelo": {
+  "image": "media/photo/angelo.jpg",
   "class": "Marksman",
   "rarity": "Epic",
   "health": 5200,
@@ -1168,6 +1219,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Berry": {
+  "image": "media/photo/berry.jpg",
   "class": "Support",
   "rarity": "Epic",
   "health": 6400,
@@ -1179,6 +1231,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Juju": {
+  "image": "media/photo/juju.jpg",
   "class": "Controller",
   "rarity": "Mythic",
   "health": 6200,
@@ -1190,6 +1243,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Finx": {
+  "image": "media/photo/finx.jpg",
   "class": "Controller",
   "rarity": "Mythic",
   "health": 6400,
@@ -1201,6 +1255,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Lumi": {
+  "image": "media/photo/lumi.jpg",
   "class": "Damage Dealer",
   "rarity": "Mythic",
   "health": 7000,
@@ -1212,6 +1267,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Ollie": {
+  "image": "media/photo/ollie.jpg",
   "class": "Tank",
   "rarity": "Mythic",
   "health": 9000,
@@ -1223,6 +1279,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Meeple": {
+  "image": "media/photo/meeple.jpg",
   "class": "Controller",
   "rarity": "Mythic",
   "health": 6200,
@@ -1234,6 +1291,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Alli": {
+  "image": "media/photo/alli.jpg",
   "class": "Assassin",
   "rarity": "Mythic",
   "health": 7600,
@@ -1245,6 +1303,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Kaze": {
+  "image": "media/photo/kaze.jpg",
   "class": "Assassin",
   "rarity": "Legendary",
   "health": 7200,
@@ -1257,6 +1316,7 @@
 },
 
 "Starr Nova": {
+  "image": "media/photo/star_nova.jpg",
   "class": "Unknown",
   "rarity": "Unknown",
   "health": "jdkj",
@@ -1269,6 +1329,7 @@
 },
 
 "Pierce": {
+  "image": "media/photo/pierce.jpg",
   "class": "Unknown",
   "rarity": "Unknown",
   "health": 0,
@@ -1279,7 +1340,8 @@
   "gadgets": ["Gadget 1", "Gadget 2"],
   "passives": ["Passive 1", "Passive 2"]
 },
-"Glowbert": {
+"Glowy": {
+  "image": "media/photo/globert.jpg",
   "class": "Unknown",
   "rarity": "Unknown",
   "health": 0,
@@ -1291,6 +1353,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Damian": {
+  "image": "media/photo/damian.jpg",
   "class": "Unknown",
   "rarity": "Unknown",
   "health": 0,
@@ -1302,6 +1365,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Bolt": {
+  "image": "media/photo/bolt.jpg",
   "class": "Unknown",
   "rarity": "Unknown",
   "health": 0,
@@ -1313,6 +1377,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Ziggy": {
+  "image": "media/photo/ziggy.jpg",
   "class": "Unknown",
   "rarity": "Unknown",
   "health": 0,
@@ -1324,6 +1389,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Trunk": {
+  "image": "media/photo/trunk.png",
   "class": "Unknown",
   "rarity": "Unknown",
   "health": 0,
@@ -1335,6 +1401,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Gigi": {
+  "image": "media/photo/gigi.png",
   "class": "Unknown",
   "rarity": "Unknown",
   "health": 0,
@@ -1346,6 +1413,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Sirius": {
+  "image": "media/photo/sirius.jpg",
   "class": "Unknown",
   "rarity": "Unknown",
   "health": 0,
@@ -1357,6 +1425,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Najia": {
+  "image": "media/photo/najia.jpg",
   "class": "Unknown",
   "rarity": "Unknown",
   "health": 0,
@@ -1368,6 +1437,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Jae Yong": {
+  "image": "media/photo/jae_yong.png",
   "class": "Unknown",
   "rarity": "Unknown",
   "health": 0,
@@ -1379,6 +1449,7 @@
   "passives": ["Passive 1", "Passive 2"]
 },
 "Mina": {
+  "image": "media/photo/mina.png",
   "class": "Unknown",
   "rarity": "Unknown",
   "health": 0,
