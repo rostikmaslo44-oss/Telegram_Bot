@@ -599,13 +599,10 @@
   "class": "Damage Dealer",
   "rarity": "Epic",
   "health": "7310 + 430",
-  "attack": "Hot Cookies",
   "damage": "6 x 476 + 5",
   "range": "Long",
   "reload": "Normal",
   "super": "Let Out Some Steam",
-  "super_description": "Consume and release all the built up Heat in an explosion, damaging all nearby enemies. The higher the Heat, the higher the damage.",
-  "super_damage": "2635",
   "gadgets": [
     "Overcooked: Next basic attack shoots burning cookies, dealing 884 extra damage over time. Cooldown: 15 seconds.",
     "Made With Love: Next basic attack shoots perfectly baked cookies ignoring enemies and healing allies for 2380 over time instead. Cooldown: 11 seconds."
