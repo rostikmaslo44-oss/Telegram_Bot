@@ -222,7 +222,9 @@ async def show_map(callback: CallbackQuery):
     await callback.message.answer_photo(
         photo=FSInputFile(photo_path),
         caption=text,
-        parse_mode="HTML"
+        parse_mode="HTML",
+        reply_markup=back_to_menu_characters
+
     )
     await callback.answer()
 
