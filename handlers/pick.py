@@ -205,7 +205,6 @@ async def show_map(callback: CallbackQuery):
         return
     pretty_map_name = data.get("title", map_key)
     text = (
-
         f"📍 <b>{pretty_map_name}</b>\n\n"
         f"🔥 Best Picks: {', '.join(data['best_picks'])}\n"
         f"⭐ Alternative Picks: {', '.join(data['alternative_picks'])}\n"
