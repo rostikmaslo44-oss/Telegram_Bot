@@ -1,5 +1,6 @@
 {
   "Shelly": {
+    "alises" : [],
     "image" : "media/photo/shelly.jpg",
     "class":"Damage Dealer",
     "rarity":"Starting",
@@ -13,6 +14,7 @@
 },
 
   "Nita": {
+    "alises" : [],
     "image" : "media/photo/nita.jpg",
     "class":"Damage Dealer",
     "rarity":"Rare",
@@ -26,6 +28,7 @@
 },
 
   "Colt": {
+    "alises" : [],
     "image" : "media/photo/colt.jpg",
     "class":"Damage Dealer",
     "rarity":"Rare",
@@ -39,6 +42,7 @@
 },
 
   "Bull": {
+    "alises" : [],
     "image" : "media/photo/bull.jpg",
     "class":"Tank",
     "rarity":"Rare",
@@ -52,6 +56,7 @@
 },
 
   "Brock": {
+    "alises" : [],
     "image" : "media/photo/brock.jpg",
     "class":"Marksman",
     "rarity":"Rare",
@@ -65,6 +70,7 @@
 },
 
   "El Primo": {
+  "alises" : [],
   "image" : "media/photo/elprimo.jpg",
   "class": "Tank",
   "rarity": "Rare",
@@ -84,6 +90,7 @@
 },
 
   "Barley": {
+  "alises" : [],
   "image" : "media/photo/barley.jpg",
   "class": "Artillery",
   "rarity": "Rare",
@@ -103,6 +110,7 @@
 },
 
   "Poco": {
+  "alises" : [],
   "image" : "media/photo/poco.jpg",
   "class": "Support",
   "rarity": "Rare",
@@ -122,6 +130,7 @@
 },
 
   "Rosa": {
+  "alises" : [],
   "image" : "media/photo/rosa.jpg",
   "class": "Tank",
   "rarity": "Rare",
@@ -141,6 +150,7 @@
 },
 
   "Jessie": {
+  "alises" : [],
   "image" : "media/photo/jessie.jpg",
   "class": "Controller",
   "rarity": "Super Rare",
@@ -160,6 +170,7 @@
 },
 
   "Dynamike": {
+  "alises" : [],
   "image" : "media/photo/dinomike.jpg",
   "class": "Artillery",
   "rarity": "Super Rare",
@@ -179,6 +190,7 @@
 },
 
   "Tick": {
+  "alises" : [],
   "image" : "media/photo/tic.jpg",
   "class": "Artillery",
   "rarity": "Super Rare",
@@ -197,7 +209,8 @@
   ]
 },
 
-  "8 Bit": {
+  "8-Bit": {
+  "alises" : ["8bit", "8 bit", "eight bit"],
   "image" : "media/photo/8-bit.jpg",
   "class": "Damage Dealer",
   "rarity": "Super Rare",
@@ -217,6 +230,7 @@
 },
 
   "Rico": {
+  "alises" : [],
   "image" : "media/photo/rico.jpg",
   "class": "Damage Dealer",
   "rarity": "Super Rare",
@@ -236,6 +250,7 @@
 },
 
   "Darryl": {
+  "alises" : [],
   "image" : "media/photo/darryl.jpg",
   "class": "Tank",
   "rarity": "Super Rare",
@@ -255,6 +270,7 @@
 },
 
   "Penny": {
+  "alises" : [],
   "image" : "media/photo/penny.jpg",
   "class": "Controller",
   "rarity": "Super Rare",
@@ -274,6 +290,7 @@
 },
 
   "Carl": {
+  "alises" : [],
   "image" : "media/photo/carl.jpg",
   "class": "Damage Dealer",
   "rarity": "Super Rare",
@@ -293,6 +310,7 @@
 },
 
   "Jacky": {
+  "alises" : [],
   "image" : "media/photo/jacky.jpg",
   "class": "Tank",
   "rarity": "Super Rare",
@@ -312,6 +330,7 @@
 },
 
   "Gus": {
+  "alises" : [],
   "image" : "media/photo/gus.jpg",
   "class": "Support",
   "rarity": "Super Rare",
@@ -331,6 +350,7 @@
 },
 
   "Bo": {
+  "alises" : [],
   "image" : "media/photo/bo.jpg",
   "class": "Controller",
   "rarity": "Epic",
@@ -350,6 +370,7 @@
 },
 
   "Emz": {
+  "alises" : ["Em3"],
   "image" : "media/photo/emz.jpg",
   "class": "Controller",
   "rarity": "Epic",
@@ -369,6 +390,7 @@
 },
 
   "Stu": {
+  "alises" : [],
   "image" : "media/photo/stu.jpg",
   "class": "Assassin",
   "rarity": "Epic",
@@ -387,6 +409,7 @@
   ]
 },
   "Piper": {
+  "alises" : [],
   "image" : "media/photo/piper.jpg",
   "class": "Marksman",
   "rarity": "Epic",
@@ -406,6 +429,7 @@
 },
 
   "Pam": {
+  "alises" : [],
   "image" : "media/photo/pam.jpg",
   "class": "Support",
   "rarity": "Epic",
@@ -425,6 +449,7 @@
 },
 
   "Frank": {
+  "alises" : [],
   "image" : "media/photo/frank.jpg",
   "class": "Tank",
   "rarity": "Epic",
@@ -444,6 +469,7 @@
 },
 
   "Bibi": {
+  "alises" : [],
   "image" : "media/photo/bibi.jpg",
   "class": "Tank",
   "rarity": "Epic",
@@ -463,6 +489,7 @@
 },
 
   "Bea": {
+  "alises" : [],
   "image" : "media/photo/bea.jpg",
   "class": "Marksman",
   "rarity": "Epic",
@@ -482,6 +509,7 @@
 },
 
   "Nani": {
+  "alises" : [],
   "class": "Marksman",
   "rarity": "Epic",
   "health": 4250,
@@ -500,6 +528,7 @@
 },
 
   "Edgar": {
+  "alises" : [],
   "image" : "media/photo/edgar.jpg",
   "class": "Assassin",
   "rarity": "Epic",
@@ -520,6 +549,7 @@
 },
 
   "Griff": {
+  "alises" : [],
   "class": "Controller",
   "rarity": "Epic",
   "health": "5920 + 370",
@@ -538,6 +568,7 @@
 },
 
  "Grom": {
+  "alises" : [],
   "image" : "media/photo/grom.jpg",
   "class": "Artillery",
   "rarity": "Epic",
@@ -558,6 +589,7 @@
 },
 
   "Bonnie": {
+  "alises" : [],
   "image" : "media/photo/bonnie.jpg",
   "class": "Marksman",
   "rarity": "Epic",
@@ -577,6 +609,7 @@
 },
 
   "Hank": {
+  "alises" : [],
   "image" : "media/photo/hank.jpg",
   "class": "Tank",
   "rarity": "Epic",
@@ -596,6 +629,7 @@
 },
 
   "Pearl": {
+  "alises" : [],
   "image": "media/photo/pearl.jpg",
   "class": "Damage Dealer",
   "rarity": "Epic",
@@ -615,6 +649,7 @@
 },
 
   "Larry & Lawrie": {
+  "alises" : ["Larry Lawrie", "Lawrie Larry", "Larry", "Lawry"],
   "image": "media/photo/larry.jpg",
   "class": "Artillery",
   "rarity": "Epic",
@@ -634,6 +669,7 @@
 },
 
 "Ash": {
+  "alises" : [],
   "image": "media/photo/ash.jpg",
   "class": "Tank",
   "rarity": "Epic",
@@ -652,6 +688,7 @@
   ]
 },
 "Lola": {
+  "alises" : [],
   "image": "media/photo/lola.jpg",
   "class": "Damage Dealer",
   "rarity": "Epic",
@@ -670,6 +707,7 @@
   ]
 },
 "Sam": {
+  "alises" : [],
   "image": "media/photo/sam.png",
   "class": "Assassin",
   "rarity": "Epic",
@@ -688,6 +726,7 @@
   ]
 },
 "Mandy": {
+  "alises" : [],
   "image": "media/photo/mandy.jpg",
   "class": "Marksman",
   "rarity": "Epic",
@@ -706,6 +745,7 @@
   ]
 },
 "Maisie": {
+  "alises" : [],
   "image": "media/photo/maisie.png",
   "class": "Marksman",
   "rarity": "Epic",
@@ -725,6 +765,7 @@
 },
 
 "Mortis": {
+  "alises" : [],
   "image": "media/photo/mortis.jpg",
   "class": "Assassin",
   "rarity": "Mythic",
@@ -743,6 +784,7 @@
   ]
 },
 "Tara": {
+  "alises" : [],
   "image": "media/photo/tara.png",
   "class": "Damage Dealer",
   "rarity": "Mythic",
@@ -761,6 +803,7 @@
   ]
 },
 "Gene": {
+  "alises" : [],
   "image": "media/photo/gene.png",
   "class": "Controller",
   "rarity": "Mythic",
@@ -779,6 +822,7 @@
   ]
 },
 "Max": {
+  "alises" : [],
   "image": "media/photo/max.jpg",
   "class": "Support",
   "rarity": "Mythic",
@@ -797,6 +841,7 @@
   ]
 },
 "Mr. P": {
+  "alises" : ["Mister P.", "Mister P", "Mr. P."],
   "image": "media/photo/mr_p.png",
   "class": "Controller",
   "rarity": "Mythic",
@@ -815,6 +860,7 @@
   ]
 },
 "Sprout": {
+  "alises" : [],
   "image": "media/photo/sprout.jpg",
   "class": "Artillery",
   "rarity": "Mythic",
@@ -833,6 +879,7 @@
   ]
 },
 "Byron": {
+  "alises" : [],
   "image": "media/photo/byron.jpg",
   "class": "Support",
   "rarity": "Mythic",
@@ -851,6 +898,7 @@
   ]
 },
 "Squeak": {
+  "alises" : [],
   "image": "media/photo/squeak.jpg",  
 "class": "Controller",
 "rarity": "Mythic",
@@ -869,6 +917,7 @@
 ]
 },
 "Gray": {
+  "alises" : [],
   "image": "media/photo/gray.jpg",
 "class": "Support",
 "rarity": "Mythic",
@@ -887,6 +936,7 @@
 ]
 },
 "Willow": {
+  "alises" : [],
   "image": "media/photo/willow.png",
 "class": "Controller",
 "rarity": "Mythic",
@@ -905,6 +955,7 @@
 ]
 },
 "Doug": {
+  "alises" : [],
   "image": "media/photo/doug.png",
 "class": "Support",
 "rarity": "Mythic",
@@ -923,6 +974,7 @@
 ]
 },
 "Chuck": {
+  "alises" : [],
   "image": "media/photo/chuck.jpg",
 "class": "Controller",
 "rarity": "Mythic",
@@ -941,6 +993,7 @@
 ]
 },
 "Charlie": {
+  "alises" : [],
   "image": "media/photo/charlie.jpg",
 "class": "Controller",
 "rarity": "Mythic",
@@ -959,6 +1012,7 @@
 ]
 },
 "Mico": {
+  "alises" : [],
   "image": "media/photo/mico.jpg",
 "class": "Assassin",
 "rarity": "Mythic",
@@ -977,6 +1031,7 @@
 ]
 },
 "Melodie": {
+  "alises" : [],
   "image": "media/photo/melodie.jpg",
     "class": "Assassin",
     "rarity": "Mythic",
@@ -995,6 +1050,7 @@
     ]
 },
 "Lily": {
+  "alises" : [],
   "image": "media/photo/lily.png",
 "class": "Assassin",
 "rarity": "Mythic",
@@ -1013,6 +1069,7 @@
 ]
 },
 "Clancy": {
+  "alises" : [],
   "image": "media/photo/clancy.jpg",
 "class": "Damage Dealer",
 "rarity": "Mythic",
@@ -1031,6 +1088,7 @@
 ]
 },
 "Moe": {
+  "alises" : [],
   "image": "media/photo/moe.png",
 "class": "Damage Dealer",
 "rarity": "Mythic",
@@ -1049,6 +1107,7 @@
 ]
 },
 "Shade": {
+  "alises" : [],
   "image": "media/photo/shade.jpg",
 "class": "Assassin",
 "rarity": "Epic",
@@ -1068,6 +1127,7 @@
 },
 
 "Spike": {
+  "alises" : [],
   "image": "media/photo/spike.jpg",
 "class": "Damage Dealer",
 "rarity": "Legendary",
@@ -1086,6 +1146,7 @@
 ]
 },
 "Crow": {
+  "alises" : [],
   "image": "media/photo/crow.jpg",
 "class": "Assassin",
 "rarity": "Legendary",
@@ -1104,6 +1165,7 @@
 ]
 },
 "Leon": {
+  "alises" : [],
   "image": "media/photo/leon.jpg",
 "class": "Assassin",
 "rarity": "Legendary",
@@ -1122,6 +1184,7 @@
 ]
 },
 "Sandy": {
+  "alises" : [],
   "image": "media/photo/sandy.jpg",
 "class": "Controller",
 "rarity": "Legendary",
@@ -1140,6 +1203,7 @@
 ]
 },
 "Amber": {
+  "alises" : [],
   "image": "media/photo/amber.jpg",
 "class": "Controller",
 "rarity": "Legendary",
@@ -1158,6 +1222,7 @@
 ]
 },
 "Meg": {
+  "alises" : [],
   "image": "media/photo/meg.png",
 "class": "Tank",
 "rarity": "Legendary",
@@ -1176,6 +1241,7 @@
 ]
 },
 "Chester": {
+  "alises" : [],
   "image": "media/photo/chester.jpg",
 "class": "Damage Dealer",
 "rarity": "Legendary",
@@ -1194,6 +1260,7 @@
 ]
 },
 "Cordelius": {
+  "alises" : [],
   "image": "media/photo/cordelius.jpg",
 "class": "Assassin",
 "rarity": "Legendary",
@@ -1212,6 +1279,7 @@
 ]
 },
 "Surge": {
+  "alises" : [],
   "image": "media/photo/surge.png",
 "class": "Damage Dealer",
 "rarity": "Legendary",
@@ -1230,6 +1298,7 @@
 ]
 },
 "Kit": {
+  "alises" : [],
   "image": "media/photo/kit.jpg",
 "class": "Support",
 "rarity": "Legendary",
@@ -1248,6 +1317,7 @@
 ]
 },
 "Draco": {
+  "alises" : [],
   "image": "media/photo/draco.jpg",
 "class": "Tank",
 "rarity": "Legendary",
@@ -1266,6 +1336,7 @@
 ]
 },
 "Kenji": {
+  "alises" : [],
   "image": "media/photo/kenji.jpg",
 "class": "Assassin",
 "rarity": "Legendary",
@@ -1285,6 +1356,7 @@
 },
 
 "Gale": {
+  "alises" : [],
   "image": "media/photo/gale.jpg",
 "class": "Controller",
 "rarity": "Epic",
@@ -1303,6 +1375,7 @@
 ]
 },
 "Colette": {
+  "alises" : [],
   "image": "media/photo/colette.jpg",
 "class": "Damage Dealer",
 "rarity": "Epic",
@@ -1321,6 +1394,7 @@
 ]
 },
 "Lou": {
+  "alises" : [],
   "image": "media/photo/lou.jpg",
 "class": "Controller",
 "rarity": "Mythic",
@@ -1338,7 +1412,8 @@
 "Hypothermia: Opponents lose up to 50% of their damage based on how frozen they are from Lou's attacks."
 ]
 },
-"Ruffs": {
+"Colonel Ruffs": {
+  "alises" : ["Ruffs", "Colonel"],
   "image": "media/photo/colonel_rufs.jpg",
 "class": "Support",
 "rarity": "Mythic",
@@ -1357,6 +1432,7 @@
 ]
 },
 "Belle": {
+  "alises" : [],
   "image": "media/photo/belle.jpg",
 "class": "Marksman",
 "rarity": "Epic",
@@ -1375,6 +1451,7 @@
 ]
 },
 "Buzz": {
+  "alises" : [],
   "image": "media/photo/buzz.jpg",
 "class": "Assassin",
 "rarity": "Mythic",
@@ -1393,6 +1470,7 @@
 ]
 },
 "Fang": {
+  "alises" : [],
   "image": "media/photo/fang.png",
 "class": "Assassin",
 "rarity": "Mythic",
@@ -1411,6 +1489,7 @@
 ]
 },
 "Eve": {
+  "alises" : ["Eva"],
   "image": "media/photo/eve.png",
 "class": "Damage Dealer",
 "rarity": "Mythic",
@@ -1429,6 +1508,7 @@
 ]
 },
 "Janet": {
+  "alises" : [],
   "image": "media/photo/janet.png",
 "class": "Marksman",
 "rarity": "Mythic",
@@ -1447,6 +1527,7 @@
 ]
 },
 "Otis": {
+  "alises" : [],
   "image": "media/photo/otis.jpg",
 "class": "Controller",
 "rarity": "Mythic",
@@ -1465,6 +1546,7 @@
 ]
 },
 "R-T": {
+  "alises" : ["R T", "RT"],
   "image": "media/photo/r-t.png",
 "class": "Damage Dealer",
 "rarity": "Mythic",
@@ -1483,6 +1565,7 @@
 ]
 },
 "Buster": {
+  "alises" : [],
   "image": "media/photo/buster.jpg",
 "class": "Tank",
 "rarity": "Mythic",
@@ -1501,6 +1584,7 @@
 ]
 },
 "Angelo": {
+  "alises" : [],
   "image": "media/photo/angelo.jpg",
 "class": "Marksman",
 "rarity": "Epic",
@@ -1519,6 +1603,7 @@
 ]
 },
 "Berry": {
+  "alises" : [],
   "image": "media/photo/berry.jpg",
 "class": "Support",
 "rarity": "Epic",
@@ -1537,6 +1622,7 @@
 ]
 },
 "Juju": {
+  "alises" : [],
   "image": "media/photo/juju.jpg",
 "class": "Artillery",
 "rarity": "Mythic",
@@ -1555,6 +1641,7 @@
 ]
 },
 "Finx": {
+  "alises" : [],
   "image": "media/photo/finx.jpg",
 "class": "Controller",
 "rarity": "Mythic",
@@ -1573,6 +1660,7 @@
 ]
 },
 "Lumi": {
+  "alises" : [],
 "image" : "media/photo/lumi.jpg" ,
 "class": "Damage Dealer",
 "rarity": "Mythic",
@@ -1591,6 +1679,7 @@
 ]
 },
 "Ollie": {
+  "alises" : [],
   "image": "media/photo/ollie.png",
 "class": "Tank",
 "rarity": "Mythic",
@@ -1609,6 +1698,7 @@
 ]
 },
 "Meeple": {
+  "alises" : [],
   "image": "media/photo/meeple.jpg",
 "class": "Controller",
 "rarity": "Epic",
@@ -1627,6 +1717,7 @@
 ]
 },
 "Alli": {
+  "alises" : [],
   "image": "media/photo/alli.png",
 "class": "Assassin",
 "rarity": "Mythic",
@@ -1645,6 +1736,7 @@
 ]
 },
 "Kaze": {
+  "alises" : [],
   "image": "media/photo/kaze.jpg",
 "class": "Assassin",
 "rarity": "Ultra legendary",
@@ -1664,6 +1756,7 @@
 },
 
 "Starr Nova": {
+  "alises" : ["Star Nova"],
   "image": "media/photo/starr_nova.png",
 "class": "Assassin",
 "rarity": "Mythic",
@@ -1683,6 +1776,7 @@
 },
 
 "Pierce": {
+  "alises" : [],
   "image": "media/photo/pierce.png",
 "class": "Marksman",
 "rarity": "Legendary",
@@ -1701,6 +1795,7 @@
 ]
 },
 "Glowy": {
+  "alises" : ["Glowbert"],
   "image": "media/photo/globert.jpg",
 "class": "Support",
 "rarity": "Mythic",
@@ -1719,6 +1814,7 @@
 ]
 },
 "Damian": {
+  "alises" : [],
   "image": "media/photo/damian.png",
 "class": "Tank",
 "rarity": "Mythic",
@@ -1737,6 +1833,7 @@
 ]
 },
 "Bolt": {
+  "alises" : [],
   "image": "media/photo/bolt.jpg",
   "class": "Tank",
   "rarity": "Epic",
@@ -1755,6 +1852,7 @@
   ]
 },
 "Ziggy": {
+  "alises" : [],
   "image": "media/photo/ziggy.jpg",
   "class": "Controller",
   "rarity": "Mythic",
@@ -1773,6 +1871,7 @@
   ]
 },
 "Trunk": {
+  "alises" : [],
   "image": "media/photo/trunk.png",
   "class": "Tank",
   "rarity": "Epic",
@@ -1792,6 +1891,7 @@
 },
 
 "Gigi": {
+  "alises" : [],
   "image": "media/photo/gigi.png",
   "class": "Assassin",
   "rarity": "Mythic",
@@ -1810,6 +1910,7 @@
   ]
 },
 "Sirius": {
+  "alises" : [],
   "image": "media/photo/sirius.jpg",
   "class": "Controller",
   "rarity": "Ultra Legendary",
@@ -1828,6 +1929,7 @@
   ]
 },
 "Najia": {
+  "alises" : [],
   "image": "media/photo/najia.jpg",
   "class": "Damage Dealer",
   "rarity": "Mythic",
@@ -1847,6 +1949,7 @@
 },
 
   "Jae-yong": {
+    "alises" : ["Jae Yong", "JaeYong"],
     "image": "media/photo/jae_yong.png",
     "class": "Support",
     "rarity": "Mythic",
@@ -1865,6 +1968,7 @@
     ]
   },
  "Mina": {
+    "alises" : [],
     "image": "media/photo/mina.png",
     "class": "Damage Dealer",
     "rarity": "Mythic",

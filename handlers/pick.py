@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 
+from rapidfuzz import process, fuzz
 from aiogram import Router, F
 from aiogram.types import Message, CallbackQuery, FSInputFile, ReplyKeyboardRemove
 
@@ -249,6 +250,21 @@ async def show_character_info(message: Message):
         if name.lower() == user_name.lower():
             character_name = name
             break
+
+    if character_name is None:
+        for name, data in characters_data.items():
+            alises = data.get("alises", [])
+
+            if any(alias.lower() == user_name.lower() for alias in alises):
+                character_name = name
+                break
+
+    if character_name is None:
+         lower_name = {name.lower(): name for name in characters_data.keys()}
+         result = process.extractOne(user_name.lower(), lower_name.keys(), score_cutoff=70)
+
+         if result:
+                character_name = lower_name[result[0]]
 
     if character_name is None:
          await message.answer(
