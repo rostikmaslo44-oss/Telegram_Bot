@@ -12,7 +12,8 @@ from keyboards import (
     heist_maps,
     gem_grab_maps,
     hot_zone_maps,
-    bounty_maps
+    bounty_maps,
+    back_to_menu_characters
 )
 
 router = Router()
@@ -187,7 +188,14 @@ async def bounty(message: Message):
     )
 
 
-@router.callback_query(F.data)
+@router.callback_query(F.data == "back_to_main_options")
+async def back_main(callback: CallbackQuery):
+    await callback.message.answer(
+        "Main menu:",
+        reply_markup=main_menu
+    )
+
+@router.callback_query(~F.data.startswith("back_"))
 async def show_map(callback: CallbackQuery):
 
     map_name = callback.data
@@ -221,7 +229,7 @@ async def character_info(message: Message):
         reply_markup=ReplyKeyboardRemove()
     )
 
-
+  
 @router.message(F.text)
 async def show_character_info(message: Message):
     user_name = message.text.strip()
@@ -235,35 +243,38 @@ async def show_character_info(message: Message):
 
     if character_name is None:
          await message.answer(
-        "Character not found. Please check the name spelling and try again.",
-        parse_mode="HTML"
+        "<b>❌Character not found❌</b> \n"
+        "Please check the name spelling and try again.",
+        parse_mode="HTML",
          )
          return
     
     data = characters_data[character_name]
     image = FSInputFile(Path(data['image']))
     text = (
-            f" <b>{character_name}</b>\n\n"
-            f" Class: {data['class']}\n"
-            f" Rarity: {data['rarity']}\n"
-            f" MAX Damage: {data['damage']}\n"
-            f" MAX Health: {data['health']}\n"
-            f" MAX reload speed: {data['reload']}\n"
-            f" MAX range: {data['range']}\n\n"
-            f" Super: {data['super']}\n"
-            "<b>Rules</b>:\n\n"
-            f" Gadget 1: {data['gadgets'][0]}\n"
-            f" Gadget 2: {data['gadgets'][1]}\n"
-            f" Passive 1: {data['passives'][0]}\n"
-            f" Passive 2: {data['passives'][1]}\n"
+            f"<b>{character_name}</b>\n\n"
+            f" <i>🎭Class:</i> {data['class']}\n"
+            f" <i>💎Rarity:</i> {data['rarity']}\n"
+            f" <i>⚔️MAX Damage:</i> {data['damage']}\n"
+            f" <i>🛡️MAX Health:</i> {data['health']}\n"
+            f" <i>⏳MAX reload speed:</i> {data['reload']}\n"
+            f" <i>🏹MAX range:</i> {data['range']}\n"
+            f" <i>🔥Super:</i> {data['super']}\n\n"
+            "<b>🕹️Gadgets</b>:\n\n"
+            f" · {data['gadgets'][0]}\n\n"
+            f" · {data['gadgets'][1]}\n\n"
+            "<b>💫Star Powers</b>:\n\n"
+            f" · {data['passives'][0]}\n\n"
+            f" · {data['passives'][1]}\n\n"
 
         )
         
     await message.answer_photo(
     photo=image,
     caption=text,
+    reply_markup=back_to_menu_characters,
     parse_mode="HTML"
 )
     return
     
-   
+

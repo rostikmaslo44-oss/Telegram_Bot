@@ -96,5 +96,9 @@ bounty_maps = InlineKeyboardMarkup(
     ]
 )
 
-
+back_to_menu_characters = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [InlineKeyboardButton(text="Back", callback_data="back_to_main_options")]
+    ]
+)
 
