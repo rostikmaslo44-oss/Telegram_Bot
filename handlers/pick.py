@@ -106,11 +106,13 @@ async def heist(message: Message):
 
     info = (
         "<b>Mode: Heist 💰</b>\n\n"
-        "<i>Description</i>: A 3v3 team mode where teams must protect their own Safe while trying to destroy the enemy Safe. 🏆\n\n"
+        "<i>Description</i>: A 3v3 team mode where each team must destroy the enemy safe while protecting their own. 🔓\n\n"
         "<b>Rules</b>:\n\n"
-        "- Each team has a Safe that must be defended 🔒\n\n"
-        "- First Safe destroyed loses 💥\n\n"
-        "<b>Choose a map to see the layout and strategies: </b>"
+        "- The first team to <i>destroy the enemy safe</i> wins instantly. 💥\n\n"
+        "- If time runs out, the team that dealt <i>more damage to the enemy safe</i> wins. ⏱️\n\n"
+        "- Players <i>respawn after a short delay</i> when defeated. 🔄\n\n"
+        "- Focus on <i>both attacking and defending</i> to secure victory. 🛡️⚔️\n\n"
+        "<b>Choose a map to see the layout and strategies:</b>"
     )
 
     video = FSInputFile(Path("media") / "Heist_map.mp4")
@@ -128,11 +130,13 @@ async def gem_grab(message: Message):
 
     info = (
         "<b>Mode: Gem Grab 💎</b>\n\n"
-        "<i>Description</i>: A 3v3 team mode where teams battle to collect Gems from the center Gem Mine. 🏆\n\n"
+        "<i>Description</i>: A 3v3 team mode where teams collect gems that spawn in the center of the map. 💜\n\n"
         "<b>Rules</b>:\n\n"
-        "- Collect Gems from center 💎\n\n"
-        "- Hold 10 Gems to start countdown ⏳\n\n"
-        "<b>Choose a map to see the layout and strategies: </b>"
+        "- Collect <i>10 gems</i> to start the countdown. ⏳\n\n"
+        "- Hold the gems for <i>15 seconds</i> without losing them to win. 🏆\n\n"
+        "- Defeated players <i>drop all their gems</i> on the ground. 💎\n\n"
+        "- Players <i>respawn after a short delay</i>. 🔄\n\n"
+        "<b>Choose a map to see the layout and strategies:</b>"
     )
 
     video = FSInputFile(Path("media") / "GemGrab_map.mp4")
@@ -150,11 +154,13 @@ async def hot_zone(message: Message):
 
     info = (
         "<b>Mode: Hot Zone 🔥</b>\n\n"
-        "<i>Description</i>: Control zones to earn percentage and win. 🏆\n\n"
+        "<i>Description</i>: A 3v3 team mode where teams capture and control special zones on the map. 🎯\n\n"
         "<b>Rules</b>:\n\n"
-        "- Stand in zone to capture 🔥\n\n"
-        "- First to 100% wins 🥇\n\n"
-        "<b>Choose a map to see the layout and strategies: </b>"
+        "- Stand inside a <i>Hot Zone</i> to capture it. 📍\n\n"
+        "- The first team to reach <i>100% capture progress</i> wins. 🏆\n\n"
+        "- Players <i>respawn after a short delay</i> when defeated. 🔄\n\n"
+        "- Stay in control of the zones while <i>keeping enemies out</i>. 🚫\n\n"
+        "<b>Choose a map to see the layout and strategies:</b>"
     )
 
     video = FSInputFile(Path("media") / "HotZone_map.mp4")
@@ -172,10 +178,13 @@ async def bounty(message: Message):
 
     info = (
         "<b>Mode: Bounty ⭐</b>\n\n"
-        "<i>Description</i>: Earn stars by eliminating enemies. 🏆\n\n"
+        "<i>Description</i>: A 3v3 team mode where you earn stars by defeating opponents. 🌟\n\n"
         "<b>Rules</b>:\n\n"
-        "- More kills = more stars ⭐\n\n"
-        "<b>Choose a map to see the layout and strategies: </b>"
+        "- Every elimination gives your team <i>stars</i>. ⭐\n\n"
+        "- Defeated players <i>lose their bounty stars</i> to the enemy team. 💀\n\n"
+        "- Players <i>respawn after a short delay</i>. 🔄\n\n"
+        "- When time runs out, the team with <i>the most stars</i> wins. 🏆\n\n"
+        "<b>Choose a map to see the layout and strategies:</b>"
     )
 
     video = FSInputFile(Path("media") / "Bounty_map.mp4")
@@ -246,6 +255,7 @@ async def show_character_info(message: Message):
         "<b>❌Character not found❌</b> \n"
         "Please check the name spelling and try again.",
         parse_mode="HTML",
+        reply_markup=back_to_menu_characters
          )
          return
     
