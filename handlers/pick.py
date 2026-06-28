@@ -3,7 +3,7 @@ from pathlib import Path
 
 from rapidfuzz import process, fuzz
 from aiogram import Router, F
-from aiogram.types import Message, CallbackQuery, FSInputFile, ReplyKeyboardRemove
+from aiogram.types import Message, CallbackQuery, FSInputFile, ReplyKeyboardRemove, InputMediaPhoto
 
 from keyboards import (
     main_menu,
@@ -21,7 +21,6 @@ router = Router()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 MAPS_FILE = BASE_DIR / "data" / "maps.json"
-
 CHARACTERS_FILE = BASE_DIR / "data" / "characters.json"
 
 with open(MAPS_FILE, "r", encoding="utf-8") as f:
@@ -37,6 +36,7 @@ async def mode_info(message: Message):
         "Choose a mode:",
         reply_markup=modes_menu
     )
+
 
 @router.message(F.text == "Back")
 async def back_main(message: Message):
@@ -54,9 +54,9 @@ async def back_modes(callback: CallbackQuery):
     )
     await callback.answer()
 
+
 @router.message(F.text == "Knockout")
 async def knockout(message: Message):
-
     info = (
         "<b>Mode: Knockout ⚔️</b>\n\n"
         "<i>Description</i>: A 3v3 team mode where you have to eliminate your opponents in order to win a round. 🏆\n\n"
@@ -67,9 +67,7 @@ async def knockout(message: Message):
         "- Tie is possible if <i>both team members die at the same time. 👾</i>\n\n"
         "<b>Choose a map to see the layout and strategies: </b>"
     )
-
-    video = FSInputFile(Path("media") / "Knockout_map.mp4")
-
+    video = FSInputFile(BASE_DIR / "media" / "Knockout_map.mp4")
     await message.answer_video(
         video=video,
         caption=info,
@@ -80,7 +78,6 @@ async def knockout(message: Message):
 
 @router.message(F.text == "Brawl Ball")
 async def brawl_ball(message: Message):
-
     info = (
         "<b>Mode: Brawl Ball ⚽</b>\n\n"
         "<i>Description</i>: A 3v3 team mode where teams compete to score goals and defeat their opponents. The first team to score 2 goals wins the match. 🏆\n\n"
@@ -91,9 +88,7 @@ async def brawl_ball(message: Message):
         "- If the score is tied at the end of regulation time, <i>Overtime</i> begins. 🔥\n\n"
         "<b>Choose a map to see the layout and strategies: </b>"
     )
-
-    video = FSInputFile(Path("media") / "BrawlBall_map.mp4")
-
+    video = FSInputFile(BASE_DIR / "media" / "BrawlBall_map.mp4")
     await message.answer_video(
         video=video,
         caption=info,
@@ -104,7 +99,6 @@ async def brawl_ball(message: Message):
 
 @router.message(F.text == "Heist")
 async def heist(message: Message):
-
     info = (
         "<b>Mode: Heist 💰</b>\n\n"
         "<i>Description</i>: A 3v3 team mode where each team must destroy the enemy safe while protecting their own. 🔓\n\n"
@@ -115,9 +109,7 @@ async def heist(message: Message):
         "- Focus on <i>both attacking and defending</i> to secure victory. 🛡️⚔️\n\n"
         "<b>Choose a map to see the layout and strategies:</b>"
     )
-
-    video = FSInputFile(Path("media") / "Heist_map.mp4")
-
+    video = FSInputFile(BASE_DIR / "media" / "Heist_map.mp4")
     await message.answer_video(
         video=video,
         caption=info,
@@ -128,7 +120,6 @@ async def heist(message: Message):
 
 @router.message(F.text == "Gem Grab")
 async def gem_grab(message: Message):
-
     info = (
         "<b>Mode: Gem Grab 💎</b>\n\n"
         "<i>Description</i>: A 3v3 team mode where teams collect gems that spawn in the center of the map. 💜\n\n"
@@ -139,9 +130,7 @@ async def gem_grab(message: Message):
         "- Players <i>respawn after a short delay</i>. 🔄\n\n"
         "<b>Choose a map to see the layout and strategies:</b>"
     )
-
-    video = FSInputFile(Path("media") / "GemGrab_map.mp4")
-
+    video = FSInputFile(BASE_DIR / "media" / "GemGrab_map.mp4")
     await message.answer_video(
         video=video,
         caption=info,
@@ -152,7 +141,6 @@ async def gem_grab(message: Message):
 
 @router.message(F.text == "Hot Zone")
 async def hot_zone(message: Message):
-
     info = (
         "<b>Mode: Hot Zone 🔥</b>\n\n"
         "<i>Description</i>: A 3v3 team mode where teams capture and control special zones on the map. 🎯\n\n"
@@ -163,9 +151,7 @@ async def hot_zone(message: Message):
         "- Stay in control of the zones while <i>keeping enemies out</i>. 🚫\n\n"
         "<b>Choose a map to see the layout and strategies:</b>"
     )
-
-    video = FSInputFile(Path("media") / "HotZone_map.mp4")
-
+    video = FSInputFile(BASE_DIR / "media" / "HotZone_map.mp4")
     await message.answer_video(
         video=video,
         caption=info,
@@ -176,7 +162,6 @@ async def hot_zone(message: Message):
 
 @router.message(F.text == "Bounty")
 async def bounty(message: Message):
-
     info = (
         "<b>Mode: Bounty ⭐</b>\n\n"
         "<i>Description</i>: A 3v3 team mode where you earn stars by defeating opponents. 🌟\n\n"
@@ -187,9 +172,7 @@ async def bounty(message: Message):
         "- When time runs out, the team with <i>the most stars</i> wins. 🏆\n\n"
         "<b>Choose a map to see the layout and strategies:</b>"
     )
-
-    video = FSInputFile(Path("media") / "Bounty_map.mp4")
-
+    video = FSInputFile(BASE_DIR / "media" / "Bounty_map.mp4")
     await message.answer_video(
         video=video,
         caption=info,
@@ -199,51 +182,55 @@ async def bounty(message: Message):
 
 
 @router.callback_query(F.data == "back_to_main_options")
-async def back_main(callback: CallbackQuery):
+async def back_main_callback(callback: CallbackQuery):
     await callback.message.answer(
         "Main menu:",
         reply_markup=main_menu
     )
+    await callback.answer()
 
-@router.callback_query(~F.data.startswith("back_"))
+
+@router.callback_query(F.data.startswith("map_"))
 async def show_map(callback: CallbackQuery):
-
-    map_name = callback.data
+    map_key = callback.data.replace("map_", "")
+    data = None
 
     for mode in maps_data.values():
-        if map_name in mode:
-            data = mode[map_name]
+        if map_key in mode:
+            data = mode[map_key]
+            break
 
-            text = (
-                f"📍 <b>{map_name}</b>\n\n"
-                f"🔥 Best Picks: {', '.join(data['best_picks'])}\n"
-                f"⭐ Alternative Picks: {', '.join(data['alternative_picks'])}\n"
-                f"🛡 Counter Picks: {', '.join(data['counter_picks'])}"
-            )
+    if not data:
+        await callback.answer("Map not found", show_alert=True)
+        return
+    pretty_map_name = data.get("title", map_key)
+    text = (
 
-            await callback.message.edit_caption(
-                caption=text,
-                parse_mode="HTML"
-            )
-
-            await callback.answer()
-            return
-
-    await callback.answer("Map not found", show_alert=True)
-
-
-@router.message(F.text == "Character info")
-async def character_info(message: Message):
-    await message.answer(
-        "Please enter the correct character name to get information about it(Ex. Shelly, Colt, etc):",
-        reply_markup=ReplyKeyboardRemove()
+        f"📍 <b>{pretty_map_name}</b>\n\n"
+        f"🔥 Best Picks: {', '.join(data['best_picks'])}\n"
+        f"⭐ Alternative Picks: {', '.join(data['alternative_picks'])}\n"
+        f"🛡 Counter Picks: {', '.join(data['counter_picks'])}"
     )
 
-  
+    # Очищення від початкових слешів та нормалізація шляху
+    clean_path = data["image"].lstrip("/")
+    photo_path = (BASE_DIR / clean_path).resolve()
+
+    if not photo_path.exists():
+        await callback.answer(f"Image not found: {clean_path}", show_alert=True)
+        return
+
+    await callback.message.answer_photo(
+        photo=FSInputFile(photo_path),
+        caption=text,
+        parse_mode="HTML"
+    )
+    await callback.answer()
+
+
 @router.message(F.text)
 async def show_character_info(message: Message):
     user_name = message.text.strip()
-
     character_name = None
 
     for name in characters_data:
@@ -253,54 +240,56 @@ async def show_character_info(message: Message):
 
     if character_name is None:
         for name, data in characters_data.items():
-            alises = data.get("alises", [])
-
-            if any(alias.lower() == user_name.lower() for alias in alises):
+            aliases = data.get("alises", [])  # Збережено ваш оригінальний ключ "alises"
+            if any(alias.lower() == user_name.lower() for alias in aliases):
                 character_name = name
                 break
 
     if character_name is None:
-         lower_name = {name.lower(): name for name in characters_data.keys()}
-         result = process.extractOne(user_name.lower(), lower_name.keys(), score_cutoff=70)
-
-         if result:
-                character_name = lower_name[result[0]]
+        lower_name = {name.lower(): name for name in characters_data.keys()}
+        result = process.extractOne(user_name.lower(), lower_name.keys(), score_cutoff=70)
+        if result:
+            character_name = lower_name[result[0]]
 
     if character_name is None:
-         await message.answer(
-        "<b>❌Character not found❌</b> \n"
-        "Please check the name spelling and try again.",
-        parse_mode="HTML",
-        reply_markup=back_to_menu_characters
-         )
-         return
-    
-    data = characters_data[character_name]
-    image = FSInputFile(Path(data['image']))
-    text = (
-            f"<b>{character_name}</b>\n\n"
-            f" <i>🎭Class:</i> {data['class']}\n"
-            f" <i>💎Rarity:</i> {data['rarity']}\n"
-            f" <i>⚔️MAX Damage:</i> {data['damage']}\n"
-            f" <i>🛡️MAX Health:</i> {data['health']}\n"
-            f" <i>⏳MAX reload speed:</i> {data['reload']}\n"
-            f" <i>🏹MAX range:</i> {data['range']}\n"
-            f" <i>🔥Super:</i> {data['super']}\n\n"
-            "<b>🕹️Gadgets</b>:\n\n"
-            f" · {data['gadgets'][0]}\n\n"
-            f" · {data['gadgets'][1]}\n\n"
-            "<b>💫Star Powers</b>:\n\n"
-            f" · {data['passives'][0]}\n\n"
-            f" · {data['passives'][1]}\n\n"
-
+        await message.answer(
+            "<b>❌Character not found❌</b> \n"
+            "Please check the name spelling and try again.",
+            parse_mode="HTML",
+            reply_markup=back_to_menu_characters
         )
-        
-    await message.answer_photo(
-    photo=image,
-    caption=text,
-    reply_markup=back_to_menu_characters,
-    parse_mode="HTML"
-)
-    return
-    
+        return
 
+    data = characters_data[character_name]
+    
+    # Виправлено відносний шлях для персонажів із прив'язкою до BASE_DIR
+    clean_path = data['image'].lstrip("/")
+    photo_path = (BASE_DIR / clean_path).resolve()
+
+    if not photo_path.exists():
+        await message.answer(f"❌ Image for {character_name} not found on server.")
+        return
+
+    text = (
+        f"<b>{character_name}</b>\n\n"
+        f" <i>🎭Class:</i> {data['class']}\n"
+        f" <i>💎Rarity:</i> {data['rarity']}\n"
+        f" <i>⚔️MAX Damage:</i> {data['damage']}\n"
+        f" <i>🛡️MAX Health:</i> {data['health']}\n"
+        f" <i>⏳MAX reload speed:</i> {data['reload']}\n"
+        f" <i>🏹MAX range:</i> {data['range']}\n"
+        f" <i>🔥Super:</i> {data['super']}\n\n"
+        "<b>🕹️Gadgets</b>:\n\n"
+        f" · {data['gadgets'][0]}\n\n"
+        f" · {data['gadgets'][1]}\n\n"
+        "<b>💫Star Powers</b>:\n\n"
+        f" · {data['passives'][0]}\n\n"
+        f" · {data['passives'][1]}\n\n"
+    )
+
+    await message.answer_photo(
+        photo=FSInputFile(photo_path),
+        caption=text,
+        reply_markup=back_to_menu_characters,
+        parse_mode="HTML"
+    )

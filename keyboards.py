@@ -1,18 +1,14 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
 
-
-
 main_menu = ReplyKeyboardMarkup(
     keyboard=[
+        [KeyboardButton(text="Mode info")],
         [KeyboardButton(text="Peak selection")],
         [KeyboardButton(text="Counter peak")],
-        [KeyboardButton(text="Mode info")],
         [KeyboardButton(text="Character info")]
     ],
     resize_keyboard=True
 )
-
-#Mode Info
 
 modes_menu = ReplyKeyboardMarkup(
     keyboard=[
@@ -27,71 +23,64 @@ modes_menu = ReplyKeyboardMarkup(
     resize_keyboard=True
 )
 
-
-
+# Knockout maps (ТВОЯ СТРУКТУРА ЗБЕРЕЖЕНА)
 knockout_maps = InlineKeyboardMarkup(
     inline_keyboard=[
-        [InlineKeyboardButton(text="Out in the Open", callback_data="Out in the Open")],
-        [InlineKeyboardButton(text="Belle's Rock", callback_data="Belle's Rock")],
-        [InlineKeyboardButton(text="Goldarm Gulch", callback_data="Goldarm Gulch")],
-        [InlineKeyboardButton(text="Flowing Springs", callback_data="Flowing Springs")],
-        [InlineKeyboardButton(text="New Horizons", callback_data="New Horizons")],
+        [InlineKeyboardButton(text="Out in the Open", callback_data="map_out_in_the_open")],
+        [InlineKeyboardButton(text="Belle's Rock", callback_data="map_Belle's Rock")],
+        [InlineKeyboardButton(text="Goldarm Gulch", callback_data="map_Goldarm Gulch")],
+        [InlineKeyboardButton(text="Flowing Springs", callback_data="map_Flowing Springs")],
+        [InlineKeyboardButton(text="New Horizons", callback_data="map_New Horizons")],
         [InlineKeyboardButton(text="Back", callback_data="back_to_modes")]
     ]
 )
-
-
 
 brawl_ball_maps = InlineKeyboardMarkup(
     inline_keyboard=[
-        [InlineKeyboardButton(text="Center Stage", callback_data="Center Stage")],
-        [InlineKeyboardButton(text="Pinball Dreams", callback_data="Pinball Dreams")],
-        [InlineKeyboardButton(text="Sneaky Fields", callback_data="Sneaky Fields")],
-        [InlineKeyboardButton(text="Triple Dribble", callback_data="Triple Dribble")],
+        [InlineKeyboardButton(text="Center Stage", callback_data="map_Center Stage")],
+        [InlineKeyboardButton(text="Pinball Dreams", callback_data="map_Pinball Dreams")],
+        [InlineKeyboardButton(text="Sneaky Fields", callback_data="map_Sneaky Fields")],
+        [InlineKeyboardButton(text="Triple Dribble", callback_data="map_Triple Dribble")],
         [InlineKeyboardButton(text="Back", callback_data="back_to_modes")]
     ]
 )
-
-
 
 heist_maps = InlineKeyboardMarkup(
     inline_keyboard=[
-        [InlineKeyboardButton(text="Bridge Too Far", callback_data="Bridge Too Far")],
-        [InlineKeyboardButton(text="Hot Potato", callback_data="Hot Potato")],
-        [InlineKeyboardButton(text="Kaboom Canyon", callback_data="Kaboom Canyon")],
-        [InlineKeyboardButton(text="Safe Zone", callback_data="Safe Zone")],
+        [InlineKeyboardButton(text="Bridge Too Far", callback_data="map_Bridge Too Far")],
+        [InlineKeyboardButton(text="Hot Potato", callback_data="map_Hot Potato")],
+        [InlineKeyboardButton(text="Kaboom Canyon", callback_data="map_Kaboom Canyon")],
+        [InlineKeyboardButton(text="Safe Zone", callback_data="map_Safe Zone")],
         [InlineKeyboardButton(text="Back", callback_data="back_to_modes")]
     ]
 )
-
 
 gem_grab_maps = InlineKeyboardMarkup(
     inline_keyboard=[
-        [InlineKeyboardButton(text="Gem Fort", callback_data="Gem Fort")],
-        [InlineKeyboardButton(text="Hard Rock Mine", callback_data="Hard Rock Mine")],
-        [InlineKeyboardButton(text="Undermine", callback_data="Undermine")],
+        [InlineKeyboardButton(text="Gem Fort", callback_data="map_Gem Fort")],
+        [InlineKeyboardButton(text="Hard Rock Mine", callback_data="map_Hard Rock Mine")],
+        [InlineKeyboardButton(text="Undermine", callback_data="map_Undermine")],
         [InlineKeyboardButton(text="Back", callback_data="back_to_modes")]
     ]
 )
-
 
 hot_zone_maps = InlineKeyboardMarkup(
     inline_keyboard=[
-        [InlineKeyboardButton(text="Dueling Beetles", callback_data="Dueling Beetles")],
-        [InlineKeyboardButton(text="Open Business", callback_data="Open Business")],
-        [InlineKeyboardButton(text="Parallel Plays", callback_data="Parallel Plays")],
-        [InlineKeyboardButton(text="Ring of Fire", callback_data="Ring of Fire")],
+        [InlineKeyboardButton(text="Dueling Beetles", callback_data="map_Dueling Beetles")],
+        [InlineKeyboardButton(text="Open Business", callback_data="map_Open Business")],
+        [InlineKeyboardButton(text="Parallel Plays", callback_data="map_Parallel Plays")],
+        [InlineKeyboardButton(text="Ring of Fire", callback_data="map_Ring of Fire")],
         [InlineKeyboardButton(text="Back", callback_data="back_to_modes")]
     ]
 )
 
-
 bounty_maps = InlineKeyboardMarkup(
     inline_keyboard=[
-        [InlineKeyboardButton(text="Layer Cake", callback_data="Layer Cake")],
-        [InlineKeyboardButton(text="Dry Season", callback_data="Dry Season")],
-        [InlineKeyboardButton(text="Hideout", callback_data="Hideout")],
-        [InlineKeyboardButton(text="Canal Grande", callback_data="Canal Grande")],
+        [InlineKeyboardButton(text="Layer Cake", callback_data="map_Layer Cake")],
+        [InlineKeyboardButton(text="Dry Season", callback_data="map_Dry Season")],
+        [InlineKeyboardButton(text="Hideout", callback_data="map_Hideout")],
+        [InlineKeyboardButton(text="Canal Grande", callback_data="map_Canal Grande")],
+        [InlineKeyboardButton(text="Shooting Star", callback_data="map_Shooting Star")],
         [InlineKeyboardButton(text="Back", callback_data="back_to_modes")]
     ]
 )
@@ -101,4 +90,3 @@ back_to_menu_characters = InlineKeyboardMarkup(
         [InlineKeyboardButton(text="Back", callback_data="back_to_main_options")]
     ]
 )
-

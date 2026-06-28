@@ -1,16 +1,20 @@
 {
   "knockout": {
-    "Out in the Open": {
+    "out_in_the_open": {
+      "title" : "Out in the open",
+      "image": "media/maps/out_in_the_open.jpg",
       "best_picks": ["Angelo", "Mandy", "Gene"],
       "alternative_picks": ["Piper", "Belle", "Nani"],
       "counter_picks": ["Nani", "Piper", "Gene"]
     },
     "Belle's Rock": {
+      "image":"media/maps/belles_rock.jpg",
       "best_picks": ["Belle", "Gene", "Gray"],
       "alternative_picks": ["Angelo", "Sprout", "Mandy"],
       "counter_picks": ["Gray", "Gene", "Belle"]
     },
     "Goldarm Gulch": {
+      "image": "media/maps/goldarm_gulch.jpg",
       "best_picks": ["Gray", "Gene", "Belle"],
       "alternative_picks": ["Piper", "Nani", "Sprout"],
       "counter_picks": ["Gene", "Belle", "Piper"]
