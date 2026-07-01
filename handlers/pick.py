@@ -4,6 +4,8 @@ from pathlib import Path
 from rapidfuzz import process, fuzz
 from aiogram import Router, F
 from aiogram.types import Message, CallbackQuery, FSInputFile, ReplyKeyboardRemove, InputMediaPhoto
+from aiogram.fsm.context import FSMContext
+from aiogram.fsm.state import StatesGroup, State
 
 from keyboards import (
     main_menu,
@@ -30,6 +32,21 @@ with open(CHARACTERS_FILE, "r", encoding="utf-8") as f:
     characters_data = json.load(f)
 
 
+
+class CharacterStates(StatesGroup):
+    waiting_for_name = State()
+
+
+
+@router.message(F.text == "Character info")
+async def start_character_search(message: Message, state: FSMContext):
+    await message.answer(
+        "Enter brawler's name or alias:",
+        reply_markup=back_to_menu_characters # або інша клавіатура, яка тобі потрібна тут
+    )
+    await state.set_state(CharacterStates.waiting_for_name) # Вмикаємо стан
+
+
 @router.message(F.text == "Mode info")
 async def mode_info(message: Message):
     await message.answer(
@@ -39,7 +56,8 @@ async def mode_info(message: Message):
 
 
 @router.message(F.text == "Back")
-async def back_main(message: Message):
+async def back_main(message: Message, state: FSMContext):
+    await state.clear() 
     await message.answer(
         "Main menu:",
         reply_markup=main_menu
@@ -182,7 +200,8 @@ async def bounty(message: Message):
 
 
 @router.callback_query(F.data == "back_to_main_options")
-async def back_main_callback(callback: CallbackQuery):
+async def back_main_callback(callback: CallbackQuery, state: FSMContext):
+    await state.clear() 
     await callback.message.answer(
         "Main menu:",
         reply_markup=main_menu
@@ -211,7 +230,6 @@ async def show_map(callback: CallbackQuery):
         f"🛡 Counter Picks: {', '.join(data['counter_picks'])}"
     )
 
-    # Очищення від початкових слешів та нормалізація шляху
     clean_path = data["image"].lstrip("/")
     photo_path = (BASE_DIR / clean_path).resolve()
 
@@ -224,13 +242,13 @@ async def show_map(callback: CallbackQuery):
         caption=text,
         parse_mode="HTML",
         reply_markup=back_to_menu_characters
-
     )
     await callback.answer()
 
 
-@router.message(F.text)
-async def show_character_info(message: Message):
+
+@router.message(CharacterStates.waiting_for_name, F.text)
+async def show_character_info(message: Message, state: FSMContext):
     user_name = message.text.strip()
     character_name = None
 
@@ -241,7 +259,7 @@ async def show_character_info(message: Message):
 
     if character_name is None:
         for name, data in characters_data.items():
-            aliases = data.get("alises", [])  # Збережено ваш оригінальний ключ "alises"
+            aliases = data.get("alises", [])  
             if any(alias.lower() == user_name.lower() for alias in aliases):
                 character_name = name
                 break
@@ -263,7 +281,6 @@ async def show_character_info(message: Message):
 
     data = characters_data[character_name]
     
-    # Виправлено відносний шлях для персонажів із прив'язкою до BASE_DIR
     clean_path = data['image'].lstrip("/")
     photo_path = (BASE_DIR / clean_path).resolve()
 
