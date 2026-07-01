@@ -1,175 +1,324 @@
 {
   "knockout": {
     "out_in_the_open": {
-      "title" : "Out in the open",
+      "title": "Out in the Open",
       "image": "media/maps/out_in_the_open.jpg",
-      "best_picks": ["Angelo", "Mandy", "Gene"],
-      "alternative_picks": ["Piper", "Belle", "Nani"],
-      "counter_picks": ["Nani", "Piper", "Gene"]
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy for pick 1"
+        },
+        {
+          "name": "Unknown Pick #2",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy for pick 2"
+        },
+        {
+          "name": "Unknown Pick #3",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy for pick 3"
+        }
+      ]
     },
     "Belle's Rock": {
-      "image":"media/maps/belles_rock.jpg",
-      "best_picks": ["Belle", "Gene", "Gray"],
-      "alternative_picks": ["Angelo", "Sprout", "Mandy"],
-      "counter_picks": ["Gray", "Gene", "Belle"]
+      "title": "Belle's Rock",
+      "image": "media/maps/belles_rock.jpg",
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
     },
     "Goldarm Gulch": {
+      "title": "Goldarm Gulch",
       "image": "media/maps/goldarm_gulch.jpg",
-      "best_picks": ["Gray", "Gene", "Belle"],
-      "alternative_picks": ["Piper", "Nani", "Sprout"],
-      "counter_picks": ["Gene", "Belle", "Piper"]
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
     },
     "Flowing Springs": {
+      "title": "Flowing Springs",
       "image": "media/maps/flowing_springs.jpg",
-      "best_picks": ["Sprout", "Gene", "Buster"],
-      "alternative_picks": ["Belle", "Gus", "Gray"],
-      "counter_picks": ["Belle", "Gene", "Mandy"]
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
     },
     "New Horizons": {
+      "title": "New Horizons",
       "image": "media/maps/new_horizons.jpg",
-      "best_picks": ["Ollie", "Juju", "Angelo"],
-      "alternative_picks": ["Gray", "Mr. P", "Sprout"],
-      "counter_picks": ["Gray", "Angelo", "Gene"]
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
     }
   },
-
-
   "brawl_ball": {
     "Center Stage": {
+      "title": "Center Stage",
       "image": "media/maps/center_stage.jpg",
-      "best_picks": ["Buster", "Ash", "Gene"],
-      "alternative_picks": ["Sandy", "Surge", "Chester"],
-      "counter_picks": ["Colette", "Spike", "Gale"]
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
     },
     "Pinball Dreams": {
+      "title": "Pinball Dreams",
       "image": "media/maps/pinball_dreams.jpg",
-      "best_picks": ["Buster", "Gene", "Sandy"],
-      "alternative_picks": ["Surge", "Chester", "Ash"],
-      "counter_picks": ["Colette", "Gale", "Spike"]
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
     },
     "Sneaky Fields": {
+      "title": "Sneaky Fields",
       "image": "media/maps/sneaky_fields.jpg",
-      "best_picks": ["Bull", "Buster", "Sandy"],
-      "alternative_picks": ["Rosa", "Chester", "Gene"],
-      "counter_picks": ["Colette", "Gale", "Spike"]
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
     },
     "Triple Dribble": {
+      "title": "Triple Dribble",
       "image": "media/maps/triple_dribble.jpg",
-      "best_picks": ["Buster", "Gene", "Surge"],
-      "alternative_picks": ["Sandy", "Ash", "Chester"],
-      "counter_picks": ["Colette", "Spike", "Gale"]
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
     }
   },
-
-  "gem_grab": {
-    "Gem Fort": {
-      "image": "media/maps/gem_fort.jpg",
-      "best_picks": ["Crow", "Spike", "Otis"],
-      "alternative_picks": ["Gene", "Belle", "Byron"],
-      "counter_picks": ["Piper", "Nani", "Gene"]
-    },
-    "Hard Rock Mine": {
-      "image": "media/maps/hard_rock_mine.jpg",
-      "best_picks": ["Crow", "Gene", "Spike"],
-      "alternative_picks": ["Otis", "Belle", "Byron"],
-      "counter_picks": ["Piper", "Belle", "Gene"]
-    },
-    "Undermine": {
-      "image": "media/maps/undermine.jpg",
-      "best_picks": ["Crow", "Spike", "Gene"],
-      "alternative_picks": ["Otis", "Belle", "Byron"],
-      "counter_picks": ["Piper", "Nani", "Belle"]
-    }
-  },
-
-  "heist": {
-    "Bridge Too Far": {
-      "image": "media/maps/bridge_too_far.jpg",
-      "best_picks": ["Colt", "Colette", "Rico"],
-      "alternative_picks": ["Chuck", "Brock", "Jessie"],
-      "counter_picks": ["Nani", "Piper", "Belle"]
-    },
-    "Hot Potato": {
-      "image": "media/maps/hot_potato.jpg",
-      "best_picks": ["Colette", "Colt", "Chuck"],
-      "alternative_picks": ["Rico", "Jessie", "Brock"],
-      "counter_picks": ["Charlie", "Cordelius", "Gene"]
-    },
-    "Kaboom Canyon": {
-      "image": "media/maps/kaboom_canyon.jpg",
-      "best_picks": ["Colt", "Colette", "Rico"],
-      "alternative_picks": ["Chuck", "Brock", "Jessie"],
-      "counter_picks": ["Nani", "Belle", "Piper"]
-    },
-    "Safe Zone": {
-      "image": "media/maps/safe_zone.jpg",
-      "best_picks": ["Chuck", "Colt", "Colette"],
-      "alternative_picks": ["Rico", "Brock", "Jessie"],
-      "counter_picks": ["Charlie", "Cordelius", "Gene"]
-    }
-  },
-
   "hot_zone": {
     "Dueling Beetles": {
+      "title": "Dueling Beetles",
       "image": "media/maps/dueling_beetles.jpg",
-      "best_picks": ["Colette", "Sandy", "Gale"],
-      "alternative_picks": ["Lou", "Amber", "Spike"],
-      "counter_picks": ["Gene", "Belle", "Piper"]
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
     },
     "Open Business": {
+      "title": "Open Business",
       "image": "media/maps/open_business.jpg",
-      "best_picks": ["Belle", "Gene", "Amber"],
-      "alternative_picks": ["Spike", "Lou", "Piper"],
-      "counter_picks": ["Nani", "Mandy", "Gray"]
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
     },
     "Parallel Plays": {
+      "title": "Parallel Plays",
       "image": "media/maps/parallel_plays.jpg",
-      "best_picks": ["Sandy", "Colette", "Amber"],
-      "alternative_picks": ["Lou", "Spike", "Gene"],
-      "counter_picks": ["Belle", "Nani", "Piper"]
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
     },
     "Ring of Fire": {
+      "title": "Ring of Fire",
       "image": "media/maps/ring_of_fire.jpg",
-      "best_picks": ["Belle", "Amber", "Gene"],
-      "alternative_picks": ["Lou", "Spike", "Piper"],
-      "counter_picks": ["Nani", "Mandy", "Gray"]
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
+    }
+  },
+  "gem_grab": {
+    "Gem Fort": {
+      "title": "Gem Fort",
+      "image": "media/maps/gem_fort.jpg",
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
+    },
+    "Hard Rock Mine": {
+      "title": "Hard Rock Mine",
+      "image": "media/maps/hard_rock_mine.jpg",
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
+    },
+    "Undermine": {
+      "title": "Undermine",
+      "image": "media/maps/undermine.jpg",
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
+    }
+  },
+  "heist": {
+    "Bridge Too Far": {
+      "title": "Bridge Too Far",
+      "image": "media/maps/bridge_too_far.jpg",
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
+    },
+    "Hot Potato": {
+      "title": "Hot Potato",
+      "image": "media/maps/hot_potato.jpg",
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
+    },
+    "Kaboom Canyon": {
+      "title": "Kaboom Canyon",
+      "image": "media/maps/kaboom_canyon.jpg",
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
+    },
+    "Safe Zone": {
+      "title": "Safe Zone",
+      "image": "media/maps/safe_zone.jpg",
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
     }
   },
   "bounty": {
     "Layer Cake": {
+      "title": "Layer Cake",
       "image": "media/maps/layer_cake.jpg",
-      "best_picks": ["Piper", "Belle", "Nani"],
-      "alternative_picks": ["Mandy", "Gene", "Belle"],
-      "counter_picks": ["Gray", "Mortis", "Edgar"]
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
     },
-
     "Dry Season": {
+      "title": "Dry Season",
       "image": "media/maps/dry_season.jpg",
-      "best_picks": ["Piper", "Belle", "Brock"],
-      "alternative_picks": ["Nani", "Mandy", "Gene"],
-      "counter_picks": ["Mortis", "Edgar", "Leon"]
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
     },
-
     "Hideout": {
+      "title": "Hideout",
       "image": "media/maps/hideout.jpg",
-      "best_picks": ["Belle", "Gene", "Piper"],
-      "alternative_picks": ["Nani", "Brock", "Mandy"],
-      "counter_picks": ["Mortis", "Edgar", "Crow"]
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
     },
-
     "Canal Grande": {
+      "title": "Canal Grande",
       "image": "media/maps/canal_grande.jpg",
-      "best_picks": ["Gene", "Belle", "Nani"],
-      "alternative_picks": ["Piper", "Mandy", "Brock"],
-      "counter_picks": ["Mortis", "Edgar", "Leon"]
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
     },
-
     "Shooting Star": {
+      "title": "Shooting Star",
       "image": "media/maps/shooting_star.jpg",
-      "best_picks": ["Piper", "Belle", "Brock"],
-      "alternative_picks": ["Nani", "Mandy", "Gene"],
-      "counter_picks": ["Mortis", "Edgar", "Crow"]
+      "description": "Unknown map description",
+      "picks": [
+        {
+          "name": "Unknown Pick #1",
+          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
+          "description": "Unknown strategy"
+        }
+      ]
     }
   }
 }
-
