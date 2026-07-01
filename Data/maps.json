@@ -3,29 +3,32 @@
     "out_in_the_open": {
       "title": "Out in the Open",
       "image": "media/maps/out_in_the_open.jpg",
-      "description": "Unknown map description",
+      "description": "An open Knockout map with little cover. Long-range Brawlers dominate, while good positioning and center control are key to surviving until the poison closes in.",
       "picks": [
         {
-          "name": "Unknown Pick #1",
-          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy for pick 1"
+          "name": "Toxic Ambush",
+          "photo": "media/picks/example1.jpg",
+          "brawlers": ["Byron", "Kit", "Bolt"],
+          "description": "Play patiently and control the long sightlines. Byron should stay behind the team, constantly healing allies while poisoning enemies. Bolt holds open angles and applies steady pressure from range. Kit supports the strongest teammate, looking for opportunities to jump on weakened enemies or secure key eliminations. Avoid unnecessary fights early and use your range advantage to slowly wear the enemy team down."
+        },
+                {
+          "name": "Deadeye Assault",
+          "photo": "media/picks/example2.jpg",
+          "brawlers": ["Brock", "Edgar", "Piper"],
+          "description": "Piper and Brock control the map from long range, forcing enemies out of position. Edgar should play patiently and only dive once an opponent is weakened or isolated. Keep your distance early and let Edgar clean up fights."
         },
         {
-          "name": "Unknown Pick #2",
-          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy for pick 2"
-        },
-        {
-          "name": "Unknown Pick #3",
-          "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy for pick 3"
-        }
+          "name": "Toxic Domimance",
+          "photo": "media/picks/example3.jpg",
+          "brawlers": ["Angelo", "Colette", "Najia"],
+          "description": "Use Angelo to dominate long sightlines while Colette chips down high-health targets. Najia provides extra pressure and helps secure eliminations. Focus on maintaining map control, winning ranged duels, and avoiding unnecessary close-range fights."
+    }
       ]
     },
     "Belle's Rock": {
       "title": "Belle's Rock",
       "image": "media/maps/belles_rock.jpg",
-      "description": "Unknown map description",
+      "description": "A balanced Knockout map with plenty of walls and bushes. Long-range Brawlers excel, but control of the center is key to winning rounds.",
       "picks": [
         {
           "name": "Unknown Pick #1",
@@ -37,7 +40,7 @@
     "Goldarm Gulch": {
       "title": "Goldarm Gulch",
       "image": "media/maps/goldarm_gulch.jpg",
-      "description": "Unknown map description",
+      "description": "An open desert map with water lanes and scattered cover. Long-range Brawlers dominate while Assassins can use the bushes for surprise attacks.",
       "picks": [
         {
           "name": "Unknown Pick #1",
@@ -49,7 +52,7 @@
     "Flowing Springs": {
       "title": "Flowing Springs",
       "image": "media/maps/flowing_springs.jpg",
-      "description": "Unknown map description",
+      "description": "A map divided by long walls, creating narrow lanes. Wall breakers and throwers are valuable for opening up the map.",
       "picks": [
         {
           "name": "Unknown Pick #1",
@@ -61,7 +64,7 @@
     "New Horizons": {
       "title": "New Horizons",
       "image": "media/maps/new_horizons.jpg",
-      "description": "Unknown map description",
+      "description": "A mostly open map with water obstacles and limited cover. Accurate long-range Brawlers and good positioning are essential.",
       "picks": [
         {
           "name": "Unknown Pick #1",
@@ -75,7 +78,7 @@
     "Center Stage": {
       "title": "Center Stage",
       "image": "media/maps/center_stage.jpg",
-      "description": "Unknown map description",
+      "description": "A balanced Brawl Ball map with a protected center. Winning mid control creates the best opportunities to score.",
       "picks": [
         {
           "name": "Unknown Pick #1",
@@ -87,7 +90,7 @@
     "Pinball Dreams": {
       "title": "Pinball Dreams",
       "image": "media/maps/pinball_dreams.jpg",
-      "description": "Unknown map description",
+      "description": "A fast-paced Brawl Ball map with narrow lanes and solid walls. Team pushes and wall-breaking abilities can quickly change the game.",
       "picks": [
         {
           "name": "Unknown Pick #1",
@@ -99,7 +102,7 @@
     "Sneaky Fields": {
       "title": "Sneaky Fields",
       "image": "media/maps/sneaky_fields.jpg",
-      "description": "Unknown map description",
+      "description": "Bushes cover much of the map, allowing surprise attacks and sneaky goals. Vision and bush control are crucial.",
       "picks": [
         {
           "name": "Unknown Pick #1",
@@ -111,7 +114,7 @@
     "Triple Dribble": {
       "title": "Triple Dribble",
       "image": "media/maps/triple_dribble.jpg",
-      "description": "Unknown map description",
+      "description": "An open Brawl Ball map with many wall formations around the center. Coordinated attacks and passing create the best scoring chances.",
       "picks": [
         {
           "name": "Unknown Pick #1",
@@ -125,7 +128,7 @@
     "Dueling Beetles": {
       "title": "Dueling Beetles",
       "image": "media/maps/dueling_beetles.jpg",
-      "description": "Unknown map description",
+      "description": "A single large Hot Zone surrounded by walls and bushes. Strong area control and sustained pressure are the keys to victory.",
       "picks": [
         {
           "name": "Unknown Pick #1",
@@ -137,7 +140,7 @@
     "Open Business": {
       "title": "Open Business",
       "image": "media/maps/open_business.jpg",
-      "description": "Unknown map description",
+      "description": "A wide-open Hot Zone map with little cover around the objective. Long-range Brawlers and good positioning can control the zone effectively.",
       "picks": [
         {
           "name": "Unknown Pick #1",

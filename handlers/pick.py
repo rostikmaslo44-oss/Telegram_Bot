@@ -3,7 +3,7 @@ from pathlib import Path
 
 from rapidfuzz import process, fuzz
 from aiogram import Router, F
-from aiogram.types import Message, CallbackQuery, FSInputFile, InlineKeyboardMarkup, InlineKeyboardButton
+from aiogram.types import Message, CallbackQuery, FSInputFile, InlineKeyboardMarkup, InlineKeyboardButton, InputMediaPhoto
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import StatesGroup, State
 
@@ -222,39 +222,99 @@ async def show_map(callback: CallbackQuery):
 
 @router.callback_query(F.data.startswith("show_picks:"))
 async def show_map_brawlers_picks(callback: CallbackQuery):
-    _, mode_key, map_key = callback.data.split(":")
+    data_parts = callback.data.split(":")
+    mode_key = data_parts[1]
+    map_key = data_parts[2]
+
+    current_index = int(data_parts[3]) if len(data_parts) > 3 else 0
+
     mode_data = maps_data.get(mode_key, {})
     map_data = mode_data.get(map_key, {})
-    
+
     if not map_data:
         await callback.answer("Data error", show_alert=True)
         return
 
     picks_list = map_data.get("picks", [])
     if not picks_list:
-        await callback.answer("No picks configured for this map yet.", show_alert=True)
+        await callback.answer("No picks configured for this map.", show_alert=True)
         return
 
-    await callback.answer()
-    await callback.message.delete()
+    if current_index >= len(picks_list) or current_index < 0:
+        current_index = 0
 
-    for index, pick in enumerate(picks_list):
-        brawlers_text = ", ".join(pick.get("brawlers", []))
-        
-        pick_text = (
-            f"🔥 <b>{pick.get('name', f'Setup #{index + 1}')}</b>\n\n"
-            f"⚔️ <b>Team Composition:</b> {brawlers_text}\n\n"
-            f"📝 <b>Strategy:</b> {pick.get('description', 'Unknown strategy')}"
+    pick = picks_list[current_index]
+    brawlers_text = ", ".join(pick.get("brawlers", []))
+
+    pick_text = (
+        f"📍 Map: <b>{map_data.get('title', map_key)}</b>\n"
+        f"🌟 <b>{pick.get('name', f'Setup #{current_index + 1}')}</b> "
+        f"({current_index + 1}/{len(picks_list)})\n\n"
+        f"⚔️ <b>Team:</b> {brawlers_text}\n\n"
+        f"📝 <b>Strategy:</b> {pick.get('description', 'Unknown strategy')}"
+    )
+
+    navigation_buttons = []
+
+    if current_index > 0:
+        navigation_buttons.append(
+            InlineKeyboardButton(
+                text="◀️ Prev",
+                callback_data=f"show_picks:{mode_key}:{map_key}:{current_index - 1}"
+            )
         )
 
-        reply_markup = None
-        if index == len(picks_list) - 1:
-            reply_markup = InlineKeyboardMarkup(
-                inline_keyboard=[
-                    [InlineKeyboardButton(text="⬅️ Back to Map Layout", callback_data=f"map:{mode_key}:{map_key}")]
-                ]
+    if current_index < len(picks_list) - 1:
+        navigation_buttons.append(
+            InlineKeyboardButton(
+                text="Next ▶️",
+                callback_data=f"show_picks:{mode_key}:{map_key}:{current_index + 1}"
             )
+        )
 
+    inline_keyboard = []
+
+    if navigation_buttons:
+        inline_keyboard.append(navigation_buttons)
+
+    inline_keyboard.append(
+        [
+            InlineKeyboardButton(
+                text="⬅️ Back to Map Layout",
+                callback_data=f"map:{mode_key}:{map_key}"
+            )
+        ]
+    )
+
+    reply_markup = InlineKeyboardMarkup(inline_keyboard=inline_keyboard)
+
+    clean_pick_path = pick.get("photo", "").lstrip("/")
+    pick_photo_path = (BASE_DIR / clean_pick_path).resolve()
+
+    await callback.answer()
+
+    if pick_photo_path.exists():
+        media = InputMediaPhoto(
+            media=FSInputFile(pick_photo_path),
+            caption=pick_text,
+            parse_mode="HTML"
+        )
+
+        try:
+            await callback.message.edit_media(
+                media=media,
+                reply_markup=reply_markup
+            )
+        except Exception:
+            await callback.message.delete()
+            await callback.message.answer_photo(
+                photo=FSInputFile(pick_photo_path),
+                caption=pick_text,
+                parse_mode="HTML",
+                reply_markup=reply_markup
+            )
+    else:
+        await callback.message.delete()
         await callback.message.answer(
             text=pick_text,
             parse_mode="HTML",
