@@ -7,69 +7,121 @@
       "picks": [
         {
           "name": "Toxic Ambush",
-          "photo": "media/picks/example1.jpg",
+          "photo": "media/picks/knockout_p1(bkb).jpg",
           "brawlers": ["Byron", "Kit", "Bolt"],
           "description": "Play patiently and control the long sightlines. Byron should stay behind the team, constantly healing allies while poisoning enemies. Bolt holds open angles and applies steady pressure from range. Kit supports the strongest teammate, looking for opportunities to jump on weakened enemies or secure key eliminations. Avoid unnecessary fights early and use your range advantage to slowly wear the enemy team down."
         },
                 {
           "name": "Deadeye Assault",
-          "photo": "media/picks/example2.jpg",
+          "photo": "media/picks/knockout_p2(bep).jpg",
           "brawlers": ["Brock", "Edgar", "Piper"],
           "description": "Piper and Brock control the map from long range, forcing enemies out of position. Edgar should play patiently and only dive once an opponent is weakened or isolated. Keep your distance early and let Edgar clean up fights."
         },
         {
-          "name": "Toxic Domimance",
-          "photo": "media/picks/example3.jpg",
+          "name": "Toxic Dominance",
+          "photo": "media/picks/knockout_p3(nac).jpg",
           "brawlers": ["Angelo", "Colette", "Najia"],
           "description": "Use Angelo to dominate long sightlines while Colette chips down high-health targets. Najia provides extra pressure and helps secure eliminations. Focus on maintaining map control, winning ranged duels, and avoiding unnecessary close-range fights."
     }
       ]
     },
-    "Belle's Rock": {
+"Belle's Rock": {
       "title": "Belle's Rock",
       "image": "media/maps/belles_rock.jpg",
-      "description": "A balanced Knockout map with plenty of walls and bushes. Long-range Brawlers excel, but control of the center is key to winning rounds.",
+      "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/belles_rock_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/belles_rock_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/belles_rock_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     },
     "Goldarm Gulch": {
       "title": "Goldarm Gulch",
       "image": "media/maps/goldarm_gulch.jpg",
-      "description": "An open desert map with water lanes and scattered cover. Long-range Brawlers dominate while Assassins can use the bushes for surprise attacks.",
+      "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/goldarm_gulch_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/goldarm_gulch_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/goldarm_gulch_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     },
     "Flowing Springs": {
       "title": "Flowing Springs",
       "image": "media/maps/flowing_springs.jpg",
-      "description": "A map divided by long walls, creating narrow lanes. Wall breakers and throwers are valuable for opening up the map.",
+      "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/flowing_springs_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/flowing_springs_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/flowing_springs_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     },
     "New Horizons": {
       "title": "New Horizons",
       "image": "media/maps/new_horizons.jpg",
-      "description": "A mostly open map with water obstacles and limited cover. Accurate long-range Brawlers and good positioning are essential.",
+      "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/new_horizons_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/new_horizons_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/new_horizons_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     }
@@ -78,48 +130,100 @@
     "Center Stage": {
       "title": "Center Stage",
       "image": "media/maps/center_stage.jpg",
-      "description": "A balanced Brawl Ball map with a protected center. Winning mid control creates the best opportunities to score.",
+      "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/center_stage_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/center_stage_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/center_stage_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     },
     "Pinball Dreams": {
       "title": "Pinball Dreams",
       "image": "media/maps/pinball_dreams.jpg",
-      "description": "A fast-paced Brawl Ball map with narrow lanes and solid walls. Team pushes and wall-breaking abilities can quickly change the game.",
+      "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/pinball_dreams_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/pinball_dreams_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/pinball_dreams_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     },
     "Sneaky Fields": {
       "title": "Sneaky Fields",
       "image": "media/maps/sneaky_fields.jpg",
-      "description": "Bushes cover much of the map, allowing surprise attacks and sneaky goals. Vision and bush control are crucial.",
+      "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/sneaky_fields_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/sneaky_fields_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/sneaky_fields_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     },
     "Triple Dribble": {
       "title": "Triple Dribble",
       "image": "media/maps/triple_dribble.jpg",
-      "description": "An open Brawl Ball map with many wall formations around the center. Coordinated attacks and passing create the best scoring chances.",
+      "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/triple_dribble_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/triple_dribble_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/triple_dribble_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     }
@@ -128,24 +232,50 @@
     "Dueling Beetles": {
       "title": "Dueling Beetles",
       "image": "media/maps/dueling_beetles.jpg",
-      "description": "A single large Hot Zone surrounded by walls and bushes. Strong area control and sustained pressure are the keys to victory.",
+      "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/dueling_beetles_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/dueling_beetles_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/dueling_beetles_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     },
     "Open Business": {
       "title": "Open Business",
       "image": "media/maps/open_business.jpg",
-      "description": "A wide-open Hot Zone map with little cover around the objective. Long-range Brawlers and good positioning can control the zone effectively.",
+      "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/open_business_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/open_business_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/open_business_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     },
@@ -155,9 +285,22 @@
       "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/parallel_plays_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/parallel_plays_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/parallel_plays_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     },
@@ -167,9 +310,22 @@
       "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/ring_of_fire_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/ring_of_fire_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/ring_of_fire_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     }
@@ -181,9 +337,22 @@
       "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/gem_fort_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/gem_fort_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/gem_fort_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     },
@@ -193,9 +362,22 @@
       "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/hard_rock_mine_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/hard_rock_mine_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/hard_rock_mine_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     },
@@ -205,9 +387,22 @@
       "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/undermine_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/undermine_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/undermine_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     }
@@ -219,9 +414,22 @@
       "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/bridge_too_far_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/bridge_too_far_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/bridge_too_far_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     },
@@ -231,9 +439,22 @@
       "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/hot_potato_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/hot_potato_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/hot_potato_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     },
@@ -243,9 +464,22 @@
       "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/kaboom_canyon_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/kaboom_canyon_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/kaboom_canyon_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     },
@@ -255,9 +489,22 @@
       "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/safe_zone_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/safe_zone_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/safe_zone_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     }
@@ -269,9 +516,22 @@
       "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/layer_cake_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/layer_cake_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/layer_cake_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     },
@@ -281,9 +541,22 @@
       "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/dry_season_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/dry_season_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/dry_season_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     },
@@ -293,9 +566,22 @@
       "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/hideout_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/hideout_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/hideout_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     },
@@ -305,9 +591,22 @@
       "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/canal_grande_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/canal_grande_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/canal_grande_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     },
@@ -317,9 +616,22 @@
       "description": "Unknown map description",
       "picks": [
         {
-          "name": "Unknown Pick #1",
+          "name": "Pick #1",
+          "photo": "media/picks/shooting_star_1.jpg",
           "brawlers": ["Unknown1", "Unknown2", "Unknown3"],
-          "description": "Unknown strategy"
+          "description": "Strategy for pick 1"
+        },
+        {
+          "name": "Pick #2",
+          "photo": "media/picks/shooting_star_2.jpg",
+          "brawlers": ["Unknown4", "Unknown5", "Unknown6"],
+          "description": "Strategy for pick 2"
+        },
+        {
+          "name": "Pick #3",
+          "photo": "media/picks/shooting_star_3.jpg",
+          "brawlers": ["Unknown7", "Unknown8", "Unknown9"],
+          "description": "Strategy for pick 3"
         }
       ]
     }
