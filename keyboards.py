@@ -3,7 +3,6 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMar
 main_menu = ReplyKeyboardMarkup(
     keyboard=[
         [KeyboardButton(text="Mode info")],
-        [KeyboardButton(text="Peak selection")],
         [KeyboardButton(text="Counter peak")],
         [KeyboardButton(text="Character info")]
     ],
@@ -23,7 +22,6 @@ modes_menu = ReplyKeyboardMarkup(
     resize_keyboard=True
 )
 
-# Knockout maps (ТВОЯ СТРУКТУРА ЗБЕРЕЖЕНА)
 knockout_maps = InlineKeyboardMarkup(
     inline_keyboard=[
         [InlineKeyboardButton(text="Out in the Open", callback_data="map_out_in_the_open")],

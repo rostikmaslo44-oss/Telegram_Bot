@@ -41,10 +41,10 @@ class CharacterStates(StatesGroup):
 @router.message(F.text == "Character info")
 async def start_character_search(message: Message, state: FSMContext):
     await message.answer(
-        "Enter brawler's name or alias:",
-        reply_markup=back_to_menu_characters # або інша клавіатура, яка тобі потрібна тут
+        "Enter brawler's name:",
+        reply_markup=back_to_menu_characters 
     )
-    await state.set_state(CharacterStates.waiting_for_name) # Вмикаємо стан
+    await state.set_state(CharacterStates.waiting_for_name) 
 
 
 @router.message(F.text == "Mode info")
